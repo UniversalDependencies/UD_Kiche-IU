@@ -14,7 +14,7 @@
 
 ## References
 
-* (citation)
+* Francis M. Tyers and Robert Henderson (2021) "A corpus of K'iche' annotated for morphosyntactic structure". *Proceedings of the First Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP)*. [to appear]
 
 
 # Changelog
@@ -28,7 +28,7 @@
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: grammar-examples
+Genre: grammar-examples wiki
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
