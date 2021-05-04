@@ -74,7 +74,7 @@
 # text[orig] = Man katkowin täj katchakunik, we man kʼo ta ri ajilabʼäl.
 # text[spa] = No puedes trabajar sin la calculadora.
 # labels = complete check-complement
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	katkowin	kowin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4-5	katchakunik	_	_	_	_	_	_	_	SpaceAfter=No
@@ -82,7 +82,7 @@
 5	ik	ik	AUX	_	_	4	aux:ss	_	_
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	we	we¹	SCONJ	_	_	9	mark	_	_
-8	man	man	AUX	_	Polarity=Neg	9	aux	_	_
+8	man	man	PART	_	Polarity=Neg	9	advmod:neg	_	_
 9	kʼo	kʼo	PART	_	_	4	advcl	_	_
 10	ta	taj	AUX	_	Polarity=Neg	9	aux	_	_
 11	ri	ri	DET	_	Definite=Def|PronType=Art	12	det	_	_
@@ -230,7 +230,7 @@
 # text[spa] = Ahora ya no hay guerrilleros.
 # labels = complete
 1	Kamik	kamik	ADV	_	_	3	advmod	_	_
-2	man	man	AUX	_	Polarity=Neg	3	aux	_	_
+2	man	man	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	kʼo	kʼo	PART	_	_	0	root	_	_
 4	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
 5	chik	chik	ADV	_	_	3	advmod	_	_
@@ -304,7 +304,7 @@
 # labels = complete
 1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	weqaʼn	eqaʼn	NOUN	_	Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
-3	man	man	AUX	_	Polarity=Neg	4	aux	_	_
+3	man	man	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	al	al	ADJ	_	_	0	root	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -364,7 +364,7 @@
 # text[orig] = Man kewaʼ täj ri alajibʼ.
 # text[spa] = Las ovejitas no quieren comer.
 # labels = complete
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kewaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -432,7 +432,7 @@
 # text[orig] = Man ütz täj xkanaj ri poʼt xubʼan ri Alkʼul.
 # text[spa] = No quedó bien el güipil que hizo Pascuala.
 # labels = complete
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	utz	utz	ADJ	_	_	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	xkanaj	kanaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	csubj	_	_
@@ -784,7 +784,7 @@
 # text[orig] = Man kinraj täj ri nubʼaluk.
 # text[spa] = Mi cuñado no me quiere.
 # labels = complete
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kinraj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -840,7 +840,7 @@
 3	ubʼaqilal	bʼaqilal	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	winaq	winaq	NOUN	_	_	3	nmod	_	_
-6	man	man	AUX	_	Polarity=Neg	7	aux	_	_
+6	man	man	PART	_	Polarity=Neg	7	advmod:neg	_	_
 7	kaqʼayir	qʼayir	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 8	taj	taj	AUX	_	Polarity=Neg	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
@@ -879,7 +879,7 @@
 # text[spa] = Hoy no iré a la casa.
 # labels = complete
 1	Kamik	kamik	ADV	_	_	3	advmod	_	_
-2	man	man	AUX	_	Polarity=Neg	3	aux	_	_
+2	man	man	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	kinbʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 4	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
 5	chi	chi	ADP	_	_	6	case	_	_
@@ -2505,7 +2505,7 @@
 1	Ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
 2	kaxlaʼn	kaxlan	ADJ	_	_	3	amod	_	_
 3	ik	ik	NOUN	_	_	5	nsubj	_	_
-4	man	man	AUX	_	Polarity=Neg	5	aux	_	_
+4	man	man	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	poqon	poqon	ADJ	_	_	0	root	_	_
 6	taj	taj	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
@@ -3424,7 +3424,7 @@
 2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	kʼix	kʼix	NOUN	_	_	1	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	man	man	AUX	_	Polarity=Neg	6	aux	_	_
+5	man	man	PART	_	Polarity=Neg	6	advmod:neg	_	_
 6	kewaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 7	taj	taj	AUX	_	Polarity=Neg	6	aux	_	_
 8	ri	ri	DET	_	Definite=Def|PronType=Art	9	det	_	_
@@ -3494,7 +3494,7 @@
 # text[orig] = Man ütz täj kinwil ri täq kʼoy.
 # text[spa] = No me gustan ver a los monos.
 # labels = complete check-attachment
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	utz	utz	ADV	_	_	4	advmod	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	kinwil	il	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -3910,7 +3910,7 @@
 # text[orig] = Ma paqäl täj ri ixim kamik.
 # text[spa] = Ahora está barato el maíz.
 # labels = complete
-1	Ma	ma	AUX	_	Polarity=Neg	2	aux	_	_
+1	Ma	ma	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	paqal	paqal	ADJ	_	_	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -4285,7 +4285,7 @@
 # text[orig] = Man kʼo ta pwaq chech ri umuqubʼäl.
 # text[spa] = No hay dinero para su entierro.
 # labels = complete
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	pwaq	pwaq	NOUN	_	_	2	nsubj	_	_
@@ -4637,7 +4637,7 @@
 # text[spa] = Antes no habían ladrones.
 # labels = complete
 1	Ojer	ojer	ADV	_	_	3	advmod	_	_
-2	man	man	AUX	_	Polarity=Neg	3	aux	_	_
+2	man	man	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	kʼo	kʼo	PART	_	_	0	root	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	eleqʼomabʼ	elaqʼom	NOUN	_	Number=Plur	3	nsubj	_	SpaceAfter=No
@@ -5007,7 +5007,7 @@
 # labels = complete
 1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	paxlaq	paxlaq	NOUN	_	_	4	nsubj	_	_
-3	man	man	AUX	_	Polarity=Neg	4	aux	_	_
+3	man	man	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	kakam	käm	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -5590,7 +5590,7 @@
 # labels = complete
 1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	qʼeqʼcheʼ	qʼeqʼcheʼ	NOUN	_	_	4	nsubj	_	_
-3	man	man	AUX	_	Polarity=Neg	4	aux	_	_
+3	man	man	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	kuyaʼ	yaʼ	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	_
 6	waral	waral	ADV	_	_	4	advmod	_	SpaceAfter=No
@@ -5623,7 +5623,7 @@
 # text[orig] = Man kkaʼy täj ri qʼij.
 # text[spa] = El sol no está alumbrando.
 # labels = complete
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kkaʼy	kaʼy	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -5667,7 +5667,7 @@
 5-6	che	_	_	_	_	_	_	_	_
 5	ch	chi	ADP	_	_	6	case	_	_
 6	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
-7	man	man	AUX	_	Polarity=Neg	8	aux	_	_
+7	man	man	PART	_	Polarity=Neg	8	advmod:neg	_	_
 8	kachakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	acl	_	_
 9	taj	taj	AUX	_	Polarity=Neg	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
@@ -7015,7 +7015,7 @@
 # labels = complete
 1	Le	le	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	tzij	tzij	NOUN	_	_	6	obj	_	_
-3	man	man	AUX	_	Polarity=Neg	4	aux	_	_
+3	man	man	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	kachʼobʼ	chʼobʼ	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	2	acl	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	_
 6	chtzukuj	tzukuj	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	0	root	_	_
@@ -7061,7 +7061,7 @@
 # text[spa] = Aquí no se desarrolla el girasol.
 # labels = complete
 1	Waral	waral	ADV	_	_	3	advmod	_	_
-2	man	man	AUX	_	Polarity=Neg	3	aux	_	_
+2	man	man	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	kakʼiy	kʼiy	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 4	taj	taj	AUX	_	Polarity=Neg	3	aux	_	_
 5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -7328,7 +7328,7 @@
 3	kubʼan	bʼan	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4	kʼax	kʼax	NOUN	_	_	3	obj	_	_
 5	we	we¹	SCONJ	_	_	7	mark	_	_
-6	man	man	AUX	_	Polarity=Neg	7	aux	_	_
+6	man	man	PART	_	Polarity=Neg	7	advmod:neg	_	_
 7	chʼajom	chʼaj	VERB	_	Subcat=Tran|Tense=Past|VerbForm=Part	3	advcl	_	_
 8	taj	taj	AUX	_	Polarity=Neg	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -7530,7 +7530,7 @@
 # labels = complete
 1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	tiʼtotem	tiʼtotem	NOUN	_	_	4	nsubj	_	_
-3	man	man	AUX	_	Polarity=Neg	4	aux	_	_
+3	man	man	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	utz	utz	ADJ	_	_	0	root	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	_
 6-7	che	_	_	_	_	_	_	_	_
@@ -7625,7 +7625,7 @@
 2	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 3	we	we	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	junabʼ	junabʼ	NOUN	_	_	2	nmod	_	_
-5	man	man	AUX	_	Polarity=Neg	6	aux	_	_
+5	man	man	PART	_	Polarity=Neg	6	advmod:neg	_	_
 6	kʼo	kʼo	PART	_	_	0	root	_	_
 7	taj	taj	AUX	_	Polarity=Neg	6	aux	_	_
 8	tikoʼn	tikoʼn	NOUN	_	_	6	nsubj	_	_
@@ -7641,7 +7641,7 @@
 # labels = complete
 1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	tikonel	tikonel	NOUN	_	_	4	nsubj	_	_
-3	man	man	AUX	_	Polarity=Neg	4	aux	_	_
+3	man	man	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	kpe	pe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -7855,7 +7855,7 @@
 # labels = complete
 1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	Xep	Xep	PROPN	_	Gender=Masc	4	nsubj	_	_
-3	man	man	AUX	_	Polarity=Neg	4	aux	_	_
+3	man	man	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	xuqʼiy	qʼiy	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	_
 6	xkanaj	kanaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	4	ccomp	_	_
@@ -7891,7 +7891,7 @@
 # text[orig] = Man wetaʼm täj jas xkitzijoj.
 # text[spa] = No se sabe que hablaron.
 # labels = complete check-complement
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	wetaʼm	etaʼm	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	jas	jas	PRON	_	PronType=Int	5	obj	_	_
@@ -8046,7 +8046,7 @@
 # text[orig] = Man yaʼtäl täj chi awe katok pa ja.
 # text[spa] = No mereces que entres a la casa.
 # labels = complete
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	yaʼtal	yaʼtal	ADJ	_	_	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	chi	chi	ADP	_	_	5	case	_	_
@@ -8388,7 +8388,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	kʼatekʼuriʼ	kʼatekʼuriʼ	ADV	_	_	16	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	man	man	AUX	_	Polarity=Neg	16	aux	_	_
+15	man	man	PART	_	Polarity=Neg	16	advmod:neg	_	_
 16	kekowin	kowin	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	7	conj	_	_
 17	taj	taj	AUX	_	Polarity=Neg	16	aux	_	_
 18	keqibʼ	qibʼ	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	16	xcomp	_	_
@@ -8743,7 +8743,7 @@
 6	we	we¹	SCONJ	_	_	9	mark	_	_
 7-8	kʼna	_	_	_	_	_	_	_	_
 7	kʼ	kʼut	PART	_	_	9	discourse	_	_
-8	na	na	AUX	_	Polarity=Neg	9	aux	_	_
+8	na	na	PART	_	Polarity=Neg	9	advmod:neg	_	_
 9	xok	ok	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	3	conj	_	_
 10	ta	taj	AUX	_	Polarity=Neg	9	aux	_	_
 11	pa	pa	ADP	_	_	14	case	_	_
@@ -8845,7 +8845,7 @@
 # text[orig] = (36) na jup-ul-ik ta x-e-qaj (laʼkʼalaabʼ)
 # text[eng] = The children are not born face down. {R056I002:090}
 # labels = complete 69:36:
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	jupulik	jupulik	ADJ	_	_	4	xcomp	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	xeqaj	qaj	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
@@ -8930,7 +8930,7 @@
 # text[eng] = If they are not born face down. {R056I002:090}
 # labels = complete 88:53:a
 1	We	we¹	SCONJ	_	_	5	mark	_	_
-2	na	na	AUX	_	Polarity=Neg	3	aux	_	_
+2	na	na	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	jupulik	jupulik	ADJ	_	_	5	xcomp	_	_
 4	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
 5-6	xeqajik	_	_	_	_	_	_	_	SpaceAfter=No
@@ -8973,7 +8973,7 @@
 6	r	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	tzʼiʼ	tzʼiʼ	NOUN	_	_	2	nsubj	_	_
 8	i	i	CCONJ	_	_	10	cc	_	_
-9	na	na	AUX	_	Polarity=Neg	10	aux	_	_
+9	na	na	PART	_	Polarity=Neg	10	advmod:neg	_	_
 10	xtzoqopitaj	tzoqopij	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	2	conj	_	_
 11	ta	taj	AUX	_	Polarity=Neg	10	aux	_	_
 12-13	chuʼloq	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9063,7 +9063,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	in	in	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	na	na	AUX	_	Polarity=Neg	10	aux	_	_
+9	na	na	PART	_	Polarity=Neg	10	advmod:neg	_	_
 10	xinwil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	4	parataxis	_	_
 11	taj	taj	AUX	_	Polarity=Neg	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
@@ -9073,7 +9073,7 @@
 # text[orig] = (75) na x-ø-ki-kamsa-j taj x-ø-ki-kʼam bʼi ch-o-ja
 # text[eng] = They did not kill it, they took it home. {R052I001:067}
 # labels = complete 114:75: check-contraction
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xkikamsaj	kamsaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	xkikʼam	kʼam	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	2	parataxis	_	_
@@ -9088,7 +9088,7 @@
 # text[orig] = (76) na ki-ø-ki-tyoxi-j ta chi kan ki-wa
 # text[eng] = They did not even give thanks for their food. {R069I001:134}
 # labels = complete 115:76:
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kikityoxij	tyoxij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	chi	chi	ADP	_	_	6	case	_	_
@@ -9167,7 +9167,7 @@
 1	Xqil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	o	u	AUX	_	_	1	aux:ss	_	_
 3	chi	chi	SCONJ	_	_	5	mark	_	_
-4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
+4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	kukʼam	kʼam	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	ccomp	_	_
 6	ta	taj	AUX	_	Polarity=Neg	5	aux	_	_
 7	rajil	rajil	NOUN	_	_	5	obj	_	_
@@ -9226,7 +9226,7 @@
 1	Kaqil	il	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	o	u	AUX	_	_	1	aux:ss	_	_
 3	chi	chi	SCONJ	_	_	5	mark	_	_
-4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
+4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	kojukʼam	kʼam	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	ccomp	_	_
 6	taj	taj	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
@@ -9258,7 +9258,7 @@
 # labels = complete 141:11:
 1	Qʼalaj	qʼalaj	ADJ	_	_	0	root	_	_
 2	chi	chi	SCONJ	_	_	4	mark	_	_
-3	na	na	AUX	_	Polarity=Neg	4	aux	_	_
+3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	kawaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	1	csubj	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	_
 6	kabʼij	bʼij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	4	xcomp	_	SpaceAfter=No
@@ -9311,7 +9311,7 @@
 # text[orig] = (14) a. na x-ø-in-ta taj [we are ri akʼaal k-ix-tzuq-uw-ik]
 # text[eng] = I did not hear whether it is the child who is going to feed you
 # labels = complete 144:14:a
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xinta	ta	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	we	we¹	SCONJ	_	_	8	mark	_	_
@@ -9328,11 +9328,11 @@
 # text[orig] = b. na x-ø-in-ta taj [we na k-ix-tzuuq taj]
 # text[eng] = I did not know if you would not be fed.
 # labels = complete 144:14:b
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xinta	ta	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	we	we¹	SCONJ	_	_	6	mark	_	_
-5	na	na	AUX	_	Polarity=Neg	6	aux	_	_
+5	na	na	PART	_	Polarity=Neg	6	advmod:neg	_	_
 6	kixtzuq	tzuq	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=2|Subcat=Intr|VerbForm=Fin	2	advcl	_	_
 7	taj	taj	AUX	_	Polarity=Neg	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -9342,7 +9342,7 @@
 # text[orig] = (16) Na ø qʼalaj taj [we ka-ø-ʼee-k]
 # text[eng] = It is not clear whether he is going.
 # labels = complete 146:16:
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	qʼalaj	qʼalaj	ADJ	_	_	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	we	we¹	SCONJ	_	_	5	mark	_	_
@@ -9378,7 +9378,7 @@
 # text[orig] = (18) na x-ø-in-taqchiʼ-j ta le w-achajiil [ka-ø-chakun-ik]
 # text[eng] = I did not force my husband to work.
 # labels = complete 149:18: check-complement
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xintaqchiʼj	taqchiʼj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -9425,7 +9425,7 @@
 6	ch	chi	ADP	_	_	7	case	_	_
 7	we	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	4	obl	_	_
 8	,	,	PUNCT	_	_	10	punct	_	_
-9	na	na	AUX	_	Polarity=Neg	10	aux	_	_
+9	na	na	PART	_	Polarity=Neg	10	advmod:neg	_	_
 10	xinchʼaʼ	chʼaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	2	conj	_	_
 11	ta	taj	AUX	_	Polarity=Neg	10	aux	_	_
 12-13	chke	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9551,7 +9551,7 @@
 # text[eng] = We hope that you do not come.
 # labels = complete 162:29:a
 1	Kaqoyʼej	oyʼej	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	na	na	AUX	_	Polarity=Neg	3	aux	_	_
+2	na	na	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	kixpe	pe	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 4	taj	taj	AUX	_	Polarity=Neg	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -9564,7 +9564,7 @@
 1-2	Xinqʼiʼo	_	_	_	_	_	_	_	_
 1	Xinqʼiʼ	qʼiʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	o	u	AUX	_	_	1	aux:ss	_	_
-3	na	na	AUX	_	Polarity=Neg	4	aux	_	_
+3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	xinatin	atin	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
@@ -9576,7 +9576,7 @@
 # labels = complete 162:29:c check-pronoun
 1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	aux	_	_
 2	kinbʼij	bʼij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	na	na	AUX	_	Polarity=Neg	4	aux	_	_
+3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	katsach	sach	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	2	ccomp	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -9589,7 +9589,7 @@
 1-2	Xuqʼiʼo	_	_	_	_	_	_	_	_
 1	Xuqʼiʼ	qʼiʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	o	u	AUX	_	_	1	aux:ss	_	_
-3	na	na	AUX	_	Polarity=Neg	4	aux	_	_
+3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	xatatin	atin	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
@@ -9601,7 +9601,7 @@
 # labels = complete 164:31: check-pronoun
 1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	aux	_	_
 2	kinbʼij	bʼij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	na	na	AUX	_	Polarity=Neg	4	aux	_	_
+3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	katsach	sach	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	2	ccomp	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -9612,7 +9612,7 @@
 # text[eng] = I would like/want that you do not to go.
 # labels = complete 165:32:
 1	Kwaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	na	na	AUX	_	Polarity=Neg	3	aux	_	_
+2	na	na	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	katʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 4	taj	taj	AUX	_	Polarity=Neg	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -9632,7 +9632,7 @@
 # text[eng] = I want you not to go.
 # labels = complete 168:35:c
 1	Kawaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	na	na	AUX	_	Polarity=Neg	3	aux	_	_
+2	na	na	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	katʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 4	taj	taj	AUX	_	Polarity=Neg	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -9644,7 +9644,7 @@
 # labels = complete 170:37:
 1	Are	are	PART	_	Focus=Yes	2	discourse	_	_
 2	kawaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	na	na	AUX	_	Polarity=Neg	4	aux	_	_
+3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	kinʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	2	ccomp	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -10022,7 +10022,7 @@
 # text[eng] = No, it is not cooking greens that she is doing
 # note = Object changed by request of Telma Can Pixabaj
 # labels = complete 242:103:d check-complement
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	utzakik	tzak	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Inf|Voice=Pass	6	xcomp	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	ichaj	ichaj	NOUN	_	_	2	obj	_	_
@@ -10190,7 +10190,7 @@
 # text[orig] = (32) na x-ø-q-il ta chik [chi k-ø-u-kʼam rajil le asosyasyon]
 # text[eng] = We did not realize anymore that the association needs money.
 # labels = complete 276:32:
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xqil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	chik	chik	ADV	_	_	2	advmod	_	_
@@ -10206,7 +10206,7 @@
 # text[orig] = (33) na x-ø-in-ta taj [we k-ix-ki-tzuq-u]
 # text[eng] = I did not hear whether they will feed you or not.
 # labels = complete 277:33:
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xinta	ta	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	we	we¹	SCONJ	_	_	5	mark	_	_
@@ -10237,7 +10237,7 @@
 # text[orig] = b. na x-ø-w-a-j taj [x-ø-in-bʼii-j]
 # text[eng] = I did not want to say.
 # labels = complete 278:34:b
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xwaj	aj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	xinbʼij	bʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
@@ -10248,7 +10248,7 @@
 # text[orig] = c. na x-ø-w-aj ta chik [x-ø-in-bʼii-j]
 # text[eng] = I did not want to say.
 # labels = complete 278:34:c
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xwaj	aj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	chik	chik	PART	_	_	2	discourse	_	_
@@ -10604,7 +10604,7 @@
 # labels = complete 340:3:
 1	Xinwetaʼmaj	etaʼmaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	chi	chi	SCONJ	_	_	4	mark	_	_
-3	na	na	AUX	_	Polarity=Neg	4	aux	_	_
+3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	xatpe	pe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
@@ -10631,7 +10631,7 @@
 # labels = complete 343:6:
 1	Xinwetaʼmaj	etaʼmaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	chi	chi	SCONJ	_	_	4	mark	_	_
-3	na	na	AUX	_	Polarity=Neg	4	aux	_	_
+3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	katpe	pe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
@@ -10656,7 +10656,7 @@
 # labels = complete 346:9:
 1	Xinwetaʼmaj	etaʼmaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	chi	chi	SCONJ	_	_	4	mark	_	_
-3	na	na	AUX	_	Polarity=Neg	4	aux	_	_
+3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	katpe	pe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
@@ -11120,7 +11120,7 @@
 # text[orig] = b. na x-ø-naʼtaj ta ch-k-e [chi x-e-atin-ik]
 # text[eng] = They did not remember that they bathed themselves.
 # labels = complete 419:75:b check-complement
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xnaʼtaj	naʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4-5	chke	_	_	_	_	_	_	_	_
@@ -11165,7 +11165,7 @@
 # text[orig] = (77) a. na x-ø-sachon ta ch-k-e [x-e-atin-ik]
 # text[eng] = They did not forget to bathe themselves.
 # labels = complete 421:77:a check-argument
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xsachon	sachon	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4-5	chke	_	_	_	_	_	_	_	_
@@ -11181,7 +11181,7 @@
 # text[orig] = b. na x-ø-naʼtaj ta ch-k-e [x-e-atin-ik]
 # text[eng] = They did not remember to bathed themselves.
 # labels = complete 421:77:b check-argument
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xnaʼtaj	naʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4-5	chke	_	_	_	_	_	_	_	_
@@ -11330,7 +11330,7 @@
 1	Xkil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	o	u	AUX	_	_	1	aux:ss	_	_
 3	chi	chi	SCONJ	_	_	5	mark	_	_
-4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
+4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	kinkʼoxomaj	kʼoxomaj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	ccomp	_	_
 6	taj	taj	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
@@ -11344,7 +11344,7 @@
 1	Kinwaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2	ik	ik	AUX	_	_	1	aux:ss	_	_
 3	rech	rech	SCONJ	_	_	5	mark	_	_
-4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
+4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	kinyowaj	yowaj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
 6	taj	taj	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
@@ -11410,7 +11410,7 @@
 1	Xinbʼison	bʼison	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2	ik	ik	AUX	_	_	1	aux:ss	_	_
 3	taq	taq	SCONJ	_	_	5	mark	_	_
-4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
+4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	xatpet	pet	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
 6	taj	taj	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
@@ -11488,7 +11488,7 @@
 # text[orig] = (42) a. na x-in-nabʼej ta [ch-u-tas-ik qa-kʼolibʼal]
 # text[eng] = I did not go ahead to save us a place
 # labels = complete 463:42:a
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xinnabʼej	nabʼej	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4-5	chutasik	_	_	_	_	_	_	_	_
@@ -11745,10 +11745,10 @@
 # text[orig] = (79) na x-e-ʼe taj [na x-ø-eʼ-ki-qʼatu-j taj]
 # text[eng] = They did not go to visit him/her.
 # labels = complete 500:79: check-parataxis
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xeʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
-4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
+4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	xeʼkiqʼatuj	qʼatuj	VERB	_	Aspect=Perf|Movement=Abl|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	2	parataxis	_	_
 6	taj	taj	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -11758,7 +11758,7 @@
 # text[orig] = (80) na x-ø-w-aj taj [x-in-chʼaw-ik]
 # text[eng] = I did not want to talk.
 # labels = complete 501:80:
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xwaj	aj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4-5	xinchʼawik	_	_	_	_	_	_	_	SpaceAfter=No
@@ -11771,7 +11771,7 @@
 # text[orig] = (82) maj jachin x-ø-ʼee-k
 # text[eng] = No one went to visit him/her.
 # labels = complete 503:82:
-1	Maj	maj	PART	_	Polarity=Neg	3	aux	_	_
+1	Maj	maj	PART	_	Polarity=Neg	3	advmod:neg	_	_
 2	jachin	jachin	PRON	_	PronType=Int	3	nsubj	_	_
 3-4	xʼek	_	_	_	_	_	_	_	SpaceAfter=No
 3	xʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
@@ -11856,10 +11856,10 @@
 # text[orig] = (93) a. na x-e-ʼe taj [na x-ø-eʼ-ki-qʼatu-j taj]
 # text[eng] = They did not go to visit him/her.
 # labels = complete 515:93:a check-coref
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xeʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
-4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
+4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	xeʼkiqʼatuj	qʼatuj	VERB	_	Aspect=Perf|Movement=Abl|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	2	advcl	_	_
 6	taj	taj	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -11873,7 +11873,7 @@
 1	Xinpet	pet	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2	ik	ik	AUX	_	_	1	aux:ss	_	_
 3	,	,	PUNCT	_	_	5	punct	_	_
-4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
+4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	xinwil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	conj	_	_
 6	taj	taj	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
@@ -11936,9 +11936,9 @@
 1	We	we¹	SCONJ	_	_	2	mark	_	_
 2	katij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	advcl	_	_
 3	tzam	tzam	NOUN	_	_	2	obj	_	_
-4	man	man	AUX	_	Polarity=Neg	5	aux	_	_
+4	man	man	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	katuchajij	chajij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	ta	taj	AUX	_	Polarity=Neg	5	aux	_	_
+6	ta	taj	AUX	_	Polarity=Neg	5	advmod:neg	_	_
 7-8	che	_	_	_	_	_	_	_	_
 7	ch	chi	ADP	_	_	8	case	_	_
 8	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	10	nmod	_	_
@@ -11980,9 +11980,9 @@
 3	rukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 4	kʼatan	kʼatän	ADJ	_	_	5	amod	_	_
 5	jaʼ	jaʼ	NOUN	_	_	2	obl	_	_
-6	man	man	AUX	_	Polarity=Neg	7	aux	_	_
+6	man	man	PART	_	Polarity=Neg	7	advmod:neg	_	_
 7	kuqʼatej	qʼatej	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-8	ta	taj	AUX	_	Polarity=Neg	7	aux	_	_
+8	ta	taj	AUX	_	Polarity=Neg	7	advmod:neg	_	_
 9	le	le	DET	_	Definite=Def|PronType=Art	11	det	_	_
 10	kʼakʼ	kʼakʼ	ADJ	_	_	11	amod	_	_
 11	yabʼil	yabʼil	NOUN	_	_	7	obj	_	_
@@ -11996,9 +11996,9 @@
 1	We	we¹	SCONJ	_	_	2	mark	_	_
 2	katij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	advcl	_	_
 3	anxux	axux	NOUN	_	_	2	obj	_	_
-4	man	man	AUX	_	Polarity=Neg	5	aux	_	_
+4	man	man	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	katutoʼ	toʼ	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	ta	taj	AUX	_	Polarity=Neg	5	aux	_	_
+6	ta	taj	AUX	_	Polarity=Neg	5	advmod:neg	_	_
 7	chi	chi	SCONJ	_	_	8	mark	_	_
 8	uqʼatixik	qʼatij	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Inf|Voice=Pass	5	ccomp	_	_
 9	le	le	DET	_	Definite=Def|PronType=Art	11	det	_	_
@@ -12087,7 +12087,7 @@
 8	kachʼopin	chʼopin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 9	ik	ik	AUX	_	_	8	aux:ss	_	_
 10	,	,	PUNCT	_	_	12	punct	_	_
-11	ma	ma	AUX	_	Polarity=Neg	12	aux	_	_
+11	ma	ma	PART	_	Polarity=Neg	12	advmod:neg	_	_
 12	kuxeʼj	xeʼj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 13	ta	taj	AUX	_	Polarity=Neg	12	aux	_	_
 14	ribʼ	ibʼ	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3|Reflex=Yes	12	obj	_	SpaceAfter=No
@@ -12096,7 +12096,7 @@
 17-18	xrilo	_	_	_	_	_	_	_	_
 17	xril	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	advcl	_	_
 18	o	u	AUX	_	_	17	aux:ss	_	_
-19	ma	ma	AUX	_	Polarity=Neg	17	aux	_	_
+19	ma	ma	PART	_	Polarity=Neg	17	advmod:neg	_	_
 20-21	ekʼo	_	_	_	_	_	_	_	_
 20	e	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	21	aux	_	_
 21	kʼo	kʼo	PART	_	_	17	ccomp	_	_
@@ -12176,7 +12176,7 @@
 9	numak	mak	NOUN	_	Number[psor]=Sing|Person[psor]=1	6	obj	_	_
 10	nan	nan²	NOUN	_	_	6	vocative	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
-12	man	man	AUX	_	Polarity=Neg	13	aux	_	_
+12	man	man	PART	_	Polarity=Neg	13	advmod:neg	_	_
 13	kinbʼan	bʼan	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	6	parataxis	_	_
 14	ta	taj	AUX	_	Polarity=Neg	13	aux	_	_
 15	chik	chik	ADV	_	_	13	advmod	_	SpaceAfter=No
@@ -12352,7 +12352,7 @@
 6	nimalaj	nim	ADJ	_	Degree=Ints	7	amod	_	_
 7	jabʼ	jäbʼ	NOUN	_	_	4	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
-9	man	man	AUX	_	Polarity=Neg	10	aux	_	_
+9	man	man	PART	_	Polarity=Neg	10	advmod:neg	_	_
 10	xbʼeyetaj	bʼeyetaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	4	parataxis	_	_
 11	ta	taj	AUX	_	Polarity=Neg	10	aux	_	_
 12	na	na	ADV	_	Tense=Fut	13	advmod	_	_
@@ -12463,7 +12463,7 @@
 8	xki	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	conj	_	_
 9	lo	u	AUX	_	_	8	aux:ss	_	_
 10	chi	chi	SCONJ	_	_	12	mark	_	_
-11	man	man	AUX	_	Polarity=Neg	12	aux	_	_
+11	man	man	PART	_	Polarity=Neg	12	advmod:neg	_	_
 12	qas	qas	ADJ	_	_	8	ccomp	_	_
 13	ta	taj	AUX	_	Polarity=Neg	12	aux	_	_
 14	kʼo	kʼo	PART	_	_	12	csubj	_	_
@@ -12564,7 +12564,7 @@
 5	le	le	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	uwosaq	uwosaq	NOUN	_	_	4	nmod	_	_
 7	rumal	umal	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
-8	man	man	AUX	_	Polarity=Neg	9	aux	_	_
+8	man	man	PART	_	Polarity=Neg	9	advmod:neg	_	_
 9	utz	utz	ADJ	_	_	7	acl	_	_
 10	ta	taj	AUX	_	Polarity=Neg	9	aux	_	_
 11	chi	chi	SCONJ	_	_	12	mark	_	_
@@ -12663,7 +12663,7 @@
 3	kech	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	1	obl	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	winaq	winaq	NOUN	_	_	3	nmod	_	_
-6	man	man	AUX	_	Polarity=Neg	7	aux	_	_
+6	man	man	PART	_	Polarity=Neg	7	advmod:neg	_	_
 7	utz	utz	ADJ	_	_	1	ccomp	_	_
 8	taj	taj	AUX	_	Polarity=Neg	7	aux	_	_
 9	keqasax	qasaj	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	7	csubj	_	_
@@ -12834,7 +12834,7 @@
 # text[spa'] = Si no haces así a ellos, el dueño de temazcal está triste.
 # labels = complete
 1	We	we¹	SCONJ	_	_	4	mark	_	_
-2	man	man	AUX	_	Polarity=Neg	4	aux	_	_
+2	man	man	PART	_	Polarity=Neg	4	advmod:neg	_	_
 3	je	je	ADV	_	_	4	advmod	_	_
 4	kabʼan	bʼan	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	8	advcl	_	_
 5-6	chike	_	_	_	_	_	_	_	SpaceAfter=No
@@ -12873,7 +12873,7 @@
 6-7	che	_	_	_	_	_	_	_	_
 6	ch	chi	ADP	_	_	5	fixed	_	_
 7	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	fixed	_	_
-8	maj	maj	PART	_	Polarity=Neg	10	aux	_	_
+8	maj	maj	PART	_	Polarity=Neg	10	advmod:neg	_	_
 9	chik	chik	ADV	_	_	10	advmod	_	_
 10-11	kutijo	_	_	_	_	_	_	_	SpaceAfter=No
 10	kutij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	3	advcl	_	_
@@ -12884,7 +12884,7 @@
 # text = Man xuriq taj urikil xaq jeri xkam che wiʼjal.
 # text[spa'] = No encontró comida sólo así murió de hambre.
 # labels = complete check-subordinator
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xuriq	riq	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	urikil	rikiʼl	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	_
@@ -12964,11 +12964,11 @@
 4	Xoʼr	Xoʼr	PROPN	_	Gender=Masc	5	nsubj	_	_
 5	xubʼij	bʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
-7	man	man	AUX	_	Polarity=Neg	8	aux	_	_
+7	man	man	PART	_	Polarity=Neg	8	advmod:neg	_	_
 8	kawaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	ccomp	_	_
 9	taj	taj	AUX	_	Polarity=Neg	8	aux	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
-11	man	man	AUX	_	Polarity=Neg	12	aux	_	_
+11	man	man	PART	_	Polarity=Neg	12	advmod:neg	_	_
 12	kawaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	8	conj	_	_
 13	taj	taj	AUX	_	Polarity=Neg	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	_
@@ -13607,7 +13607,7 @@
 # labels = complete check-translation
 1	Pixabʼ	pixabʼ	NOUN	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	4	punct	_	_
-3	man	man	AUX	_	Polarity=Neg	4	aux	_	_
+3	man	man	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	utz	utz	ADJ	_	_	1	parataxis	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	_
 6	kʼax	kʼax	ADJ	_	_	4	csubj	_	_
@@ -13624,7 +13624,7 @@
 # text[spa'] = Decimos que no pueden.
 # labels = complete
 1	Kqabʼij	bʼij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	man	man	AUX	_	Polarity=Neg	3	aux	_	_
+2	man	man	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	kekowin	kowin	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 4	taj	taj	AUX	_	Polarity=Neg	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -13956,7 +13956,7 @@
 3	xretaʼmaj	etaʼmaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4	chi	chi	SCONJ	_	_	5	mark	_	_
 5	rajawaxik	rajawaxik	NOUN	_	_	3	ccomp	_	_
-6	man	man	AUX	_	Polarity=Neg	7	aux	_	_
+6	man	man	PART	_	Polarity=Neg	7	advmod:neg	_	_
 7	kuxej	xeʼj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	5	csubj	_	_
 8	ta	taj	AUX	_	Polarity=Neg	7	aux	_	_
 9	ribʼ	ibʼ	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3|Reflex=Yes	7	obj	_	_
@@ -14175,7 +14175,7 @@
 14	ri	ri	DET	_	Definite=Def|PronType=Art	15	det	_	_
 15	joʼq	joʼq	NOUN	_	_	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
-17	man	man	AUX	_	Polarity=Neg	18	aux	_	_
+17	man	man	PART	_	Polarity=Neg	18	advmod:neg	_	_
 18	karaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 19	ta	taj	AUX	_	Polarity=Neg	18	aux	_	_
 20	chik	chik	ADV	_	_	21	advmod	_	_
@@ -14328,9 +14328,9 @@
 # text = Na xutij taj.
 # text[orig] = Na xu-tij-Ø taj.
 # text[gloss] = NEG INFL-eat IRR
-# text[eng] = He didn’t eat it.
+# text[eng] = He didnʼt eat it.
 # label = complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xutij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
@@ -14339,9 +14339,9 @@
 # text = Na xutij ta le wa.
 # text[orig] = Na xu-tij ta le wah.
 # text[gloss] = NEG INFL-eat IRR le wah
-# text[eng] = He didn’t eat the tortilla.
+# text[eng] = He didnʼt eat the tortilla.
 # label = complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xutij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -14350,7 +14350,7 @@
 
 # sent_id = henderson:7a
 # text = La xutij kʼut?
-# text[orig] = La xu-tij-Ø k’ut
+# text[orig] = La xu-tij-Ø kʼut
 # text[gloss] = Q INFL-eat Q
 # text[eng] = Did he eat it?
 # label = complete
@@ -14361,7 +14361,7 @@
 
 # sent_id = henderson:7b
 # text = La xutij kʼu le wa?
-# text[orig] = La xu-tij-Ø k’u le wah.
+# text[orig] = La xu-tij-Ø kʼu le wah.
 # text[gloss] = Q INFL-eat Q le wah
 # text[eng] = Did he eat the tortilla?
 # label = complete
@@ -14374,11 +14374,11 @@
 
 # sent_id = henderson:8
 # text = Man pa kʼayibʼal ta xutijo.
-# text[orig] = Man pa k’ayib’al ta xu-tij-o.
+# text[orig] = Man pa kʼayibʼal ta xu-tij-o.
 # text[gloss] = NEG in market IRR INFL-eat-SS
-# text[eng] = It wasn’t in the market that he ate it.
+# text[eng] = It wasnʼt in the market that he ate it.
 # label = complete
-1	Man	man	AUX	_	Polarity=Neg	3	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	3	advmod:neg	_	_
 2	pa	pa	ADP	_	_	3	case	_	_
 3	kʼayibʼal	kʼayibʼal	NOUN	_	_	5	obl	_	_
 4	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
@@ -14389,11 +14389,11 @@
 
 # sent_id = henderson:9
 # text = Man rukʼ ta ikaj xuchʼaybʼej.
-# text[orig] = Man ruk’ ta ikaj xu-ch’ay-b’e-j.
+# text[orig] = Man rukʼ ta ikaj xu-chʼay-bʼe-j.
 # text[gloss] = NEG with IRR axe INFL-cut-INSTR-SS
-# text[eng] = It wasn’t with the axe that he cut it.
+# text[eng] = It wasnʼt with the axe that he cut it.
 # label = complete
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	rukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	ikaj	ikaj	NOUN	_	_	2	nmod	_	_
@@ -14404,9 +14404,9 @@
 # text = Man are ta ri a Xwan xelik.
 # text[orig] = Man aree ta ri a Xwan x-el-ik.
 # text[gloss] = NEG FOC IRR the CLF Juan INFL-leave-SS
-# text[eng] = It wasn’t Juan who left.
+# text[eng] = It wasnʼt Juan who left.
 # label = complete
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	are	are	PART	_	Focus=Yes	7	discourse	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -14423,7 +14423,7 @@
 # text[gloss] = NEG PROG IRR INFL-work-SS
 # text[eng] = I am not working.
 # label = complete
-1	Man	man	AUX	_	Polarity=Neg	4	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	4	advmod:neg	_	_
 2	tajin	tajin	AUX	_	Aspect=Prog	4	aux	_	_
 3	ta	taj	AUX	_	Polarity=Neg	4	aux	_	_
 4-5	kinchakunik	_	_	_	_	_	_	_	SpaceAfter=No
@@ -14433,7 +14433,7 @@
 
 # sent_id = henderson:12a
 # text = Xinwilo chi xwaʼik.
-# text[orig] = Xinw-il-o chi xwa’-ik.
+# text[orig] = Xinw-il-o chi xwaʼ-ik.
 # text[gloss] = INFL-see-SS that he.ate-SS
 # text[eng] = I saw that the boy ate.
 # label = complete
@@ -14448,7 +14448,7 @@
 
 # sent_id = henderson:12c
 # text = Xinchapo su xuloqʼo.
-# text[orig] = Xin-chap-o su xu-loq’-o.
+# text[orig] = Xin-chap-o su xu-loqʼ-o.
 # text[gloss] = INFL-grab-SS what INFL-buy-SS
 # text[eng] = I grabbed what he bought.
 # label = complete check-attachment
@@ -14478,7 +14478,7 @@
 
 # sent_id = henderson:14
 # text = Xeʼul le ala chiʼl le ali.
-# text[orig] = Xe’-ul-Ø le alah chi’l le alih.
+# text[orig] = Xeʼ-ul-Ø le alah chiʼl le alih.
 # text[gloss] = INFL-arrive the boy and the girl
 # text[eng] = The boy and the girl arrived.
 # label = complete
@@ -14492,7 +14492,7 @@
 
 # sent_id = henderson:16
 # text = Xeʼulik.
-# text[orig] = Xe’-ul-ik.
+# text[orig] = Xeʼ-ul-ik.
 # text[gloss] = INFL-arrive-SS
 # text[eng] = They arrived.
 # label = complete
@@ -14534,11 +14534,11 @@
 
 # sent_id = henderson:20a
 # text = Na iwir ta xril le kʼamol bʼe.
-# text[orig] = Na iwir ta xr-il-Ø le k’amol b’e.
+# text[orig] = Na iwir ta xr-il-Ø le kʼamol bʼe.
 # text[gloss] = NEG yesterday IRR INFL-see the leader
-# text[eng] = It wasn’t yesterday that he saw the leader.
+# text[eng] = It wasnʼt yesterday that he saw the leader.
 # label = complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	iwir	iwir	ADV	_	_	4	advmod	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	xril	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -14549,9 +14549,9 @@
 
 # sent_id = henderson:21a
 # text = La iwir kʼu xril le kʼamol bʼe.
-# text[orig] = La iwir k’u xr-il-Ø le k’amol b’e.
+# text[orig] = La iwir kʼu xr-il-Ø le kʼamol bʼe.
 # text[gloss] = Q yesterday Q INFL-see the leader
-# text[eng] = It wasn’t yesterday that he saw the leader.
+# text[eng] = It wasnʼt yesterday that he saw the leader.
 # label = incomplete check-translation
 1	La	la	PART	_	PronType=Int	2	discourse	_	_
 2	iwir	iwir	ADV	_	_	4	advmod	_	_
@@ -14575,7 +14575,7 @@
 
 # sent_id = henderson:23
 # text = Xinwilo chi xwaʼ ri ala.
-# text[orig] = Xinw-il-o chi xwa’-Ø ri alah.
+# text[orig] = Xinw-il-o chi xwaʼ-Ø ri alah.
 # text[gloss] = INFL-see-SS that he.ate the boy
 # text[eng] = I saw that the boy ate.
 # label = complete
@@ -14590,7 +14590,7 @@
 
 # sent_id = henderson:25a
 # text = Xril ri a Xwan chi xwaʼ ri ala.
-# text[orig] = Xr-il-Ø ri a Xwan chi x-wa’-Ø ri alah.
+# text[orig] = Xr-il-Ø ri a Xwan chi x-waʼ-Ø ri alah.
 # text[gloss] = INFL-see the CLF Juan that INFL-eat the boy
 # text[eng] = Juan saw that the boy ate.
 # label = complete
@@ -14606,7 +14606,7 @@
 
 # sent_id = henderson:26a
 # text = Xinbʼij iwir chi xebʼe pa Armita.
-# text[orig] = Xin-b’ij iwir chi xe-b’e-Ø pa Armita.
+# text[orig] = Xin-bʼij iwir chi xe-bʼe-Ø pa Armita.
 # text[gloss] = INFL-say yesterday that INFL-go Guatemala.City
 # text[eng] = Yesterday I said that they went to Guatemala City.
 # label = complete
@@ -14640,7 +14640,7 @@
 
 # sent_id = henderson:33a
 # text = Xuchap ri bʼa ri xutij qakinaq.
-# text[orig] = Xu-chap-Ø ri b’ah ri xu-tij-Ø qa-kinaq.
+# text[orig] = Xu-chap-Ø ri bʼah ri xu-tij-Ø qa-kinaq.
 # text[gloss] = INFL-catch the gopher PRN INFL-eat our-beans
 # text[eng] = He caught the gopher that ate our beans.
 # label = complete check-relative
@@ -14664,7 +14664,7 @@
 
 # sent_id = henderson:49a
 # text = Xinloqʼ kʼi.
-# text[orig] = Xin-loq’-Ø k’ih.
+# text[orig] = Xin-loqʼ-Ø kʼih.
 # text[gloss] = INFL-buy a.lot
 # text[eng] = I bought a lot.
 # label = complete check-category
@@ -14674,7 +14674,7 @@
 
 # sent_id = henderson:49b
 # text = Xinloqʼ kʼi wa.
-# text[orig] = Xin-loq’-Ø k’i wah.
+# text[orig] = Xin-loqʼ-Ø kʼi wah.
 # text[gloss] = INFL-buy a.lot tortilla
 # text[eng] = I bought a lot of tortillas.
 # label = complete check-category
@@ -14698,7 +14698,7 @@
 
 # sent_id = henderson:51a
 # text = Are le bʼa xokik.
-# text[orig] = Are le b’ah x-ok-ik.
+# text[orig] = Are le bʼah x-ok-ik.
 # text[gloss] = FOC the gopher INFL-enter-SS
 # text[eng] = It was the gopher that entered.
 # label = complete
@@ -14712,7 +14712,7 @@
 
 # sent_id = henderson:52
 # text = Xril le bʼa le ala.
-# text[orig] = Xr-il-Ø le b’a le alah.
+# text[orig] = Xr-il-Ø le bʼa le alah.
 # text[gloss] = INFL-see the gopher the boy
 # text[eng] = The boy saw the gopher.
 # label = complete
@@ -14725,7 +14725,7 @@
 
 # sent_id = henderson:53a
 # text = Are le bʼa xril le ala.
-# text[orig] = Are le b’a xr-il-Ø le ala.
+# text[orig] = Are le bʼa xr-il-Ø le ala.
 # text[gloss] = FOC the gopher INFL-see the boy
 # text[eng] = It was the gopher that the boy saw.
 # label = complete
@@ -14741,9 +14741,9 @@
 # text = Man are ta xril.
 # text[orig] = Man are ta xr-il.
 # text[gloss] = NEG FOC IRR INFL-see-SS
-# text[eng] = It wasn’t him who he saw.
+# text[eng] = It wasnʼt him who he saw.
 # label = complete
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	are	are	PART	_	Focus=Yes	4	discourse	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	xril	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -14764,7 +14764,7 @@
 
 # sent_id = henderson:60
 # text = Xinwilo chi xeʼelik.
-# text[orig] = Xinw-il-o chi xe’-el-ik.
+# text[orig] = Xinw-il-o chi xeʼ-el-ik.
 # text[gloss] = INFL-see-SS that INFL-left-SS
 # text[eng] = I saw that they left.
 # label = complete
@@ -14779,7 +14779,7 @@
 
 # sent_id = henderson:63a
 # text = Xkitijo jas xuyloqʼo le ixoqibʼ.
-# text[orig] = Xki-tij-o [jas xuyloq’-o] le ixoqib’.
+# text[orig] = Xki-tij-o [jas xuyloqʼ-o] le ixoqibʼ.
 # text[gloss] = INFL-eat-SS what INFL-buy-SS the women
 # text[eng] = The women ate what he bought.
 # label = complete check-relative
@@ -14798,9 +14798,9 @@
 # text = Man are ta rala xkosik.
 # text[orig] = Man aree ta ralah x-kos-ik.
 # text[gloss] = NEG FOC IRR DET.boy INFL-tired-SS
-# text[eng] = It wasn’t the boy who got tired.
+# text[eng] = It wasnʼt the boy who got tired.
 # label = complete
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	are	are	PART	_	Focus=Yes	6	discourse	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4-5	rala	_	_	_	_	_	_	_	_
@@ -14838,7 +14838,7 @@
 
 # sent_id = henderson:78a
 # text = Xekos le tzʼiʼ.
-# text[orig] = Xe-kos-Ø le tz’i’.
+# text[orig] = Xe-kos-Ø le tzʼiʼ.
 # text[gloss] = INFL-tire the dogs
 # text[eng] = The dogs got tired.
 # label = complete
@@ -14849,7 +14849,7 @@
 
 # sent_id = henderson:78b
 # text = Le tzʼiʼ xekosik.
-# text[orig] = Le tz’i’ xe-kos-ik.
+# text[orig] = Le tzʼiʼ xe-kos-ik.
 # text[gloss] = The dogs INFL-tire-SS
 # text[eng] = The dogs got tired.
 # label = complete
@@ -14862,11 +14862,11 @@
 
 # sent_id = henderson:80a
 # text = Man xkitij ta le tzʼiʼ.
-# text[orig] = Man xki-tij-Ø ta le tz’i’.
+# text[orig] = Man xki-tij-Ø ta le tzʼiʼ.
 # text[gloss] = NEG INFL-eat IRR the dogs
-# text[eng] = The dogs didn’t eat it.
+# text[eng] = The dogs didnʼt eat it.
 # label = complete
-1	Man	man	AUX	_	Polarity=Neg	2	aux	_	_
+1	Man	man	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xkitij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -14875,20 +14875,20 @@
 
 # sent_id = henderson:80b
 # text = Le tzʼiʼ man xkitij taj.
-# text[orig] = Le tz’i’ man xki-tij-Ø taj.
+# text[orig] = Le tzʼiʼ man xki-tij-Ø taj.
 # text[gloss] = The dogs NEG INFL-eat IRR
-# text[eng] = The dogs didn’t eat it.
+# text[eng] = The dogs didnʼt eat it.
 # label = complete
 1	Le	le	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	tzʼiʼ	tzʼiʼ	NOUN	_	_	4	nsubj	_	_
-3	man	man	AUX	_	Polarity=Neg	4	aux	_	_
+3	man	man	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	xkitij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = henderson:83b
 # text = Xinbʼe.
-# text[orig] = Xinb’é.
+# text[orig] = Xinbʼé.
 # text[gloss] = INFL-go
 # text[eng] = I went.
 # label = complete
@@ -14906,7 +14906,7 @@
 
 # sent_id = henderson:108a
 # text = Kintij na le akʼ.
-# text[orig] = Kin-tíj-Ø na le ak’.
+# text[orig] = Kin-tíj-Ø na le akʼ.
 # text[gloss] = INFL-eat ASP the chicken
 # text[eng] = I am going to eat the chicken.
 # label = complete
@@ -14928,7 +14928,7 @@
 
 # sent_id = henderson:111
 # text = Kinbʼe taj.
-# text[orig] = Kin-b’e-Ø taj.
+# text[orig] = Kin-bʼe-Ø taj.
 # text[gloss] = INFL-go IRR
 # text[eng] = I would go.
 # label = complete
@@ -14960,7 +14960,7 @@
 
 # sent_id = henderson:116b
 # text = Xintij le subʼ.
-# text[orig] = Xin-tíj-Ø le sub’.
+# text[orig] = Xin-tíj-Ø le subʼ.
 # text[gloss] = INFL-eat the tamalito
 # text[eng] = I ate the tamalito.
 # label = complete
@@ -14985,7 +14985,7 @@
 
 # sent_id = henderson:126
 # text = Xintij le akʼ.
-# text[orig] = Xintij-Ø le ak’.
+# text[orig] = Xintij-Ø le akʼ.
 # text[gloss] = INFL-eat the chicken
 # text[eng] = I ate the chicken.
 # label = complete
@@ -15061,14 +15061,14 @@
 8	tzʼaqat	tzʼaqat	NOUN	_	_	1	conj	_	_
 9	kiwach	wach	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
-11	man	man	AUX	_	Polarity=Neg	12	aux	_	_
+11	man	man	PART	_	Polarity=Neg	12	advmod:neg	_	_
 12	ktzaq	tzaq	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 13	ta	taj	AUX	_	Polarity=Neg	12	aux	_	_
 14-15	kanoq	_	_	_	_	_	_	_	_
 14	kan	kan	ADV	_	AdvType=Dir	12	advmod	_	_
 15	oq	oq	AUX	_	_	14	aux:ss	_	_
 16	xuqujeʼ	xuqujeʼ	CCONJ	_	_	18	cc	_	_
-17	man	man	AUX	_	Polarity=Neg	18	aux	_	_
+17	man	man	PART	_	Polarity=Neg	18	advmod:neg	_	_
 18	ktas	tas	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	12	conj	_	_
 19	taj	taj	AUX	_	Polarity=Neg	18	aux	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	12	punct	_	_
@@ -15172,7 +15172,7 @@
 1	La	la	PART	_	PronType=Int	2	discourse	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	jun	jun	NUM	_	_	2	nsubj	_	_
-4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
+4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	kakʼoxomaj	kʼoxomaj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	3	acl	_	_
 6	taj	taj	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	2	punct	_	_
@@ -15183,7 +15183,7 @@
 # labels = tijonik-2 complete
 1	La	la	PART	_	PronType=Int	2	discourse	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
-3	na	na	AUX	_	Polarity=Neg	4	aux	_	_
+3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	kikʼoxomaj	kʼoxomaj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	2	csubj	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	2	punct	_	_
@@ -15195,7 +15195,7 @@
 1	La	la	PART	_	PronType=Int	2	discourse	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	tzij	tzij	NOUN	_	_	2	nsubj	_	_
-4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
+4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	kikʼoxomaj	kʼoxomaj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	3	acl	_	_
 6	taj	taj	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	2	punct	_	_
@@ -15270,7 +15270,7 @@
 # text[eng] = I donʼt know.
 # text[spa] = No lo sé.
 # labels = tijonik-2 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	wetaʼm	etaʼm	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
@@ -15779,7 +15779,7 @@
 # text = Na nim ta raqan waʼ we cheʼ.
 # text[spa] = Este árbol no es alto.
 # labels = tijonik-8 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	nim	nim	ADJ	_	_	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	raqan	aqän	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
@@ -15792,7 +15792,7 @@
 # text = Na rax ta uwach le juyubʼ.
 # text[spa] = La montaña no es verde.
 # labels = tijonik-8 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	rax	rax	ADJ	_	_	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	uwach	wach	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
@@ -15815,7 +15815,7 @@
 # text = Na utz ta le utʼisom le al Mariy.
 # text[eng] = Mariyʼs sewing is not good.
 # labels = tijonik-8 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	utz	utz	ADJ	_	_	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -15829,7 +15829,7 @@
 # text = Na qʼan ta uwach le qaprut.
 # text[spa] = Nuestro plátano no está maduro (amarillo).
 # labels = tijonik-8 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	qʼan	qʼän	ADJ	_	_	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	uwach	wach	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
@@ -15946,7 +15946,7 @@
 # text = Na kujwar taj.
 # text[spa] = No dormimos./No vamos a dormir.
 # labels = tijonik-12 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kujwar	war	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
@@ -15955,7 +15955,7 @@
 # text = Na kujwar ta waral.
 # text[spa] = No dormimos aquí.
 # labels = tijonik-12 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kujwar	war	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	waral	waral	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -15965,7 +15965,7 @@
 # text = Na kawar ta la.
 # text[spa] = Usted no duerme./Usted no va a dormir
 # labels = tijonik-12 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kawar	war	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	aux	_	SpaceAfter=No
@@ -15986,7 +15986,7 @@
 # text = Na kimbʼin taj.
 # text[spa] = No camino.
 # labels = tijonik-12 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kimbʼin	bʼin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
@@ -16005,7 +16005,7 @@
 # text = Na kojpe taj.
 # text[spa] = No venimos.
 # labels = tijonik-12 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kojpe	pe	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
@@ -16142,7 +16142,7 @@
 2-4	chemna	_	_	_	_	_	_	_	_
 2	ch	chi	ADP	_	_	3	case	_	_
 3	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
-4	mna	man	AUX	_	Polarity=Neg	5	aux	_	_
+4	mna	man	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	kixpe	pe	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
 6	chweʼq	chweʼq	ADV	_	_	5	advmod	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	5	punct	_	_
@@ -16220,7 +16220,7 @@
 # text = Na xqabʼan taj.
 # text[spa] = No, no lo hicimos
 # labels = tijonik-15 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xqabʼan	bʼan	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
@@ -16248,7 +16248,7 @@
 # text = Na xatutzukuj taj.
 # text[spa] = No te buscó.
 # labels = tijonik-15 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xatutzukuj	tzukuj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
@@ -16266,7 +16266,7 @@
 # text = Na xinwil ta le meʼs pa ja.
 # text[spa] = No vi el gato en la casa.
 # labels = tijonik-15 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	xinwil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -16689,7 +16689,7 @@
 # text = Na kinbʼe ta pa le nimatijobʼal rumal xinkosik.
 # text[spa] = No voy a la escuela porque estoy cansado.
 # labels = tijonik-20 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kinbʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	pa	pa	ADP	_	_	6	case	_	_
@@ -16970,7 +16970,7 @@
 # text[spa] = Tu perro no es más grande que mi perro.
 # labels = tijonik-29 complete check-pronoun
 1	Are	are	PART	_	Focus=Yes	3	discourse	_	_
-2	na	na	AUX	_	Polarity=Neg	3	aux	_	_
+2	na	na	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	nim	nim	ADJ	_	_	0	root	_	_
 4	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
 5	le	le	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -16987,7 +16987,7 @@
 # text[spa] = El no habla más rápido que yo.
 # labels = tijonik-29 complete
 1	Are	are	PART	_	Focus=Yes	5	discourse	_	_
-2	na	na	AUX	_	Polarity=Neg	3	aux	_	_
+2	na	na	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	aninaq	aninäq	ADV	_	_	5	advmod	_	_
 4	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
 5	kachʼaw	chʼaw	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
@@ -17074,7 +17074,7 @@
 # text = Na kabʼantaj ta wumal.
 # text[spa] = No puedo hacerlo.
 # labels = tijonik-31 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kabʼantaj	bʼan	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	wumal	umal	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	2	obl	_	SpaceAfter=No
@@ -17084,7 +17084,7 @@
 # text = Na kabʼantaj ta wumal.
 # text[spa] = No puedo hacerlo.
 # labels = tijonik-32 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kabʼantaj	bʼan	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4	wumal	umal	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	2	obl	_	SpaceAfter=No
@@ -17917,7 +17917,7 @@
 # text = Na kaqakʼam tuʼbʼi kamik.
 # text[spa] = No nos lo vamos a llevar hoy.
 # labels = tijonik-36 complete
-1	Na	na	AUX	_	Polarity=Neg	2	aux	_	_
+1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kaqakʼam	kʼam	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3-4	tuʼbʼi	_	_	_	_	_	_	_	_
 3	tuʼ	taj	AUX	_	Polarity=Neg	2	aux	_	_
@@ -18145,7 +18145,7 @@
 1	We	we¹	SCONJ	_	_	2	mark	_	_
 2	chabʼij	bʼij	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	5	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
+4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	katinchʼabʼej	chʼabʼej	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	ta	taj	AUX	_	Polarity=Neg	5	aux	_	_
 7	chik	chik	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -18172,7 +18172,7 @@
 # labels = tijonik-42 complete
 1-2	Wemna	_	_	_	_	_	_	_	_
 1	we	we¹	SCONJ	_	_	3	mark	_	_
-2	mna	man	AUX	_	Polarity=Neg	3	aux	_	_
+2	mna	man	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	chpe	pe	VERB	_	Mood=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr	6	advcl	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	jabʼ	jäbʼ	NOUN	_	_	3	nsubj	_	_
@@ -18187,11 +18187,11 @@
 # labels = tijonik-42 complete
 1-2	Wemna	_	_	_	_	_	_	_	_
 1	we	we¹	SCONJ	_	_	3	mark	_	_
-2	mna	man	AUX	_	Polarity=Neg	3	aux	_	_
+2	mna	man	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	chaloqʼ	loqʼ	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	7	advcl	_	_
 4	axiyal	axiyal	NOUN	_	_	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	na	na	AUX	_	Polarity=Neg	7	aux	_	_
+6	na	na	PART	_	Polarity=Neg	7	advmod:neg	_	_
 7	kimbʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 8	ta	taj	AUX	_	Polarity=Neg	7	aux	_	_
 9	awukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=2	7	obl	_	SpaceAfter=No
@@ -18240,7 +18240,7 @@
 9	jul	jul	NOUN	_	_	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	par	par	CCONJ	_	_	13	cc	_	_
-12	na	na	AUX	_	Polarity=Neg	13	aux	_	_
+12	na	na	PART	_	Polarity=Neg	13	advmod:neg	_	_
 13	xkowin	kowin	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	3	conj	_	_
 14	taj	taj	AUX	_	Polarity=Neg	13	aux	_	_
 15	rumal	rumal	SCONJ	_	_	17	mark	_	_
@@ -18259,7 +18259,7 @@
 4	xixbʼixan	bʼixaj	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=2|Subcat=Tran|VerbForm=Fin|Voice=Antip	3	xcomp	_	_
 5	ik	ik	AUX	_	_	4	aux:ss	_	_
 6	par	par	CCONJ	_	_	8	cc	_	_
-7	na	na	AUX	_	Polarity=Neg	8	aux	_	_
+7	na	na	PART	_	Polarity=Neg	8	advmod:neg	_	_
 8	utz	utz	ADJ	_	_	3	conj	_	_
 9	ta	taj	AUX	_	Polarity=Neg	8	aux	_	_
 10	le	le	DET	_	Definite=Def|PronType=Art	11	det	_	_
@@ -18272,7 +18272,7 @@
 # labels = tijonik-42 complete
 1-2	Pinemna	_	_	_	_	_	_	_	_
 1	pine	pine	SCONJ	_	_	3	mark	_	_
-2	mna	man	AUX	_	Polarity=Neg	3	aux	_	_
+2	mna	man	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	kabʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	7	advcl	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	watz	atz	NOUN	_	Number[psor]=Sing|Person[psor]=1	3	nsubj	_	SpaceAfter=No
@@ -18294,7 +18294,7 @@
 4	chʼichʼ	chʼichʼ	NOUN	_	_	1	obj	_	_
 5-6	pinemna	_	_	_	_	_	_	_	_
 5	pine	pine	SCONJ	_	_	7	mark	_	_
-6	mna	man	AUX	_	Polarity=Neg	7	aux	_	_
+6	mna	man	PART	_	Polarity=Neg	7	advmod:neg	_	_
 7	utz	utz	ADJ	_	_	1	advcl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -18344,13 +18344,13 @@
 # labels = tijonik-42 complete check-negative
 1	We	we¹	SCONJ	_	_	5	mark	_	_
 2	ta	taj	AUX	_	Polarity=Neg	5	aux	_	_
-3	ma	ma	AUX	_	Polarity=Neg	5	aux	_	_
+3	ma	ma	PART	_	Polarity=Neg	5	advmod:neg	_	_
 4	ta	taj	AUX	_	Polarity=Neg	5	aux	_	_
 5	xatbʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	11	advcl	_	_
 6	pa	pa	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|PronType=Art	8	det	_	_
 8	tinamit	tinamit	NOUN	_	_	5	obl	_	_
-9	ma	ma	AUX	_	Polarity=Neg	11	aux	_	_
+9	ma	ma	PART	_	Polarity=Neg	11	advmod:neg	_	_
 10	ta	taj	AUX	_	Polarity=Neg	11	aux	_	_
 11	xaloqʼ	loqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	laʼ	laʼ	PRON	_	PronType=Dem	14	det	_	_
@@ -18369,7 +18369,7 @@
 3	xakunaj	kunaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	8	advcl	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	atat	tat	NOUN	_	Number[psor]=Sing|Person[psor]=2	3	obj	_	_
-6	ma	ma	AUX	_	Polarity=Neg	8	aux	_	_
+6	ma	ma	PART	_	Polarity=Neg	8	advmod:neg	_	_
 7	ta	taj	AUX	_	Polarity=Neg	8	aux	_	_
 8	xkam	käm	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 9	laʼ	laʼ	PRON	_	PronType=Dem	8	nsubj	_	SpaceAfter=No
@@ -18426,7 +18426,7 @@
 # text = Ma ta xabʼinsaj le chʼichʼ.
 # text[spa] = No hubieras manejado el carro.
 # labels = tijonik-42 complete
-1	Ma	ma	AUX	_	Polarity=Neg	3	aux	_	_
+1	Ma	ma	PART	_	Polarity=Neg	3	advmod:neg	_	_
 2	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
 3	xabʼinsaj	bʼinisaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -18448,7 +18448,7 @@
 # text = Ma ta xinyaj le ali.
 # text[spa] = No hubiera regañado a la muchacha.
 # labels = tijonik-42 complete
-1	Ma	ma	AUX	_	Polarity=Neg	3	aux	_	_
+1	Ma	ma	PART	_	Polarity=Neg	3	advmod:neg	_	_
 2	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
 3	xinyaj	yaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -18459,7 +18459,7 @@
 # text = Ma ta kabʼe le nuxbʼal pa le tinamit.
 # text[spa] = Que no vaya mi hermano (de mujer) al pueblo.
 # labels = tijonik-42 complete check-negation
-1	Ma	ma	AUX	_	Polarity=Neg	3	aux	_	_
+1	Ma	ma	PART	_	Polarity=Neg	3	advmod:neg	_	_
 2	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
 3	kabʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -18553,7 +18553,7 @@
 2	tat	tat	NOUN	_	_	6	nsubj	_	_
 3	nan	nan²	NOUN	_	_	2	compound	_	_
 4	ojer	ojer	ADV	_	_	6	advmod	_	_
-5	na	na	AUX	_	Polarity=Neg	6	aux	_	_
+5	na	na	PART	_	Polarity=Neg	6	advmod:neg	_	_
 6	xkaj	aj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	taj	taj	AUX	_	Polarity=Neg	6	aux	_	_
 8-9	cher	_	_	_	_	_	_	_	_
@@ -18742,7 +18742,7 @@
 # text[spa] = Curarlo no es difícil cuando rápido se ve la enfermedad y _ da el sufrimiento a la cabeza.
 # labels = complete check-analysis
 1	Are	are	PART	_	Focus=Yes	3	discourse	_	_
-2	man	man	AUX	_	Polarity=Neg	3	aux	_	_
+2	man	man	PART	_	Polarity=Neg	3	advmod:neg	_	_
 3	kʼax	kʼax	ADJ	_	_	0	root	_	_
 4	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
 5	ukunaxik	kunaj	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Inf|Voice=Pass	3	csubj	_	_
