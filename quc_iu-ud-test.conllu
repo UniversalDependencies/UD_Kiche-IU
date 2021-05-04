@@ -11201,7 +11201,7 @@
 2	ulo	ulo	ADV	_	AdvType=Dir	1	advmod	_	_
 3	jun	jun	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	wuj	wuj	NOUN	_	_	1	obj	_	_
-5	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	6	mark	_	_
+5	rech	rech	SCONJ	_	_	6	mark	_	_
 6	kasikʼij	sikʼij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
 7	uwach	wach	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	6	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
@@ -11246,7 +11246,7 @@
 2	ulo	uloq	ADV	_	AdvType=Dir	1	advmod	_	_
 3	jun	jun	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	alanxax	alanxax	NOUN	_	_	1	obj	_	_
-5	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	6	mark	_	_
+5	rech	rech	SCONJ	_	_	6	mark	_	_
 6-7	kaqatijo	_	_	_	_	_	_	_	SpaceAfter=No
 6	kaqatij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
 7	o	u	AUX	_	_	6	aux:ss	_	_
@@ -11260,7 +11260,7 @@
 1	Kʼo	kʼo	PART	_	_	0	root	_	_
 2	kan	kan	ADV	_	AdvType=Dir	1	advmod	_	_
 3	wa	wa	NOUN	_	_	1	nsubj	_	_
-4	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	mark	_	_
+4	rech	rech	SCONJ	_	_	5	mark	_	_
 5-6	kaqatijo	_	_	_	_	_	_	_	SpaceAfter=No
 5	kaqatij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
 6	o	u	AUX	_	_	5	aux:ss	_	_
@@ -11289,7 +11289,7 @@
 3	kan	kan	ADV	_	AdvType=Dir	1	advmod	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	ichaj	ichäj	NOUN	_	_	1	nsubj	_	_
-6	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	7	mark	_	_
+6	rech	rech	SCONJ	_	_	7	mark	_	_
 7-8	katzako	_	_	_	_	_	_	_	SpaceAfter=No
 7	katzak	tzak	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
 8	o	u	AUX	_	_	7	aux:ss	_	_
@@ -11315,7 +11315,7 @@
 1-2	Xukʼutu	_	_	_	_	_	_	_	_
 1	Xukʼut	kʼut	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	u	u	AUX	_	_	1	aux:ss	_	_
-3	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	mark	_	_
+3	rech	rech	SCONJ	_	_	4	mark	_	_
 4-5	kaqilo	_	_	_	_	_	_	_	SpaceAfter=No
 4	kaqil	il	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	ccomp	_	_
 5	o	u	AUX	_	_	4	aux:ss	_	_
@@ -11343,7 +11343,7 @@
 1-2	Kinwaʼik	_	_	_	_	_	_	_	_
 1	Kinwaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2	ik	ik	AUX	_	_	1	aux:ss	_	_
-3	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	mark	_	_
+3	rech	rech	SCONJ	_	_	5	mark	_	_
 4	na	na	AUX	_	Polarity=Neg	5	aux	_	_
 5	kinyowaj	yowaj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
 6	taj	taj	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
@@ -11357,7 +11357,7 @@
 1-2	Kinchakunik	_	_	_	_	_	_	_	_
 1	Kinchakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2	ik	ik	AUX	_	_	1	aux:ss	_	_
-3	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	mark	_	_
+3	rech	rech	SCONJ	_	_	4	mark	_	_
 4-5	kinwaʼik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kinwaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
 5	ik	ik	AUX	_	_	4	aux:ss	_	_
@@ -11369,7 +11369,7 @@
 # text[eng] = They sat us down to listen to you.
 # labels = complete 445:24:
 1	Xojkitʼuyubʼaʼ	tʼuyubʼaʼ	VERB	_	Aspect=Perf|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	mark	_	_
+2	rech	rech	SCONJ	_	_	3	mark	_	_
 3	kixqatatabʼej	tatabʼej	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=2|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	advcl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -11381,7 +11381,7 @@
 1-2	Kinchakunik	_	_	_	_	_	_	_	_
 1	Kinchakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2	ik	ik	AUX	_	_	1	aux:ss	_	_
-3	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	mark	_	_
+3	rech	rech	SCONJ	_	_	4	mark	_	_
 4-5	katwaʼik	_	_	_	_	_	_	_	SpaceAfter=No
 4	katwaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
 5	ik	ik	AUX	_	_	4	aux:ss	_	_
@@ -11396,7 +11396,7 @@
 2	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
 3	jun	jun	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	abʼaj	abʼäj	NOUN	_	_	1	obj	_	_
-5	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	6	mark	_	_
+5	rech	rech	SCONJ	_	_	6	mark	_	_
 6	kixkil	il	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=2|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
 7	loq	uloq	ADV	_	AdvType=Dir	6	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
@@ -11423,7 +11423,7 @@
 1-2	Katchakunik	_	_	_	_	_	_	_	_
 1	Katchakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2	ik	ik	AUX	_	_	1	aux:ss	_	_
-3	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	mark	_	_
+3	rech	rech	SCONJ	_	_	4	mark	_	_
 4	keatzuq	tzuq	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
 5	le	le	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	awalkʼwal	awalkʼwal	NOUN	_	_	4	obj	_	SpaceAfter=No
@@ -11467,7 +11467,7 @@
 2	ju	jun	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 3	sin	sin	PART	_	_	4	advmod	_	_
 4	kifondo	fondo	NOUN	_	Number[psor]=Plur|Person[psor]=3	1	obj	_	_
-5	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	6	mark	_	_
+5	rech	rech	SCONJ	_	_	6	mark	_	_
 6	kakichapobʼej	chapobʼej	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	advcl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -11568,7 +11568,7 @@
 # labels = complete 480:59:
 1	Xojukʼam	kʼam	VERB	_	Aspect=Perf|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	uloq	uloq	ADV	_	AdvType=Dir	1	advmod	_	_
-3	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	mark	_	_
+3	rech	rech	SCONJ	_	_	4	mark	_	_
 4-5	kojrilo	_	_	_	_	_	_	_	SpaceAfter=No
 4	kojril	il	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
 5	o	u	AUX	_	_	4	aux:ss	_	_
@@ -12340,7 +12340,7 @@
 11	utijik	tij	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Inf	10	acl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Jun_ajyuq’.wiki:2
+# sent_id = cuentos:Jun_ajyuqʼ.wiki:2
 # text = Xkʼulmataj jumul, xubʼan jun nimalaj jabʼ, man xbʼeyetaj ta na xukʼis le uyuqʼ chike.
 # text[spa'] =  Pasó vez, hizo una lluvia grande, no se les tardó acabar su pastoreo.
 # labels = complete check-translation
@@ -12364,7 +12364,7 @@
 17	ke	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	13	obl	_	_
 18	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Jun_ajyuq’.wiki:4
+# sent_id = cuentos:Jun_ajyuqʼ.wiki:4
 # text = Le akʼal xubʼij che: - xa che ri nuchij kkaj ta kebʼe pa kikʼolibʼal.
 # text[spa'] = El niño dijo a él: -sólo a mis ovejas quieren ir en su lugar.
 # labels = complete check-translation
@@ -12389,7 +12389,7 @@
 17	kikʼolibʼal	kʼolbʼal	NOUN	_	Number[psor]=Plur|Person[psor]=3	15	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Jun_ajyuq’.wiki:6
+# sent_id = cuentos:Jun_ajyuqʼ.wiki:6
 # text = Xopan jun wonon, xutaʼ chike: - jas che kixoqʼik?
 # text[spa'] = Llegó una abeja, preguntó a ellos: - por qué lloran?
 # labels = complete
@@ -12412,7 +12412,7 @@
 14	ik	ik	AUX	_	_	13	aux:ss	_	_
 15	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Jun_ajyuq’.wiki:8
+# sent_id = cuentos:Jun_ajyuqʼ.wiki:8
 # text = We wonon xubʼij chike: - kixinto.
 # text[spa'] = Esta abeja dijo a ellos: - os ayudo.
 # labels = complete
@@ -12427,7 +12427,7 @@
 8	kixinto	toʼ	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=2|Person[subj]=1|Subcat=Tran|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:1
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:1
 # text = Kʼo jumul kebʼ alabʼom, ekʼo jobʼ kichij, xkichomaj kebeʼ pa yuqʼ.
 # text[spa'] = Hay vez dos muchachos, que tenían cinco ovejas, pensaron ir a pastorear.
 # labels = complete check-all
@@ -12448,7 +12448,7 @@
 14	yuqʼ	yuqʼ	NOUN	_	_	12	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	_
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:2
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:2
 # text = Are xeʼopan chi uchiʼ ri juyubʼ, xkilo chi man qas ta kʼo qʼayes.
 # text[spa'] = Llegó a la orilla del monte, vieron que no era verdad haber césped.
 # labels = complete
@@ -12470,7 +12470,7 @@
 15	qʼayes	qʼayes	NOUN	_	_	14	nsubj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:4
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:4
 # text = Kʼa te xkilo ekʼo jujun chomaʼq taq cheʼ sibʼalaj, jeʼl kimujal, xuqujeʼ kʼo jun nimalaj bʼinel jaʼ, jun nim uwosaq.
 # text[spa'] = Entonces vieron que hubo algunos gordos árboles mucho, bonita su sombra, también hubo un grande *bʼinel agua, un campo grande.
 # labels = complete check-translation
@@ -12503,7 +12503,7 @@
 25	uwosaq	uwosaq	NOUN	_	_	20	conj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:5
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:5
 # text = Sibʼalaj jeʼl xkilo xekitzoqopij ri kichij chilaʼ.
 # text[spa'] = Mucho bonito vieron liberar las ovejas allí.
 # labels = complete
@@ -12518,7 +12518,7 @@
 8	chilaʼ	chilaʼ	ADV	_	_	5	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:6
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:6
 # text = Le jobʼ chij sibʼalaj xewaʼik cho le uwosaq, xbʼantajik chi xkikʼyaq kan le kimes pa taq le cheʼ pa le uwosaq.
 # text[spa'] = Las cinco ovejas comieron mucho al campo, resultó que tiraron su fertilizador en los árboles en el campo.
 # labels = complete check-subject
@@ -12552,7 +12552,7 @@
 25	uwosaq	uwosaq	NOUN	_	_	22	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:7
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:7
 # text = Xkibʼan kʼax che le uwosaq rumal man utz ta chi kakayik.
 # text[spa'] = Hicieron malo al campo por el observar no era bueno.
 # labels = complete check-subject
@@ -12573,7 +12573,7 @@
 13	ik	ik	AUX	_	_	12	aux:ss	_	_
 14	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:9
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:9
 # text = Xesikʼixik, kʼate kʼuriʼ xeyajik, xuqujeʼ xetaq bʼi che usikʼik le mes.
 # text[spa'] =  Se llamaron, entonces regañaron , también se enviaron a agarrar el fertilizador.
 # labels = complete check-translation
@@ -12598,7 +12598,7 @@
 16	mes	mes	NOUN	_	_	14	nsubj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:9
+# sent_id = cuentos:Kikʼaslemal_ri_ojer_winaq.wiki:9
 # text = Kikikʼam bʼik nimaʼq taq keqaʼn e chiʼ keʼbʼek.
 # text[spa'] = Los bultos grandes reciben y aquí van.
 # labels = incomplete check-translation
@@ -12616,7 +12616,7 @@
 10	k	ik	AUX	_	_	9	aux:ss	_	_
 11	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Komon_Xalq’a’t.wiki:5
+# sent_id = cuentos:Komon_Xalqʼaʼt.wiki:5
 # text = Kuyaʼo xuqujeʼ are ri kʼaxkʼolil keʼopan pa kiwi ri jastaq rech.
 # text[spa'] = Lo da y el sufrimiento llega encima de las cosas de él.
 # labels = complete check-translation
@@ -12635,7 +12635,7 @@
 12	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Komon_Xalq’a’t.wiki:11
+# sent_id = cuentos:Komon_Xalqʼaʼt.wiki:11
 # text = Rumal laʼ xkoj “Xalqʼat” che ubʼiʼ ri komon.
 # text[spa'] = Por esto se puso “Xalqʼat” al nombre de la comunidad.
 # labels = complete
@@ -12653,7 +12653,7 @@
 11	komon	komon	NOUN	_	_	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:2
+# sent_id = cuentos:Kʼamal_taq_bʼe_re_Chwiʼ_suq.wiki:2
 # text = Xkitzijoj chikech ri winaq man utz taj keqasax ri cheʼ, we kabʼanik, kasikʼix saqʼij chaqij.
 # text[spa'] = Contaron a las personas no es bueno que se derriban las arboles, si se hace, se llama estación seca.
 # labels = complete
@@ -12677,10 +12677,10 @@
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	kasikʼix	sikʼij	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	9	parataxis	_	_
 18	saqʼij	saqʼij	NOUN	_	_	17	nsubj	_	_
-19	chaqij	chaqi’j	ADJ	_	_	18	amod	_	SpaceAfter=No
+19	chaqij	chaqiʼj	ADJ	_	_	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:4
+# sent_id = cuentos:Kʼamal_taq_bʼe_re_Chwiʼ_suq.wiki:4
 # text = Konojel xkichomaj rij, xkibʼij kʼut: areʼ utz ketik cheʼ.
 # text[spa'] = Todos pensaron sobre eso, dijeron pero: es bueno que se sembran árboles.
 # labels = complete check-translation
@@ -12697,7 +12697,7 @@
 11	cheʼ	cheʼ	NOUN	_	_	10	nsubj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:5
+# sent_id = cuentos:Kʼamal_taq_bʼe_re_Chwiʼ_suq.wiki:5
 # text = Xa rumal sibʼalaj rajawaxik le loqʼalaj jaʼ, le winaq xkibʼij: che we ikʼ riʼ qonojel kujbʼe che utikik taq cheʼ.
 # text[spa'] = Sólo por eso es muy necesario el agua querida, las personas dijeron: a esa luna todos nosotros vamos a sembrarse árboles.
 # labels = complete check-translation
@@ -12729,7 +12729,7 @@
 24	cheʼ	cheʼ	NOUN	_	_	22	nsubj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:K’ulmatajem.wiki:7
+# sent_id = cuentos:Kʼulmatajem.wiki:7
 # text = Are kʼut pa le juyubʼ kkʼiy joron, chilaʼ xekikʼama wi ri jaʼ ri winaq.
 # text[spa'] = Pero en el monte crece frío, allí reciben las aguas las personas.
 # labels = complete
@@ -12750,7 +12750,7 @@
 15	winaq	winaq	NOUN	_	_	11	nsubj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = cuentos:K’ulmatajem.wiki:10
+# sent_id = cuentos:Kʼulmatajem.wiki:10
 # text = Kamik le jaʼ kchojojik, kchojojik, katatajik pa ri juyubʼ.
 # text[spa'] = Ahora el agua caye, caye, se oye en el monte.
 # labels = complete
@@ -12773,7 +12773,7 @@
 14	juyubʼ	juyubʼ	NOUN	_	_	10	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:3
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil.wiki:3
 # text = Kakoj kyaq usok ri unan rech kachʼaj bʼik.
 # text[spa'] = Pones el nido rojo de la madre para lavas.
 # labels = complete
@@ -12789,7 +12789,7 @@
 9	k	ik	AUX	_	_	8	aux:ss	_	_
 10	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:5
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil.wiki:5
 # text = E kebʼ kekʼam bʼik pa tuj.
 # text[spa'] = Dos están recibidos en temazcal.
 # labels = complete check-plural
@@ -12803,7 +12803,7 @@
 7	tuj	tuj	NOUN	_	_	3	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:6
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil.wiki:6
 # text = Tekʼuriʼ kabʼan jun komon waʼim pa kachoch.
 # text[spa'] = Y haces una cena comunal en casa.
 # labels = complete
@@ -12816,7 +12816,7 @@
 7	kachoch	achoch	NOUN	_	Number[psor]=Plur|Person[psor]=3	2	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:7
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil.wiki:7
 # text = Ktij ri uwaʼl ik rumal ri kinimaqʼij.
 # text[spa'] = Come el jugo de chile para su fiesta.
 # labels = complete check-translation
@@ -12829,7 +12829,7 @@
 7	kinimaqʼij	nimaqʼij	NOUN	_	Number[psor]=Plur|Person[psor]=3	5	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:8
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil.wiki:8
 # text = We man je kabʼan chike, kabʼison le rajaw tuj.
 # text[spa'] = Si no haces así a ellos, el dueño de temazcal está triste.
 # labels = complete
@@ -12847,7 +12847,7 @@
 11	tuj	tuj	NOUN	_	_	10	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = cuentos:Le_k’olot_ali.wiki:8
+# sent_id = cuentos:Le_kʼolot_ali.wiki:8
 # text = Xaq uj junam chi uwach ri Ajaw.
 # text[spa'] = Nosotros somos iguales al Dueño.
 # labels = complete
@@ -12860,7 +12860,7 @@
 7	Ajaw	ajaw	NOUN	_	_	5	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:6
+# sent_id = cuentos:Le_joj_rukʼ_ri_par.wiki:6
 # text = Ri joj kabʼisonik rumal che maj chik kutijo.
 # text[spa'] = El cuervo está triste porque otra vez no come.
 # labels = complete check-subordinator
@@ -12869,7 +12869,7 @@
 3-4	kabʼisonik	_	_	_	_	_	_	_	_
 3	kabʼison	bʼison	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 4	ik	ik	AUX	_	_	3	aux:ss	_	_
-5	rumal	umal	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	10	mark	_	_
+5	rumal	rumal	SCONJ	_	_	10	mark	_	_
 6-7	che	_	_	_	_	_	_	_	_
 6	ch	chi	ADP	_	_	5	fixed	_	_
 7	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	fixed	_	_
@@ -12880,7 +12880,7 @@
 11	o	u	AUX	_	_	10	aux:ss	_	_
 12	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:8
+# sent_id = cuentos:Le_joj_rukʼ_ri_par.wiki:8
 # text = Man xuriq taj urikil xaq jeri xkam che wiʼjal.
 # text[spa'] = No encontró comida sólo así murió de hambre.
 # labels = complete check-subordinator
@@ -12897,7 +12897,7 @@
 10	wiʼjal	wiʼjal	NOUN	_	_	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:1
+# sent_id = cuentos:Le_umaybʼal_le_juyubʼ.wiki:1
 # text = Kʼo jun komon ubʼi Chikabʼraqan, kariqatajik pa tinamit Kʼicheʼ.
 # text[spa'] = Hay una comunidad de nombre Chikabʼraqan, se encuentra en tierra Quiché.
 # labels = complete check-parataxis
@@ -12915,7 +12915,7 @@
 11	Kʼicheʼ	kʼicheʼ	ADJ	_	_	10	amod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:2
+# sent_id = cuentos:Le_umaybʼal_le_juyubʼ.wiki:2
 # text = Ri winaq kakibʼij chi kʼo jun bʼe, areʼ bʼe rech tinamit ubʼi Lemoʼ.
 # text[spa'] = Las personas dicen que hay una senda, es la senda al pueblo de nombre Lemoʼ.
 # labels = complete check-parataxis
@@ -12935,7 +12935,7 @@
 14	Lemoʼ	Lemoʼ	PROPN	_	_	13	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:10
+# sent_id = cuentos:Le_umaybʼal_le_juyubʼ.wiki:10
 # text = Su kabʼij la, xubʼij le akʼal che le tat Xoʼr.
 # text[spa'] = Qué pasa, dijo el niño al padre Xoʼr.
 # labels = complete
@@ -12954,7 +12954,7 @@
 12	Xoʼr	Xoʼr	PROPN	_	Gender=Masc	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:11
+# sent_id = cuentos:Le_umaybʼal_le_juyubʼ.wiki:11
 # text = Kʼatekʼuri le tat Xoʼr xubʼij, man kawaj taj, man kawaj taj.
 # text[spa'] = Entonces el padre Xoʼr dijo, no lo quieres, no lo quieres.
 # labels = complete check-2nd-person
@@ -12973,7 +12973,7 @@
 13	taj	taj	AUX	_	Polarity=Neg	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = cuentos:Mayb’al_k’olib’al.wiki:2
+# sent_id = cuentos:Maybʼal_kʼolibʼal.wiki:2
 # text = Ri wikan Chaliʼy kel pa juyubʼ Chwitziribʼal.
 # text[spa'] = El tío Chaliʼy va en monte Chwitziribʼal.
 # labels = complete
@@ -12986,7 +12986,7 @@
 7	Chwitziribʼal	Chwitziribʼal	PROPN	_	_	6	appos	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:Mayb’al_k’olib’al.wiki:4
+# sent_id = cuentos:Maybʼal_kʼolibʼal.wiki:4
 # text = Xkʼam bʼik pa jun utz laj ja, jawijeʼ chiʼ kʼo wi sibʼalaj uwach taq cheʼ, kʼo jalajoj taq kotzʼiʼj, kʼi taq awajibʼ.
 # text[spa'] = Se recibió en una pequeña y bonita casa, dónde aquí hay mucho a árboles, hay flores diferentes, animales muchos.
 # labels = complete check-everything
@@ -13019,7 +13019,7 @@
 26	awajibʼ	awaj	NOUN	_	Number=Plur	22	conj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Mayb’al_k’olib’al.wiki:8
+# sent_id = cuentos:Maybʼal_kʼolibʼal.wiki:8
 # text = Ri unan xubʼij che:  -xbʼe oxibʼ qʼij katqatzukuj.
 # text[spa'] = Su madre le dijo: - se fue tres días que te hemos buscado.
 # labels = complete check-relative
@@ -13037,7 +13037,7 @@
 11	katqatzukuj	tzukuj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=2|Person[subj]=1|Subcat=Tran|VerbForm=Fin	10	acl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:2
+# sent_id = cuentos:Miqʼin_jaʼ_jelaʼ_Chijolom.wiki:2
 # text = Keriqitaj kebʼ kʼaybʼal jaʼ jun miqʼin, jun saqliʼ.
 # text[spa'] = Se encuentran dos tiendas de agua un templado, un hirvido.
 # labels = complete check-translation
@@ -13052,7 +13052,7 @@
 9	saqliʼ	saqliʼ	NOUN	_	_	6	conj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Q’or_re_aj.wiki:1
+# sent_id = cuentos:Qʼor_re_aj.wiki:1
 # text = Pa ri komon rech San Vicente Buenabaj.
 # text[spa'] = En la comunidad de San Vicente Buenabaj.
 # labels = complete
@@ -13100,7 +13100,7 @@
 12	wi	wi	PART	_	Focus=Yes	11	advmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:1
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:1
 # text = Jun qʼij kanoq pa komon Xechpup uqʼabʼ tinamit Xoʼl Abʼaj.
 # text[spa'] = Un día en comunidad Xechpup de mano del pueblo Xoʼl Abʼaj.
 # labels = complete
@@ -13118,7 +13118,7 @@
 11	Abʼaj	Abʼaj	PROPN	_	_	10	flat	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:2
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:2
 # text = Ri alaj ali Choʼn bʼenaq pa tijobʼal rachiʼl ri uchaqʼ Siʼl sibʼalaj kekiʼkotik.
 # text[spa'] = El pequeño Choʼn ha ido a la escuela del amigo del hermano de Siʼl mucho están feliz .
 # labels = complete check-morphology
@@ -13139,7 +13139,7 @@
 14	ik	ik	AUX	_	_	13	aux:ss	_	_
 15	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:3
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:3
 # text = Pa ri bʼe xkiraq jun alaj imul saq rij, xkikʼam bʼik.
 # text[spa'] = En la senda encontraron un conejo blanco pequeño atrás, lo agarraron.
 # labels = complete
@@ -13159,7 +13159,7 @@
 13	k	ik	AUX	_	_	12	aux:ss	_	_
 14	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:4
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:4
 # text = Xkikʼut chi uwach ri ajtij xuqujeʼ chikiwach ri taq nikʼaj kachil.
 # text[spa'] = Lo enseñaron al maestro y a los otros amigos.
 # labels = complete
@@ -13178,7 +13178,7 @@
 12	kachil	achiʼl	NOUN	_	Number[psor]=Plur|Person[psor]=3	8	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:5
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:5
 # text = Konojel ri akʼalabʼ sibʼalaj utz xkil le imul.
 # text[spa'] = Todos los niños muy bien vieron el conejo.
 # labels = incomplete
@@ -13192,14 +13192,14 @@
 8	imul	imul	NOUN	_	_	6	obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:6
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:6
 # text = Ri ajtij Lol xuta chike jawi xkichap wi ri alaj imul.
 # text[spa'] = El maestro Lol preguntó a ellos dónde el conejo pequeño agarraron.
 # labels = complete
 1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	ajtij	ajtij	NOUN	_	_	4	nsubj	_	_
 3	Lol	Lol	PROPN	_	Gender=Masc	2	appos	_	_
-4	xuta	ta’	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	xuta	taʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5-6	chike	_	_	_	_	_	_	_	_
 5	chi	chi	ADP	_	_	6	case	_	_
 6	ke	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	4	obl	_	_
@@ -13211,7 +13211,7 @@
 12	imul	imul	NOUN	_	_	8	obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:7
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:7
 # text = Ri alaj ali Siʼl xubʼij xqachap pa utzal ri Tyox.
 # text[spa'] = La pequeña niña Siʼl dijo agarramos al lado del Santo.
 # labels = complete
@@ -13227,7 +13227,7 @@
 10	Tyox	tyox	NOUN	_	_	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:13
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:13
 # text = Ri ajtij kubʼij chike: rajawaxik keqachajij ri awaj, are utikoʼn ri Ajaw.
 # text[spa'] = El maestro dice a ellos: es necesario que cuidemos los animales, la creación del Dueño.
 # labels = complete check-nonverbal
@@ -13249,7 +13249,7 @@
 15	Ajaw	ajaw	NOUN	_	_	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:14
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:14
 # text = Are kabʼan kʼax chike taq awajibʼ, kʼax kunaʼ ukʼuʼx ri Ajaw, xuqujeʼ kʼo kikʼaslemal xa uj junam kukʼ.
 # text[spa'] = Cuando malo se hace a los animales, malo se siente el alma del Señor, también ellos tienen vida, nosotros son igual con ellos.
 # labels = complete check-translation
@@ -13277,7 +13277,7 @@
 21	kukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	20	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = cuentos:Ri_alaj_tz’unun.wiki:6
+# sent_id = cuentos:Ri_alaj_tzʼunun.wiki:6
 # text = Ri ali Naʼ kakiʼkotik are taq xrilo chi le laj tzʼunun xbʼe pa uwiʼ le jeʼl taq kotzʼiʼj.
 # text[spa'] = Naʼ estaba feliz cuando vio a la chuparrosa pequeña que fue encima de las flores bonitas.
 # labels = complete
@@ -13305,7 +13305,7 @@
 20	kotzʼiʼj	kotzʼiʼj	NOUN	_	_	16	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:Ri_alaj_tz’unun.wiki:1
+# sent_id = cuentos:Ri_alaj_tzʼunun.wiki:1
 # text = Jun aqʼabʼil kʼo ri ali Naʼ chi uwach ri rachoch.
 # text[spa'] = Una madrugada está Naʼ en la casa.
 # labels = complete
@@ -13321,7 +13321,7 @@
 10	rachoch	achoch	NOUN	_	Number[psor]=Sing|Person[psor]=3	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:1
+# sent_id = cuentos:Ri_ali_Poʼx_ajkun.wiki:1
 # text = Pa jun jeʼl tijobʼal kutijoj ribʼ jun akʼal, ubʼiʼ Poʼx, utz kurilo ke pa tijobʼal ronojel taq qʼij.
 # text[spa'] = En una escuela bonita se enseña un niño, el nombre de Poʼx, le gusta a ellos en escuela todos los días.
 # labels = complete
@@ -13349,7 +13349,7 @@
 21	qʼij	qʼij	NOUN	_	_	19	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:7
+# sent_id = cuentos:Ri_ali_Poʼx_ajkun.wiki:7
 # text = Xumaltyoxij che ri ajtij ronojel le xukʼut chi uwach.
 # text[spa'] = Dio gracias al maestro todo lo que enseñó a él.
 # labels = complete
@@ -13366,7 +13366,7 @@
 10	uwach	wach	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	8	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:8
+# sent_id = cuentos:Ri_ali_Poʼx_ajkun.wiki:8
 # text = Te kʼu riʼ xutzʼibʼaj ribʼ pa ri nimalaj tijobʼal rech Ajkuʼn.
 # text[spa'] = Ahora pero ése escribió a él en la escuela grande a él *Ajkuʼn.
 # labels = complete
@@ -13383,7 +13383,7 @@
 11	Ajkuʼn	Ajkuʼn	PROPN	_	_	10	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:Ri_imul_rachi’l_le_xik.wiki:4
+# sent_id = cuentos:Ri_imul_rachiʼl_le_xik.wiki:4
 # text = Ri imul xubʼij: – maltyox chawe, we kabʼan ri toqʼobʼ, chakuyuʼ kinkaʼy apan jutzʼit ajsik, xchaʼ ri imul.
 # text[spa'] = El conejo dijo: – gracias a ti, si haces el favor, soporta que miro un poco arriba, el conejo dijo.
 # labels = complete check-translation
@@ -13415,7 +13415,7 @@
 24	imul	imul	NOUN	_	_	22	nsubj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:1
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:1
 # text = Xkʼulmataj pa jun Komon chiʼ uwach jun juyubʼ, xuriqa jun qʼij xkiriq kibʼ jun imul rukʼ le kok.
 # text[spa'] = Pasó en una Comunidad cerca de un monte, llegó un día se encontraron un conejo y una tortuga.
 # labels = complete check-translation check-attachment
@@ -13440,7 +13440,7 @@
 19	kok	kök	NOUN	_	_	17	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:3
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:3
 # text = Le imul xubʼij: kok, katkowin taj katzaq anim, nojim katbʼinik.
 # text[spa'] = El conejo dijo: tortuga, puedes perder carrera, lento andas.
 # labels = complete check-translation
@@ -13461,7 +13461,7 @@
 14	ik	ik	AUX	_	_	13	aux:ss	_	_
 15	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:4
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:4
 # text = Qastzij xcha ri kok, in nojim kinbʼinik.
 # text[spa'] = Es verdad dijo la tortuga, yo lento ando.
 # labels = complete check-attachment
@@ -13477,7 +13477,7 @@
 9	ik	ik	AUX	_	_	8	aux:ss	_	_
 10	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:5
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:5
 # text = Xa kʼu kinbʼij chawe chi in kinchʼak ri anim.
 # text[spa'] = Sólo pero digo a ti que yo conquisto la carrera.
 # labels = complete check-pronoun
@@ -13494,24 +13494,24 @@
 10	anim	anim	NOUN	_	_	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:6
-# text = Xpe ri imul xutze’j uwach ri kok, xkiyuk b’a k’ib’ le keb’ awajib’ rech kel che anim.
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:6
+# text = Xpe ri imul xutzeʼj uwach ri kok, xkiyuk bʼa kʼibʼ le kebʼ awajibʼ rech kel che anim.
 # text[spa'] = Vino el conejo que se rio a la tortuga, se *xkiyuk los dos animales para ir a carrera.
 # labels = complete check-translation
 1	Xpe	pe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	imul	imul	NOUN	_	_	1	nsubj	_	_
-4	xutze’j	tzeʼj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	3	acl	_	_
+4	xutzeʼj	tzeʼj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	3	acl	_	_
 5	uwach	wach	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 6	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	kok	kök	NOUN	_	_	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	xkiyuk	yuk	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	parataxis	_	_
-10	b’a	bʼaʼ	PART	_	_	9	discourse	_	_
-11	k’ib’	ibʼ	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3|Reflex=Yes	9	obj	_	_
+10	bʼa	bʼaʼ	PART	_	_	9	discourse	_	_
+11	kʼibʼ	ibʼ	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3|Reflex=Yes	9	obj	_	_
 12	le	le	DET	_	Definite=Def|PronType=Art	14	det	_	_
-13	keb’	kebʼ	NUM	_	_	14	nummod	_	_
-14	awajib’	awaj	NOUN	_	Number=Plur	9	nsubj	_	_
+13	kebʼ	kebʼ	NUM	_	_	14	nummod	_	_
+14	awajibʼ	awaj	NOUN	_	Number=Plur	9	nsubj	_	_
 15	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
 16	kel	el	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	15	acl	_	_
 17-18	che	_	_	_	_	_	_	_	_
@@ -13520,7 +13520,7 @@
 19	anim	anim	NOUN	_	_	18	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:7
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:7
 # text = Ri kʼamal bʼe xubʼij chike, chimaja ri anim.
 # text[spa'] = La guía dijo a ellos, agarren la carrera.
 # labels = complete
@@ -13539,7 +13539,7 @@
 11	anim	anim	NOUN	_	_	8	obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:8
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:8
 # text = Ri imul xumaj ri anim, xuya kan le kok.
 # text[spa'] = El conejo agarró la carrera, dio la tortuga.
 # labels = complete check-translation
@@ -13555,7 +13555,7 @@
 10	kok	kök	NOUN	_	_	7	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:9
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:9
 # text = Ri kok nojim xbʼek, xuchʼijo xopan pa ukʼisbʼalil le anim.
 # text[spa'] = La tortuga lenta fue , sufrió llegar en el fin de la carrera.
 # labels = complete
@@ -13576,7 +13576,7 @@
 13	anim	anim	NOUN	_	_	11	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:10
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:10
 # text = Ri imul xuchʼij taj, xkanaj pa bʼe, rumal ri nimal kujaluj ri imul, xutzaq ri anim.
 # text[spa'] = El conejo enduró, quedó en senda, por eso jefe finge el conejo, perdió la carrera.
 # labels = complete check-translation check-parataxis
@@ -13601,7 +13601,7 @@
 19	anim	anim	NOUN	_	_	17	obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:11
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:11
 # text = Pixabʼ: man utz taj kʼax kujchʼaw chikij nikʼaj qachil.
 # text[spa'] = Consejo: no es bueno que hablemos malo sobre amigo otro.
 # labels = complete check-translation
@@ -13619,7 +13619,7 @@
 11	qachil	achiʼl	NOUN	_	Number[psor]=Plur|Person[psor]=1	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:12
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:12
 # text = Kqabʼij man kekowin taj.
 # text[spa'] = Decimos que no pueden.
 # labels = complete
@@ -13629,7 +13629,7 @@
 4	taj	taj	AUX	_	Polarity=Neg	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:13
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:13
 # text = Xa rajawaxik kqatoʼ qibʼ pa qakʼaslemal.
 # text[spa'] = Sólo es necesario que ayudemos a nosotros mismos en nuestras vidas.
 # labels = complete
@@ -13669,7 +13669,7 @@
 6	kebʼ	kebʼ	NUM	_	_	7	nummod	_	_
 7	kʼaʼm	kʼaʼm	NOUN	_	_	5	obj	_	_
 8	ulew	ulew	NOUN	_	_	7	nmod	_	_
-9	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	10	mark	_	_
+9	rech	rech	SCONJ	_	_	10	mark	_	_
 10	kabʼan	bʼan	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	5	advcl	_	_
 11	ri	ri	DET	_	Definite=Def|PronType=Art	12	det	_	_
 12	tijobʼal	tijobʼal	NOUN	_	_	10	nsubj	_	SpaceAfter=No
@@ -13803,7 +13803,7 @@
 20	tzij	tzij	NOUN	_	_	17	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = cuentos:Ri_k’wa’.wiki:1
+# sent_id = cuentos:Ri_kʼwaʼ.wiki:1
 # text = Pa jun nim kʼacheʼlaj, kʼo jun kʼwaʼ sibʼalaj saqloloj, nim uwach.
 # text[spa'] = En un bosque grande, hay un pozo mucho blanco, su aspecto es grande.
 # labels = complete check-translation
@@ -13822,7 +13822,7 @@
 13	uwach	wach	NOUN	_	Number[psor]=Sing|Person[psor]=3	12	nsubj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = cuentos:Ri_k’wa’.wiki:5
+# sent_id = cuentos:Ri_kʼwaʼ.wiki:5
 # text = We kechajix taq le kʼwa jacha kinbʼij; junalik kʼo jaʼ xuqujeʼ sibʼalaj saqloloj.
 # text[spa'] = Si se cuidan los pozos como digo; eterno hay agua también mucho blanco.
 # labels = complete check-translation check-conjunction
@@ -13830,7 +13830,7 @@
 2	kechajix	chajij	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	10	advcl	_	_
 3	taq	taq	DET	_	Number=Plur	5	det	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
-5	kʼwa	k’wa’	NOUN	_	_	2	nsubj	_	_
+5	kʼwa	kʼwaʼ	NOUN	_	_	2	nsubj	_	_
 6	jacha	jacha	ADV	_	_	7	advmod	_	_
 7	kinbʼij	bʼij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	5	acl	_	SpaceAfter=No
 8	;	;	PUNCT	_	_	2	punct	_	_
@@ -13842,10 +13842,10 @@
 14	saqloloj	saqloloj	ADJ	_	_	10	conj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = cuentos:Ri_k’wa’.wiki:6
+# sent_id = cuentos:Ri_kʼwaʼ.wiki:6
 # text = Ri a Kel xkikot ri ranimaʼ, xuto ri xubʼij ri ratiʼt chech.
 # text[spa'] = Kel, su ánima estuvo feliz, ayudó que dijo la abuela a él.
-# labels = complete check-translation
+# labels = complete check-translation light-headed-relative
 1	Ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
 2	a	ala	NOUN	_	Gender=Masc|NounType=Clf	3	clf	_	_
 3	Kel	Kel	PROPN	_	Gender=Masc	4	dislocated	_	_
@@ -13854,7 +13854,7 @@
 6	ranimaʼ	animaʼ	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	xuto	toʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	parataxis	_	_
-9	ri	ri	PRON	_	PronType=Rel	8	obj	_	_
+9	ri	ri	DET	_	Definite=Def|PronType=Art	8	obj	_	_
 10	xubʼij	bʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	acl	_	_
 11	ri	ri	DET	_	Definite=Def|PronType=Art	12	det	_	_
 12	ratiʼt	atiʼt	NOUN	_	Number[psor]=Sing|Person[psor]=3	10	nsubj	_	_
@@ -13863,7 +13863,7 @@
 14	ech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
 15	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:Ri_k’wa’.wiki:10
+# sent_id = cuentos:Ri_kʼwaʼ.wiki:10
 # text = Xa rumal ketaʼm konojel ri winaq kkiqumuj le jaʼ.
 # text[spa'] = Sólo por eso lo supieron todas las personas que beben el agua.
 # labels = complete check-translation
@@ -13878,7 +13878,7 @@
 9	jaʼ	jaʼ	NOUN	_	_	7	obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Ri_sub’unel.wiki:4
+# sent_id = cuentos:Ri_subʼunel.wiki:4
 # text = Te kʼu kunaʼo le tataʼ, are nabʼe xsikir taq raqan, uqʼabʼ rumal xibʼribʼ.
 # text[spa'] = Ahora pero lo siente el señor, primero se durmieron sus pies y sus manos por él miedo.
 # labels = incomplete
@@ -13967,7 +13967,7 @@
 13	tukur	tukur	NOUN	_	_	11	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Ri_xojoj_kech_k’oyab’.wiki:4
+# sent_id = cuentos:Ri_xojoj_kech_kʼoyabʼ.wiki:4
 # text = Rumal ri kʼax xkibʼan chi ke kebʼ alaxik, kibʼiʼ Jun Ajpu rachiʼl Jun Jun Ajpu.
 # text[spa'] = Por el mal hicieron a ellos dos clanes, su nombre de Hunahpú y su compañero Hun-Hunahpú.
 # labels = complete check-translation
@@ -13989,7 +13989,7 @@
 16	Ajpu	Ajpu	PROPN	_	Gender=Masc	14	flat	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:2
+# sent_id = cuentos:Sakʼaj_alaj_a_Siʼs.wiki:2
 # text = Xa rumal karaj kretaʼmaj unikʼoxik xuqujeʼ utzʼibʼaxik uwach wuj, utz karil le etzʼanem xuqujeʼ le bʼix.
 # text[spa'] = Sólo quiere aprender leer también escribir a libro, le gusta el juego también el canto.
 # labels = complete check-attachment
@@ -14012,7 +14012,7 @@
 17	bʼix	bʼix	NOUN	_	_	14	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:3
+# sent_id = cuentos:Sakʼaj_alaj_a_Siʼs.wiki:3
 # text = Xopan jun qʼij xbʼe utukel pa tijobʼal xuriq apanoq jupuq tzʼiʼ pa ri bʼe.
 # text[spa'] = Llegó un día fue solo en escuela encontró una camada de perros en la senda.
 # labels = complete
@@ -14034,7 +14034,7 @@
 15	bʼe	bʼe	NOUN	_	_	8	obl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:7
+# sent_id = cuentos:Sakʼaj_alaj_a_Siʼs.wiki:7
 # text = Ri nan Toʼn aninaq xukʼexo ratzʼyaq ri ral, xukʼam bʼi pa tinimit rukʼ ajkun.
 # text[spa'] = Toʼn cambió la ropa del niño, recibió en tierra con médico.
 # labels = complete check-translation
@@ -14057,7 +14057,7 @@
 16	ajkun	ajkun	NOUN	_	_	15	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:9
+# sent_id = cuentos:Sakʼaj_alaj_a_Siʼs.wiki:9
 # text = Jewa xkibʼano xetzalij cho kachoch rukʼ kikotemal.
 # text[spa'] = Así lo hicieron volver a casa con placer.
 # labels = complete check-complement
@@ -14074,7 +14074,7 @@
 9	kikotemal	kikotemal	NOUN	_	_	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = cuentos:Sutz’_sachanel.wiki:2
+# sent_id = cuentos:Sutzʼ_sachanel.wiki:2
 # text = Nojel qʼij ri a Tiʼx kuyuqʼuj le taq awaj jelaʼ pa nikʼaj jaʼ, chirij ri juyubʼ ubʼiʼ Tenaʼ.
 # text[spa'] = Cada día Tiʼx pastorea los animales allá en agua otra, atrás de la montaña de nombre Tenaʼ.
 # labels = complete check-attachment
@@ -14101,7 +14101,7 @@
 20	Tenaʼ	Tenaʼ	PROPN	_	_	19	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = cuentos:Sutz’_sachanel.wiki:7
+# sent_id = cuentos:Sutzʼ_sachanel.wiki:7
 # text = Ri a Tiʼx xeresaj ri awajibʼ, xbʼe pa yuqʼ.
 # text[spa'] = Tiʼx quitó los animales, fue a pastorear.
 # labels = complete
@@ -14117,7 +14117,7 @@
 10	yuqʼ	yuqʼ	NOUN	_	_	8	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:Sutz’_sachanel.wiki:15
+# sent_id = cuentos:Sutzʼ_sachanel.wiki:15
 # text = Xetzalij bʼi kukʼ le awaj rukʼ kikotemal.
 # text[spa'] = Volvieron con el animal con placer.
 # labels = complete
@@ -14130,7 +14130,7 @@
 7	kikotemal	kikotemal	NOUN	_	_	6	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = cuentos:Upixab’_nan_To’n.wiki:5
+# sent_id = cuentos:Upixabʼ_nan_Toʼn.wiki:5
 # text = Ri a Teʼk xumaltyoxij che ri ratiʼt, rumal ri utzalaj noʼjibʼal xukʼut chech.
 # text[spa'] = Teʼk dio gracias a la abuela, por la idea buenísima que le enseñó.
 # labels = complete check-relative
@@ -14154,7 +14154,7 @@
 16	ech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
 17	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = cuentos:Upixab’_nan_To’n.wiki:6
+# sent_id = cuentos:Upixabʼ_nan_Toʼn.wiki:6
 # text = Pa jun qʼij riʼ, le a Teʼk, kel ukʼuʼx chech ri joʼq, man karaj ta chik kakʼatisax le joʼq.
 # text[spa'] = En día de estos, el Teʼk, tiene compasión del ?, no quiere que otra vez se encienda el ?
 # labels = complete check-translation
@@ -16695,7 +16695,7 @@
 4	pa	pa	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	nimatijobʼal	nimatijobʼal	NOUN	_	_	2	obl	_	_
-7	rumal	umal	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	8	mark	_	_
+7	rumal	rumal	SCONJ	_	_	8	mark	_	_
 8-9	xinkosik	_	_	_	_	_	_	_	SpaceAfter=No
 8	xinkos	kos	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	2	advcl	_	_
 9	ik	ik	AUX	_	_	8	aux:ss	_	_
@@ -18243,7 +18243,7 @@
 12	na	na	AUX	_	Polarity=Neg	13	aux	_	_
 13	xkowin	kowin	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	3	conj	_	_
 14	taj	taj	AUX	_	Polarity=Neg	13	aux	_	_
-15	rumal	umal	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	17	mark	_	_
+15	rumal	rumal	SCONJ	_	_	17	mark	_	_
 16	sibʼalaj	sibʼalaj	ADV	_	_	17	advmod	_	_
 17	nim	nim	ADJ	_	_	13	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
