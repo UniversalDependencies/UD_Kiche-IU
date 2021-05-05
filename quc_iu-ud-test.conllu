@@ -51,7 +51,7 @@
 # labels = complete
 1-2	Kinwilo	_	_	_	_	_	_	_	_
 1	Kinwil	il	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	4	mark	_	_
 4	utz	utz	ADJ	_	_	1	ccomp	_	_
 5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -79,7 +79,7 @@
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4-5	katchakunik	_	_	_	_	_	_	_	SpaceAfter=No
 4	katchakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	2	dep	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	we	we¹	SCONJ	_	_	9	mark	_	_
 8	man	man	PART	_	Polarity=Neg	9	advmod:neg	_	_
@@ -99,7 +99,7 @@
 3	chiʼ	chiʼ	SCONJ	_	_	4	mark	_	_
 4-5	xulik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xul	ul	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	advcl	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = almg-examples:72
@@ -390,7 +390,7 @@
 1	Utz	utz	ADJ	_	_	0	root	_	_
 2	we	we¹	SCONJ	_	_	3	mark	_	_
 3	kwar	war	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
-4	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	3	aux	_	SpaceAfter=No
+4	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	3	dep:agr	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = almg-examples:114
@@ -403,7 +403,7 @@
 3	alaxik	alaxik	NOUN	_	_	1	nmod	_	_
 4-5	keʼetzʼanik	_	_	_	_	_	_	_	SpaceAfter=No
 4	keʼetzʼan	etzʼan	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = almg-examples:115
@@ -512,7 +512,7 @@
 1	Amaqʼel	amaqʼel	ADV	_	_	2	advmod	_	_
 2-3	kinnumik	_	_	_	_	_	_	_	SpaceAfter=No
 2	kinnum	num	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = almg-examples:129
@@ -603,7 +603,7 @@
 1	Xintaq	taq	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	bʼik	_	_	_	_	_	_	_	_
 2	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
-3	k	ik	AUX	_	_	2	aux:ss	_	_
+3	k	ik	PART	_	_	2	dep:ss	_	_
 4	jun	jun	DET	_	Definite=Ind|PronType=Art	6	det	_	_
 5	aninaq	aninäq	ADJ	_	_	6	amod	_	_
 6	taqawuj	taqawuj	NOUN	_	_	1	obj	_	_
@@ -635,7 +635,7 @@
 1	Aninaqil	aninaqil	ADV	_	_	2	advmod	_	_
 2-3	katpetik	_	_	_	_	_	_	_	SpaceAfter=No
 2	katpet	pet	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = almg-examples:140
@@ -703,7 +703,7 @@
 1	Tajin	tajin	AUX	_	Aspect=Prog	2	aux	_	_
 2-3	kinatinik	_	_	_	_	_	_	_	SpaceAfter=No
 2	kinatin	atin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = almg-examples:161
@@ -855,7 +855,7 @@
 3	yabʼil	yabʼil	NOUN	_	_	1	nmod	_	_
 4-5	xbʼaqarik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xbʼaqar	bʼaqar	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = almg-examples:215
@@ -908,7 +908,7 @@
 1	Kintaq	taq	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	bʼik	_	_	_	_	_	_	_	_
 2	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
-3	k	ik	AUX	_	_	2	aux:ss	_	_
+3	k	ik	PART	_	_	2	dep:ss	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	nukʼojol	kʼojolaxel	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	obj	_	_
 6-7	che	_	_	_	_	_	_	_	_
@@ -1065,7 +1065,7 @@
 1	Xkanaj	kanaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2-3	kanoq	_	_	_	_	_	_	_	_
 2	kan	kan	ADV	_	AdvType=Dir	1	advmod	_	_
-3	oq	oq	AUX	_	_	2	aux:ss	_	_
+3	oq	oq	PART	_	_	2	dep:ss	_	_
 4	chi	chi	ADP	_	_	5	case	_	_
 5	uxeʼ	xeʼ	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
 6	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
@@ -1153,7 +1153,7 @@
 3	xretaʼmaj	etaʼmaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4-5	kachʼawik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kachʼaw	chʼaw	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	3	xcomp	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = almg-examples:444
@@ -1211,7 +1211,7 @@
 2	qʼor	qʼor	NOUN	_	_	3	nsubj	_	_
 3-4	xchʼuqik	_	_	_	_	_	_	_	SpaceAfter=No
 3	xchʼuq	chʼuq	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = almg-examples:505
@@ -1315,7 +1315,7 @@
 3	aweqeleʼn	eqeleʼn	NOUN	_	Number[psor]=Sing|Person[psor]=2	1	nsubj	_	_
 4-5	xariqo	_	_	_	_	_	_	_	SpaceAfter=No
 4	xariq	riq	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	3	acl	_	_
-5	o	u	AUX	_	_	4	aux:ss	_	_
+5	o	u	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = almg-examples:529
@@ -1386,7 +1386,7 @@
 3	alabʼomabʼ	alabʼom	NOUN	_	Number=Plur	1	nmod	_	_
 4-5	keʼetzʼanik	_	_	_	_	_	_	_	SpaceAfter=No
 4	keʼetzʼan	etzʼan	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = almg-examples:550
@@ -1396,7 +1396,7 @@
 # labels = complete check-complement
 1-2	Xawilo	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xawil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	xqʼatan	qʼat	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Antip	1	ccomp	_	_
 5	le	le	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -1712,7 +1712,7 @@
 1	Tajin	tajin	AUX	_	Aspect=Prog	2	aux	_	_
 2-3	kejachʼanik	_	_	_	_	_	_	_	SpaceAfter=No
 2	kejachʼan	jächʼ	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = almg-examples:653
@@ -1921,7 +1921,7 @@
 3	xukʼam	kʼam	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4-5	bʼik	_	_	_	_	_	_	_	_
 4	bʼi	bʼi	ADV	_	AdvType=Dir	3	advmod	_	_
-5	k	ik	AUX	_	_	4	aux:ss	_	_
+5	k	ik	PART	_	_	4	dep:ss	_	_
 6	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	akʼ	äkʼ	NOUN	_	_	3	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
@@ -1968,7 +1968,7 @@
 1	Xinkʼayij	kʼayij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	bʼik	_	_	_	_	_	_	_	_
 2	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
-3	k	ik	AUX	_	_	1	aux:ss	_	_
+3	k	ik	PART	_	_	1	dep:ss	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	aq	aq	NOUN	_	_	1	obj	_	_
 6	rukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
@@ -1986,7 +1986,7 @@
 3	tajin	tajin	AUX	_	Aspect=Prog	4	aux	_	_
 4-5	kajuluwik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kajuluw	juluw	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = almg-examples:811
@@ -1998,7 +1998,7 @@
 2	numam	mam	NOUN	_	Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 3-4	xkamik	_	_	_	_	_	_	_	_
 3	xkam	käm	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	are	are	PART	_	Focus=Yes	7	mark	_	_
 6	taq	taq	SCONJ	_	_	5	fixed	_	_
 7	kʼo	kʼo	PART	_	_	3	advcl	_	_
@@ -2077,7 +2077,7 @@
 # labels = complete
 1-2	Chinakuyuʼ	_	_	_	_	_	_	_	_
 1	Chinakuy	kuy	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=2|Subcat=Tran	0	root	_	_
-2	uʼ	uʼ	AUX	_	_	1	aux:ss	_	_
+2	uʼ	uʼ	PART	_	_	1	dep:ss	_	_
 3-4	che	_	_	_	_	_	_	_	_
 3	ch	chi	ADP	_	_	4	case	_	_
 4	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
@@ -2323,7 +2323,7 @@
 2	ixoq	ixoq	NOUN	_	_	3	nsubj	_	_
 3-4	xkamik	_	_	_	_	_	_	_	SpaceAfter=No
 3	xkam	käm	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = almg-examples:899
@@ -2356,7 +2356,7 @@
 1	Xatkanaj	kanaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2-3	kanoq	_	_	_	_	_	_	_	_
 2	kan	kan	ADV	_	AdvType=Dir	1	advmod	_	_
-3	oq	oq	AUX	_	_	2	aux:ss	_	_
+3	oq	oq	PART	_	_	2	dep:ss	_	_
 4	kukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	1	obl	_	_
 5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	anan	nan¹	NOUN	_	Number[psor]=Sing|Person[psor]=2	4	nmod	_	_
@@ -2398,7 +2398,7 @@
 5	Max	Max	PROPN	_	Gender=Masc	3	nmod	_	_
 6-7	kpetik	_	_	_	_	_	_	_	SpaceAfter=No
 6	kpet	pet	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-7	ik	ik	AUX	_	_	6	aux:ss	_	_
+7	ik	ik	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = almg-examples:913
@@ -2409,7 +2409,7 @@
 1	Tajin	tajin	AUX	_	Aspect=Prog	2	aux	_	_
 2-3	kaqʼanik	_	_	_	_	_	_	_	_
 2	kaqʼan	aqʼan	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	pa	pa	ADP	_	_	5	case	_	_
 5	uwiʼ	wiʼ	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
 6	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
@@ -2425,7 +2425,7 @@
 2	chʼichʼ	chʼichʼ	NOUN	_	_	3	nsubj	_	_
 3-4	kasilabʼik	_	_	_	_	_	_	_	SpaceAfter=No
 3	kasilabʼ	salabʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = almg-examples:932
@@ -2460,7 +2460,7 @@
 2	tajin	tajin	AUX	_	Aspect=Prog	3	aux	_	_
 3-4	ktchʼabʼexik	_	_	_	_	_	_	_	SpaceAfter=No
 3	ktchʼabʼex	chʼabʼej	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = almg-examples:936
@@ -2541,7 +2541,7 @@
 2	achi	achi	NOUN	_	_	3	nsubj	_	_
 3-4	kbʼek	_	_	_	_	_	_	_	_
 3	kbʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	k	ik	AUX	_	_	3	aux:ss	_	_
+4	k	ik	PART	_	_	3	dep:ss	_	_
 5	pa	pa	ADP	_	_	7	case	_	_
 6	utuj	tuj	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 7	juyubʼ	juyubʼ	NOUN	_	_	3	nmod	_	SpaceAfter=No
@@ -2587,7 +2587,7 @@
 2	nubʼiʼ	bʼiʼ	NOUN	_	Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 3-4	kʼolik	_	_	_	_	_	_	_	SpaceAfter=No
 3	kʼol	kʼo	PART	_	_	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = almg-examples:961
@@ -2901,7 +2901,7 @@
 2	tʼuʼy	tʼuʼy	NOUN	_	_	3	nsubj	_	_
 3-4	kpaqʼowik	_	_	_	_	_	_	_	SpaceAfter=No
 3	kpaqʼow	paqʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = almg-examples:1027
@@ -2945,7 +2945,7 @@
 1	Kattzaq	tzaq	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2-3	bʼik	_	_	_	_	_	_	_	_
 2	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
-3	k	ik	AUX	_	_	2	aux:ss	_	_
+3	k	ik	PART	_	_	2	dep:ss	_	_
 4	chi	chi	ADP	_	_	5	case	_	_
 5	upam	pam	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
 6	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
@@ -2982,7 +2982,7 @@
 1	Xanimaj	animaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2-3	bʼik	_	_	_	_	_	_	_	_
 2	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
-3	k	ik	AUX	_	_	2	aux:ss	_	_
+3	k	ik	PART	_	_	2	dep:ss	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	kuk	kuk	NOUN	_	_	1	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
@@ -3078,7 +3078,7 @@
 3	tajin	tajin	AUX	_	Aspect=Prog	4	aux	_	_
 4-5	kkʼisik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kkʼis	kʼis	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = almg-examples:1065
@@ -3141,7 +3141,7 @@
 2	na	na	ADV	_	Tense=Fut	1	advmod	_	_
 3-4	bʼik	_	_	_	_	_	_	_	_
 3	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
-4	k	ik	AUX	_	_	3	aux:ss	_	_
+4	k	ik	PART	_	_	3	dep:ss	_	_
 5	chweʼq	chweʼq	ADV	_	_	1	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -3222,7 +3222,7 @@
 1	Sibʼalaj	sibʼalaj	ADV	_	_	2	advmod	_	_
 2-3	xinkʼaʼnarik	_	_	_	_	_	_	_	SpaceAfter=No
 2	xinkʼaʼnar	kʼaʼnar	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = almg-examples:1095
@@ -3410,7 +3410,7 @@
 1	Xkʼis	kʼis	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 2-3	kanoq	_	_	_	_	_	_	_	_
 2	kan	kan	ADV	_	AdvType=Dir	1	advmod	_	_
-3	oq	oq	AUX	_	_	2	aux:ss	_	_
+3	oq	oq	PART	_	_	2	dep:ss	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	qachak	chak	NOUN	_	Number[psor]=Plur|Person[psor]=1	1	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
@@ -3439,7 +3439,7 @@
 1	Tajin	tajin	AUX	_	Aspect=Prog	2	aux	_	_
 2-3	katkʼiyik	_	_	_	_	_	_	_	SpaceAfter=No
 2	katkʼiy	kʼiy	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = almg-examples:1155
@@ -3652,7 +3652,7 @@
 1	Lawetal	lawetal	ADJ	_	_	0	root	_	_
 2-3	kanoq	_	_	_	_	_	_	_	_
 2	kan	kan	ADV	_	AdvType=Dir	1	advmod	_	_
-3	oq	oq	AUX	_	_	2	aux:ss	_	_
+3	oq	oq	PART	_	_	2	dep:ss	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	uchiʼ	chiʼ	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nsubj	_	_
 6	ja	ja	NOUN	_	_	5	nmod	_	SpaceAfter=No
@@ -3866,7 +3866,7 @@
 2	kinmajij	majij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3-4	bʼik	_	_	_	_	_	_	_	_
 3	bʼi	bʼi	ADV	_	AdvType=Dir	2	advmod	_	_
-4	k	ik	AUX	_	_	3	aux:ss	_	_
+4	k	ik	PART	_	_	3	dep:ss	_	_
 5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	nuchak	chak	NOUN	_	Number[psor]=Sing|Person[psor]=1	2	obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -4067,7 +4067,7 @@
 3	tajin	tajin	AUX	_	Aspect=Prog	4	aux	_	_
 4-5	kchakunik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kchakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = almg-examples:1344
@@ -4101,7 +4101,7 @@
 2	jaʼ	jaʼ	NOUN	_	_	3	nsubj	_	_
 3-4	kamiqʼik	_	_	_	_	_	_	_	_
 3	kamiqʼ	miqʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	chi	chi	ADP	_	_	6	case	_	_
 6	uwach	wach	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 7	ri	ri	DET	_	Definite=Def|PronType=Art	8	det	_	_
@@ -4315,7 +4315,7 @@
 1	Tajin	tajin	AUX	_	Aspect=Prog	2	aux	_	_
 2-3	kamusmutik	_	_	_	_	_	_	_	SpaceAfter=No
 2	kamusmut	musmut	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = almg-examples:1404
@@ -4371,7 +4371,7 @@
 1	Nabʼe	nabʼe	ADV	_	_	2	advmod	_	_
 2-3	xatopanik	_	_	_	_	_	_	_	SpaceAfter=No
 2	xatopan	opan	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = almg-examples:1418
@@ -4418,7 +4418,7 @@
 3	jaʼ	jaʼ	NOUN	_	_	2	goeswith	_	_
 4-5	xinalexik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xinalex	alax	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = almg-examples:1437
@@ -4443,7 +4443,7 @@
 1	Kujbʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2-3	bʼik	_	_	_	_	_	_	_	_
 2	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
-3	k	ik	AUX	_	_	2	aux:ss	_	_
+3	k	ik	PART	_	_	2	dep:ss	_	_
 4	nim	nim	ADJ	_	_	5	amod	_	_
 5	aqʼabʼ	aqʼäbʼ	NOUN	_	_	1	obl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
@@ -4505,11 +4505,11 @@
 1	We	we¹	SCONJ	_	_	2	mark	_	_
 2-3	katnimanik	_	_	_	_	_	_	_	_
 2	katniman	niman	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	5	advcl	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	utz	utz	ADV	_	_	5	advmod	_	_
 5-6	kelik	_	_	_	_	_	_	_	SpaceAfter=No
 5	kel	el	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = almg-examples:1466
@@ -4558,7 +4558,7 @@
 2	awa	wa	NOUN	_	Number[psor]=Sing|Person[psor]=2	3	obj	_	_
 3-4	katijo	_	_	_	_	_	_	_	SpaceAfter=No
 3	katij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = almg-examples:1476
@@ -4587,7 +4587,7 @@
 # labels = complete
 1-2	Chqanukʼuʼ	_	_	_	_	_	_	_	_
 1	Chqanukʼ	nukʼ	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	_
-2	uʼ	uʼ	AUX	_	_	1	aux:ss	_	_
+2	uʼ	uʼ	PART	_	_	1	dep:ss	_	_
 3	ri	ri	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	qatzij	tzij	NOUN	_	Number[psor]=Plur|Person[psor]=1	1	obj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -4614,7 +4614,7 @@
 2	La	la	PART	_	PronType=Int	3	discourse	_	_
 3-4	kanumik	_	_	_	_	_	_	_	_
 3	kanum	num	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	nimaqʼabʼ	nimaqʼabʼ	NOUN	_	_	3	obl	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -4857,7 +4857,7 @@
 3	Niʼl	Niʼl	PROPN	_	Gender=Fem	4	obl	_	_
 4-5	kkʼayik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kkʼay	kʼay	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = almg-examples:1549
@@ -5063,7 +5063,7 @@
 4	xkanaj	kanaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	3	acl	_	_
 5-6	kanoq	_	_	_	_	_	_	_	SpaceAfter=No
 5	kan	kan	ADV	_	AdvType=Dir	4	advmod	_	_
-6	oq	oq	AUX	_	_	5	aux:ss	_	_
+6	oq	oq	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = almg-examples:1630
@@ -5124,7 +5124,7 @@
 3	xuyaʼ	yaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4-5	kanoq	_	_	_	_	_	_	_	_
 4	kan	kan	ADV	_	AdvType=Dir	3	advmod	_	_
-5	oq	oq	AUX	_	_	4	aux:ss	_	_
+5	oq	oq	PART	_	_	4	dep:ss	_	_
 6	jun	jun	DET	_	Definite=Ind|PronType=Art	7	det	_	_
 7	pixabʼ	pixabʼ	NOUN	_	_	3	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
@@ -5335,7 +5335,7 @@
 5	qawa	wa	NOUN	_	Number[psor]=Plur|Person[psor]=1	6	nsubj	_	_
 6-7	kujutoʼo	_	_	_	_	_	_	_	SpaceAfter=No
 6	kujutoʼ	toʼ	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	3	acl	_	_
-7	o	u	AUX	_	_	6	aux:ss	_	_
+7	o	u	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = almg-examples:1725
@@ -5361,7 +5361,7 @@
 3	tajin	tajin	AUX	_	Aspect=Prog	4	aux	_	_
 4-5	kchikopirik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kchikopir	chikopir	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = almg-examples:1729
@@ -5502,7 +5502,7 @@
 # labels = incomplete
 1-2	Xatqʼajik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xatqʼaj	qʼaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = almg-examples:1749
@@ -5543,7 +5543,7 @@
 1	Tajin	tajin	AUX	_	Aspect=Prog	2	aux	_	_
 2-3	kqʼanarik	_	_	_	_	_	_	_	_
 2	kqʼanar	qʼänar	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	wereʼaj	wareʼ	NOUN	_	_	2	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -5601,7 +5601,7 @@
 # text[orig] = Uj kʼo pa qʼequʼm.
 # text[spa] = Estamos a oscuras.
 # labels = complete
-1	Uj	uj	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	aux	_	_
+1	Uj	uj	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	dep:agr	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	pa	pa	ADP	_	_	4	case	_	_
 4	qʼequʼm	qʼequʼm	NOUN	_	_	2	obl	_	SpaceAfter=No
@@ -5648,7 +5648,7 @@
 # text[orig] = In ixöq kʼo ri nuqʼijiloʼxiq.
 # text[spa] = Soy mujer y tengo mi dignidad.
 # labels = complete
-1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	aux	_	_
+1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	dep:agr	_	_
 2	ixoq	ixoq	NOUN	_	_	0	root	_	_
 3	kʼo	kʼo	PART	_	_	2	parataxis	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -5712,7 +5712,7 @@
 # text[orig] = Ïn qʼiytajnäq rumal ri chak.
 # text[spa] = Estoy agotado por el trabajo.
 # labels = complete
-1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	aux	_	_
+1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	dep:agr	_	_
 2	qʼiytajnaq	qʼiytajinaq	ADJ	_	_	0	root	_	_
 3	rumal	umal	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -5822,7 +5822,7 @@
 5	utz	utz	ADV	_	_	6	advmod	_	_
 6-7	kujelik	_	_	_	_	_	_	_	SpaceAfter=No
 6	kujel	el	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-7	ik	ik	AUX	_	_	6	aux:ss	_	_
+7	ik	ik	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = almg-examples:1842
@@ -5974,7 +5974,7 @@
 5	neʼ	neʼ	NOUN	_	_	4	nmod	_	_
 6-7	kʼolik	_	_	_	_	_	_	_	SpaceAfter=No
 6	kʼol	kʼo	PART	_	_	0	root	_	_
-7	ik	ik	AUX	_	_	6	aux:ss	_	_
+7	ik	ik	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = almg-examples:1884
@@ -6119,7 +6119,7 @@
 2	kujach	jach	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3-4	kanoq	_	_	_	_	_	_	_	_
 3	kan	kan	ADV	_	AdvType=Dir	2	advmod	_	_
-4	oq	oq	AUX	_	_	3	aux:ss	_	_
+4	oq	oq	PART	_	_	3	dep:ss	_	_
 5	reqaleʼn	eqaleʼn	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	_
 6	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	achi	achi	NOUN	_	_	2	nsubj	_	SpaceAfter=No
@@ -6632,7 +6632,7 @@
 3	tajin	tajin	AUX	_	Aspect=Prog	4	aux	_	_
 4-5	kkamik	_	_	_	_	_	_	_	SpaceAfter=No
 4	k	käm	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	kamik	ik	AUX	_	_	4	aux:ss	_	_
+5	kamik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = almg-examples:1996
@@ -6965,7 +6965,7 @@
 # text[orig] = E kʼo chipök pa ri siwan.
 # text[spa] = En el barranco hay pájaros.
 # labels = complete
-1	E	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	2	aux	_	_
+1	E	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	2	dep:agr	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	chipok	chipok	NOUN	_	_	2	nsubj	_	_
 4	pa	pa	ADP	_	_	6	case	_	_
@@ -7241,7 +7241,7 @@
 1	Xintaq	taq	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	bʼik	_	_	_	_	_	_	_	_
 2	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
-3	k	ik	AUX	_	_	2	aux:ss	_	_
+3	k	ik	PART	_	_	2	dep:ss	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	taqkil	taqkil	NOUN	_	_	1	obj	_	_
 6-7	chech	_	_	_	_	_	_	_	_
@@ -7259,7 +7259,7 @@
 1	Xintokʼopij	tokʼopij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	kanoq	_	_	_	_	_	_	_	_
 2	kan	kan	ADV	_	AdvType=Dir	1	advmod	_	_
-3	oq	oq	AUX	_	_	2	aux:ss	_	_
+3	oq	oq	PART	_	_	2	dep:ss	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	uchiʼ	chiʼ	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	obj	_	_
 6	ja	ja	NOUN	_	_	5	nmod	_	SpaceAfter=No
@@ -7568,11 +7568,11 @@
 # text[orig] = E jobʼ ri tijoxelabʼ e kʼo pa ri tijobʼäl.
 # text[spa] = Son cinco los alumnos que están en la escuela.
 # labels = complete
-1	E	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	2	aux	_	_
+1	E	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	2	dep:agr	_	_
 2	jobʼ	jobʼ	NUM	_	_	0	root	_	_
 3	ri	ri	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	tijoxelabʼ	tijoxel	NOUN	_	Number=Plur	2	nsubj	_	_
-5	e	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	6	aux	_	_
+5	e	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	6	dep:agr	_	_
 6	kʼo	kʼo	PART	_	_	4	acl	_	_
 7	pa	pa	ADP	_	_	9	case	_	_
 8	ri	ri	DET	_	Definite=Def|PronType=Art	9	det	_	_
@@ -7631,7 +7631,7 @@
 8	tikoʼn	tikoʼn	NOUN	_	_	6	nsubj	_	_
 9-10	xinbʼano	_	_	_	_	_	_	_	SpaceAfter=No
 9	xinbʼan	bʼan	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	8	acl	_	_
-10	o	u	AUX	_	_	9	aux:ss	_	_
+10	o	u	PART	_	_	9	dep:ss	_	_
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = almg-examples:2189
@@ -7666,7 +7666,7 @@
 # text[orig] = Ïn kʼo che ri tobʼanel.
 # text[spa] = Estoy de ayudante.
 # labels = complete
-1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	aux	_	_
+1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	dep:agr	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3-4	che	_	_	_	_	_	_	_	_
 3	ch	chi	ADP	_	_	4	case	_	_
@@ -7684,7 +7684,7 @@
 2	kawaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	8	advcl	_	_
 3-4	katintoʼo	_	_	_	_	_	_	_	_
 3	katintoʼ	toʼ	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=1|Subcat=Tran|VerbForm=Fin	2	ccomp	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	xaq	xaq	ADV	_	_	8	advmod	_	_
 6	xu	xu	ADV	_	_	8	advmod	_	_
 7	wi	wi	PART	_	Focus=Yes	8	discourse	_	_
@@ -7746,7 +7746,7 @@
 3	kel	el	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 4-5	bʼik	_	_	_	_	_	_	_	_
 4	bʼi	bʼi	ADV	_	AdvType=Dir	3	advmod	_	_
-5	k	ik	AUX	_	_	4	aux:ss	_	_
+5	k	ik	PART	_	_	4	dep:ss	_	_
 6	are	are	PART	_	Focus=Yes	8	mark	_	_
 7	taq	taq	SCONJ	_	_	6	fixed	_	_
 8	kumajij	majij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	3	advcl	_	_
@@ -7819,7 +7819,7 @@
 1	Kaxalqʼatij	xalqʼatij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	kanoq	_	_	_	_	_	_	_	_
 2	kan	kan	ADV	_	AdvType=Dir	1	advmod	_	_
-3	oq	oq	AUX	_	_	2	aux:ss	_	_
+3	oq	oq	PART	_	_	2	dep:ss	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	cheʼ	cheʼ	NOUN	_	_	1	obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
@@ -7963,7 +7963,7 @@
 4	kel	el	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 5-6	bʼik	_	_	_	_	_	_	_	SpaceAfter=No
 5	bʼi	bʼi	ADV	_	AdvType=Dir	4	advmod	_	_
-6	k	ik	AUX	_	_	5	aux:ss	_	_
+6	k	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = almg-examples:2673
@@ -8053,7 +8053,7 @@
 5	awe	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=2	2	obl	_	_
 6-7	katok	_	_	_	_	_	_	_	_
 6	kato	toʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	2	csubj	_	_
-7	k	ik	AUX	_	_	6	aux:ss	_	_
+7	k	ik	PART	_	_	6	dep:ss	_	_
 8	pa	pa	ADP	_	_	9	case	_	_
 9	ja	ja	NOUN	_	_	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
@@ -8081,7 +8081,7 @@
 3	xutaq	taq	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4-5	bʼik	_	_	_	_	_	_	_	_
 4	bʼi	bʼi	ADV	_	AdvType=Dir	3	advmod	_	_
-5	k	ik	AUX	_	_	4	aux:ss	_	_
+5	k	ik	PART	_	_	4	dep:ss	_	_
 6	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	akʼal	akʼal	NOUN	_	_	3	obj	_	_
 8	pa	pa	ADP	_	_	9	case	_	_
@@ -8265,7 +8265,7 @@
 1	Kʼisbʼal	kʼisbʼal	NOUN	_	_	6	obl	_	_
 2-3	kanoq	_	_	_	_	_	_	_	SpaceAfter=No
 2	kan	kan	ADV	_	AdvType=Dir	6	advmod	_	_
-3	oq	oq	AUX	_	_	2	aux:ss	_	_
+3	oq	oq	PART	_	_	2	dep:ss	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	xoqujeʼ	xuqujʼe	ADV	_	_	6	advmod	_	_
 6	kkam	käm	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
@@ -8394,7 +8394,7 @@
 18	keqibʼ	qibʼ	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	16	xcomp	_	_
 19-20	ukoq	_	_	_	_	_	_	_	_
 19	uk	uk	ADV	_	AdvType=Dir	18	advmod	_	_
-20	oq	oq	AUX	_	_	19	aux:ss	_	_
+20	oq	oq	PART	_	_	19	dep:ss	_	_
 21	rukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	18	obl	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	28	punct	_	_
 23	rumal	umal	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	28	dep	_	_
@@ -8403,7 +8403,7 @@
 25	ch	chi	ADP	_	_	26	case	_	_
 26	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	23	dep	_	_
 27-28	ekʼo	_	_	_	_	_	_	_	_
-27	e	e	DET	_	Animacy=Anim|Number=Plur	28	aux	_	_
+27	e	e	PRON	_	Animacy=Anim|Number=Plur	28	dep:agr	_	_
 28	kʼo	kʼo	PART	_	_	18	advcl	_	_
 29	sibʼalaj	sibʼalaj	ADJ	_	_	30	amod	_	_
 30	winaq	winaq	NOUN	_	_	28	nsubj	_	SpaceAfter=No
@@ -8463,11 +8463,11 @@
 # text[orig] = (12) areʼ x-ø-r-aa-j [x-ø-in-bʼan-o]
 # text[eng] = He wanted me to do it. {Larsen 1988:392}
 # labels = complete 12:12: check-subordination
-1	Areʼ	areʼ	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	2	aux	_	_
+1	Areʼ	areʼ	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	2	dep:agr	_	_
 2	xraj	aj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3-4	xinbʼano	_	_	_	_	_	_	_	SpaceAfter=No
 3	xinbʼan	bʼan	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	2	ccomp	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:18:16:
@@ -8487,7 +8487,7 @@
 # labels = complete 25:26:
 1-2	Xepetik	_	_	_	_	_	_	_	_
 1	Xepet	pet	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
 4	kewaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	3	acl	_	_
 5	iwukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=2	4	obl	_	SpaceAfter=No
@@ -8510,10 +8510,10 @@
 # labels = complete 30:28: check-advcl
 1-2	Xojpetik	_	_	_	_	_	_	_	_
 1	Xojpet	pet	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	xolqakʼamaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 3	xolqakʼam	kʼam	VERB	_	Aspect=Perf|Movement=Lat|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
-4	aʼ	uʼ	AUX	_	_	3	aux:ss	_	_
+4	aʼ	uʼ	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:33:1:
@@ -8538,7 +8538,7 @@
 # labels = complete 34:2:
 1-2	Xojkichapo	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xojkichap	chap	VERB	_	Aspect=Perf|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:35:3:
@@ -8572,7 +8572,7 @@
 # labels = complete 38:6:
 1-2	Xojrilo	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xojril	il	VERB	_	Aspect=Perf|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:39:7:
@@ -8582,7 +8582,7 @@
 # labels = complete 39:7:
 1-2	Xojbʼinik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xojbʼin	bʼin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:40:8:
@@ -8592,7 +8592,7 @@
 # labels = complete 40:8:
 1-2	Xojilik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xojil	il	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:41:9:
@@ -8602,7 +8602,7 @@
 # labels = complete 41:9:
 1-2	Xojpixabʼanik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xojpixabʼan	pixabʼaj	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:43:11:c
@@ -8643,7 +8643,7 @@
 5	Chwitzʼaq	Chwitzʼaq	PROPN	_	_	4	obl	_	_
 6-7	xulik	_	_	_	_	_	_	_	SpaceAfter=No
 6	xul	ul	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-7	ik	ik	AUX	_	_	6	aux:ss	_	_
+7	ik	ik	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = canpixabaj2015:56:23:a
@@ -8653,7 +8653,7 @@
 # labels = complete 56:23:a
 1-2	Xojbʼinik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xojbʼin	bʼin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:56:23:b
@@ -8663,7 +8663,7 @@
 # labels = complete 56:23:b
 1-2	Xqatijo	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xqatij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:57:24:a
@@ -8673,7 +8673,7 @@
 # labels = complete 57:24:a
 1-2	Kojbʼinik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Kojbʼin	bʼin	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:57:24:b
@@ -8683,7 +8683,7 @@
 # labels = complete 57:24:b
 1-2	Kaqatijo	_	_	_	_	_	_	_	SpaceAfter=No
 1	Kaqatij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:58:25:a
@@ -8693,7 +8693,7 @@
 # labels = complete 58:25:a
 1-2	Chatbʼinoq	_	_	_	_	_	_	_	SpaceAfter=No
 1	Chatbʼin	bʼin	VERB	_	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr	0	root	_	_
-2	oq	oq	AUX	_	_	1	aux:ss	_	_
+2	oq	oq	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:58:25:b
@@ -8703,7 +8703,7 @@
 # labels = complete 58:25:b
 1-2	Jaʼwilaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 1	Jaʼwil	il	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	0	root	_	_
-2	aʼ	uʼ	AUX	_	_	1	aux:ss	_	_
+2	aʼ	uʼ	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:58:25:c
@@ -8713,7 +8713,7 @@
 # labels = complete 58:25:c
 1-2	Matbʼinik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Matbʼin	bʼin	VERB	_	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Polarity=Neg|Subcat=Intr	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:59:26:b
@@ -8738,7 +8738,7 @@
 2	kʼu	kʼut	PART	_	_	3	discourse	_	_
 3-4	xokik	_	_	_	_	_	_	_	SpaceAfter=No
 3	xok	ok	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	we	we¹	SCONJ	_	_	9	mark	_	_
 7-8	kʼna	_	_	_	_	_	_	_	_
@@ -8777,7 +8777,7 @@
 # labels = complete 63:30:a
 1-2	Chatbʼinoq	_	_	_	_	_	_	_	SpaceAfter=No
 1	Chatbʼin	bʼin	VERB	_	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr	0	root	_	_
-2	oq	oq	AUX	_	_	1	aux:ss	_	_
+2	oq	oq	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:64:31:a
@@ -8787,7 +8787,7 @@
 # labels = complete 64:31:a
 1-2	Chawilaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 1	Chawil	il	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	0	root	_	_
-2	aʼ	uʼ	AUX	_	_	1	aux:ss	_	_
+2	aʼ	uʼ	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:65:32:a
@@ -8797,7 +8797,7 @@
 # labels = complete 65:32:a
 1-2	Xineʼbʼinoq	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xineʼbʼin	bʼin	VERB	_	Aspect=Perf|Movement=Abl|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	oq	oq	AUX	_	_	1	aux:ss	_	_
+2	oq	oq	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:65:32:b
@@ -8807,7 +8807,7 @@
 # labels = complete 65:32:b
 1-2	Xiʼnwilaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xiʼnwil	il	VERB	_	Aspect=Perf|Movement=Abl|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	aʼ	uʼ	AUX	_	_	1	aux:ss	_	_
+2	aʼ	uʼ	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:66:33:a
@@ -8817,7 +8817,7 @@
 # labels = complete 66:33:a
 1-2	Matbʼinik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Matbʼin	bʼin	VERB	_	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Polarity=Neg|Subcat=Intr	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:66:33:b
@@ -8827,7 +8827,7 @@
 # labels = complete 66:33:b
 1-2	Mawilo	_	_	_	_	_	_	_	SpaceAfter=No
 1	Mawil	il	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Polarity=Neg|Subcat=Tran	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:67:34:
@@ -8837,7 +8837,7 @@
 # labels = complete 67:34:
 1-2	Xojbʼinik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xojbʼin	bʼin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:69:36:
@@ -8861,7 +8861,7 @@
 # labels = complete 70:37:
 1-2	Xojkilo	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xojkil	il	VERB	_	Aspect=Perf|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:74:41:
@@ -8914,11 +8914,11 @@
 # labels = complete 87:52:a check-pronoun
 1	E	e	INTJ	_	_	0	root	_	SpaceAfter=No
 2	...	...	PUNCT	_	_	4	punct	_	_
-3	in	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	aux	_	_
+3	in	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	dep:agr	_	_
 4	kawaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	1	parataxis	_	_
 5	katzjoj	tzijoj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	4	xcomp	_	_
 6	b'i	bʼi	ADV	_	AdvType=Dir	5	advmod	_	_
-7	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	5	aux	_	_
+7	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	5	dep:agr	_	_
 8-9	chwe	_	_	_	_	_	_	_	SpaceAfter=No
 8	ch	chi	ADP	_	_	9	case	_	_
 9	we	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	5	obl	_	_
@@ -8935,7 +8935,7 @@
 4	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
 5-6	xeqajik	_	_	_	_	_	_	_	SpaceAfter=No
 5	xeqaj	qaj	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	...	...	PUNCT	_	_	5	punct	_	_
 
 # sent_id = canpixabaj2015:88:53:b
@@ -8946,7 +8946,7 @@
 1	Achi	achi	NOUN	_	_	2	obl	_	_
 2-3	xatwilo	_	_	_	_	_	_	_	SpaceAfter=No
 2	xatwil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	o	u	AUX	_	_	2	aux:ss	_	_
+3	o	u	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:90:55:
@@ -8992,7 +8992,7 @@
 4	xojilow	il	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	0	root	_	_
 5-6	kanoq	_	_	_	_	_	_	_	SpaceAfter=No
 5	kan	kan	ADV	_	AdvType=Dir	4	advmod	_	_
-6	oq	oq	AUX	_	_	4	aux:ss	_	_
+6	oq	oq	PART	_	_	4	dep:ss	_	_
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = canpixabaj2015:104:66:b
@@ -9015,7 +9015,7 @@
 1	Jachin	jachin	PRON	_	PronType=Int	2	dislocated	_	_
 2-3	xatqʼalunik	_	_	_	_	_	_	_	SpaceAfter=No
 2	xatqʼalun	qʼaluj	VERB	_	Aspect=Perf|Number[obj]=Sing|Person[obj]=2|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:107:69:
@@ -9028,7 +9028,7 @@
 3	pa	pa	ADP	_	_	4	case	_	_
 4	qʼabʼ	qʼabʼ	NOUN	_	_	7	obl	_	_
 5	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	4	det	_	_
-6	oj	oj	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	aux	_	_
+6	oj	oj	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	dep:agr	_	_
 7	kʼo	kʼo	PART	_	_	0	root	_	_
 8	wi	wi	PART	_	Focus=Yes	7	discourse	_	_
 9	nudyos	Dyos	NOUN	_	Number[psor]=Sing|Person[psor]=1	7	vocative	_	SpaceAfter=No
@@ -9059,7 +9059,7 @@
 3	intat	tat	NOUN	_	Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 4-5	xiʼlowik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xilow	il	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	in	in	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
@@ -9125,11 +9125,11 @@
 # labels = complete 126:86:
 1-2	Xojkiʼkotik	_	_	_	_	_	_	_	_
 1	Xojkiʼkot	kikot	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	aretaq	aretaq	SCONJ	_	_	4	mark	_	_
 4-5	xatulik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xatul	ul	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:129:89:a
@@ -9139,10 +9139,10 @@
 # labels = complete 129:89:a
 1-2	Kinxikʼikʼik	_	_	_	_	_	_	_	_
 1	Kinxikʼikʼ	xikʼikʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	3	advcl	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	xinqʼaxik	_	_	_	_	_	_	_	SpaceAfter=No
 3	xinqʼax	qʼax	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = canpixabaj2015:129:89:b
@@ -9152,10 +9152,10 @@
 # labels = complete 129:89:b
 1-2	Kinbʼinik	_	_	_	_	_	_	_	_
 1	Kinbʼin	bʼin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	3	advcl	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	xinʼek	_	_	_	_	_	_	_	SpaceAfter=No
 3	xinʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	k	ik	AUX	_	_	3	aux:ss	_	_
+4	k	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = canpixabaj2015:133:2:
@@ -9165,7 +9165,7 @@
 # labels = complete 133:2:
 1-2	Xqilo	_	_	_	_	_	_	_	_
 1	Xqil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	5	mark	_	_
 4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	kukʼam	kʼam	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	ccomp	_	_
@@ -9224,7 +9224,7 @@
 # labels = complete 138:8:
 1-2	Kaqilo	_	_	_	_	_	_	_	_
 1	Kaqil	il	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	5	mark	_	_
 4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	kojukʼam	kʼam	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	ccomp	_	_
@@ -9279,7 +9279,7 @@
 6	w	w	PART	_	Focus=Yes	5	discourse	_	_
 7-8	kanoq	_	_	_	_	_	_	_	SpaceAfter=No
 7	kan	kan	ADV	_	AdvType=Dir	5	advmod	_	_
-8	oq	oq	AUX	_	_	7	aux:ss	_	_
+8	oq	oq	PART	_	_	7	dep:ss	_	_
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:143:13:b
@@ -9291,7 +9291,7 @@
 2	jampaʼ	jampaʼ	ADV	_	PronType=Int	3	advmod	_	_
 3-4	kojʼek	_	_	_	_	_	_	_	SpaceAfter=No
 3	kojʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-4	k	ik	AUX	_	_	3	aux:ss	_	_
+4	k	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:143:13:c
@@ -9303,7 +9303,7 @@
 2	jachin	jachin	PRON	_	PronType=Int	3	nsubj	_	_
 3-4	kaʼek	_	_	_	_	_	_	_	SpaceAfter=No
 3	kaʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-4	k	ik	AUX	_	_	3	aux:ss	_	_
+4	k	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:144:14:a
@@ -9320,7 +9320,7 @@
 7	akʼal	akʼal	NOUN	_	_	8	nsubj	_	_
 8-9	kixtzuquwik	_	_	_	_	_	_	_	SpaceAfter=No
 8	kixtzuquw	tzuq	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=2|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	2	ccomp	_	_
-9	ik	ik	AUX	_	_	8	aux:ss	_	_
+9	ik	ik	PART	_	_	8	dep:ss	_	_
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:144:14:b
@@ -9348,7 +9348,7 @@
 4	we	we¹	SCONJ	_	_	5	mark	_	_
 5-6	kaʼek	_	_	_	_	_	_	_	SpaceAfter=No
 5	ka	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	advcl	_	_
-6	ʼek	ik	AUX	_	_	5	aux:ss	_	_
+6	ʼek	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:147:17:a
@@ -9358,7 +9358,7 @@
 # labels = complete 147:17:a
 1-2	Xinqʼiʼo	_	_	_	_	_	_	_	_
 1	Xinqʼiʼ	qʼiʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	xinatin	atin	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 4	pa	pa	ADP	_	_	5	case	_	_
 5	joron	jorön	NOUN	_	_	3	obl	_	SpaceAfter=No
@@ -9385,7 +9385,7 @@
 5	wachajil	achajil	NOUN	_	Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
 6-7	kachakunik	_	_	_	_	_	_	_	SpaceAfter=No
 6	kachakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	ccomp	_	_
-7	ik	ik	AUX	_	_	6	aux:ss	_	_
+7	ik	ik	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:151:19:
@@ -9396,7 +9396,7 @@
 1	Xojutaqchiʼij	taqchiʼij	VERB	_	Aspect=Perf|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	xojʼek	_	_	_	_	_	_	_	SpaceAfter=No
 2	xojʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-3	k	ik	AUX	_	_	2	aux:ss	_	_
+3	k	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:152:20:
@@ -9407,7 +9407,7 @@
 1	Xraj	aj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	katʼek	_	_	_	_	_	_	_	SpaceAfter=No
 2	katʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-3	k	ik	AUX	_	_	2	aux:ss	_	_
+3	k	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:152:21:
@@ -9418,7 +9418,7 @@
 1	Pero	pero	CCONJ	_	_	2	cc	_	_
 2-3	xinkochʼo	_	_	_	_	_	_	_	_
 2	xinkochʼ	kochʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	o	u	AUX	_	_	2	aux:ss	_	_
+3	o	u	PART	_	_	2	dep:ss	_	_
 4	xkibʼij	bʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	2	ccomp	_	_
 5	tzij	tzij	NOUN	_	_	4	obj	_	_
 6-7	chwe	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9453,7 +9453,7 @@
 2	kawaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3-4	kintijo	_	_	_	_	_	_	_	_
 3	kintij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	2	ccomp	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:155:23:
@@ -9463,11 +9463,11 @@
 # labels = complete 155:23:
 1-2	Xinqʼiʼo	_	_	_	_	_	_	_	_
 1	Xinqʼiʼ	qʼiʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	takʼalik	takʼalik	ADJ	_	_	4	advmod	_	_
 4-5	xinpetik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xinpet	pet	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	xcomp	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:156:24:
@@ -9477,7 +9477,7 @@
 # labels = complete 156:24: check-antipassive
 1-2	Xuqʼiʼo	_	_	_	_	_	_	_	_
 1	Xuqʼiʼ	qʼiʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	are	are	PART	_	Focus=Yes	6	discourse	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	ukʼulel	kʼulel	NOUN	_	Number[psor]=Sing|Person[psor]=3	6	dislocated	_	_
@@ -9496,7 +9496,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	xuqʼiʼo	_	_	_	_	_	_	_	_
 5	xuqʼiʼ	qʼiʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	o	u	AUX	_	_	5	aux:ss	_	_
+6	o	u	PART	_	_	5	dep:ss	_	_
 7	xa	xa	ADV	_	_	10	advmod	_	_
 8	jun	jun	DET	_	Definite=Ind|PronType=Art	9	det	_	_
 9	akʼ	äkʼ	NOUN	_	_	10	nsubj	_	_
@@ -9513,7 +9513,7 @@
 # labels = complete 158:26:a
 1-2	Xuqʼiʼo	_	_	_	_	_	_	_	_
 1	Xuqʼiʼ	qʼiʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	xkamsax	kamsaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	1	ccomp	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	rachalal	achalal	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
@@ -9542,7 +9542,7 @@
 2	wibʼ	ibʼ	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	1	obj	_	_
 3-4	xinchʼawik	_	_	_	_	_	_	_	SpaceAfter=No
 3	xinchʼaw	chʼaw	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	xcomp	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:162:29:a
@@ -9563,7 +9563,7 @@
 # labels = complete 162:29:b
 1-2	Xinqʼiʼo	_	_	_	_	_	_	_	_
 1	Xinqʼiʼ	qʼiʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	xinatin	atin	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
@@ -9574,7 +9574,7 @@
 # text[orig] = c. In k-ø-in-bʼii-j na k-at-saach taj
 # text[eng] = I thought that you would not get lost.
 # labels = complete 162:29:c check-pronoun
-1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	aux	_	_
+1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	dep:agr	_	_
 2	kinbʼij	bʼij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	katsach	sach	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	2	ccomp	_	_
@@ -9588,7 +9588,7 @@
 # labels = complete 163:30:
 1-2	Xuqʼiʼo	_	_	_	_	_	_	_	_
 1	Xuqʼiʼ	qʼiʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	xatatin	atin	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 5	taj	taj	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
@@ -9599,7 +9599,7 @@
 # text[orig] = (31) In k-ø-in-bʼii-j [na k-at-saach taj]
 # text[eng] = I thought you would not get lost.
 # labels = complete 164:31: check-pronoun
-1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	aux	_	_
+1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	dep:agr	_	_
 2	kinbʼij	bʼij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	na	na	PART	_	Polarity=Neg	4	advmod:neg	_	_
 4	katsach	sach	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	2	ccomp	_	_
@@ -9706,12 +9706,12 @@
 # labels = complete 196:61:
 1-2	Xinwilo	_	_	_	_	_	_	_	_
 1	Xinwil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	5	mark	_	_
 4	takʼalik	takʼalik	ADJ	_	_	5	xcomp	_	_
 5-6	xulik	_	_	_	_	_	_	_	SpaceAfter=No
 5	xul	ul	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:201:66:
@@ -9997,7 +9997,7 @@
 3	tajin	tajin	AUX	_	Aspect=Prog	4	aux	_	_
 4-5	kachaponik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kachapon	chapon	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = canpixabaj2015:242:103:c
@@ -10013,7 +10013,7 @@
 5	tajin	tajin	AUX	_	Aspect=Prog	6	aux	_	_
 6-7	kuʼano	_	_	_	_	_	_	_	SpaceAfter=No
 6	kuʼan	bʼan	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-7	o	u	AUX	_	_	6	aux:ss	_	_
+7	o	u	PART	_	_	6	dep:ss	_	_
 8	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = canpixabaj2015:242:103:d
@@ -10029,7 +10029,7 @@
 5	tajin	tajin	AUX	_	Aspect=Prog	6	aux	_	_
 6-7	kuʼano	_	_	_	_	_	_	_	SpaceAfter=No
 6	kuʼan	bʼan	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-7	o	u	AUX	_	_	6	aux:ss	_	_
+7	o	u	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = canpixabaj2015:242:103:e
@@ -10042,7 +10042,7 @@
 3	tajin	tajin	AUX	_	Aspect=Prog	4	aux	_	_
 4-5	kuʼano	_	_	_	_	_	_	_	SpaceAfter=No
 4	kuʼan	bʼan	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-5	o	u	AUX	_	_	4	aux:ss	_	_
+5	o	u	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = canpixabaj2015:243:104:
@@ -10057,7 +10057,7 @@
 4	ichaj	ichaj	NOUN	_	_	2	obj	_	_
 5-6	xuʼano	_	_	_	_	_	_	_	SpaceAfter=No
 5	xuʼan	bʼan	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	o	u	AUX	_	_	5	aux:ss	_	_
+6	o	u	PART	_	_	5	dep:ss	_	_
 7	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = canpixabaj2015:248:2:
@@ -10164,7 +10164,7 @@
 3	akʼalabʼ	akʼal	NOUN	_	Number=Plur	1	nsubj	_	_
 4-5	kewaʼik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kewaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:269:25:a
@@ -10174,7 +10174,7 @@
 # labels = complete 269:25:a
 1-2	Xwaʼik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xwaʼ	waʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:270:26:a
@@ -10212,7 +10212,7 @@
 4	we	we¹	SCONJ	_	_	5	mark	_	_
 5-6	kixkitzuqu	_	_	_	_	_	_	_	SpaceAfter=No
 5	kixkitzuq	tzuq	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=2|Person[subj]=3|Subcat=Tran|VerbForm=Fin	2	advcl	_	_
-6	u	u	AUX	_	_	5	aux:ss	_	_
+6	u	u	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:278:34:a
@@ -10263,7 +10263,7 @@
 1	Waʼim	waʼ	VERB	_	Subcat=Intr|VerbForm=Inf	2	xcomp	_	_
 2-3	xuchapo	_	_	_	_	_	_	_	SpaceAfter=No
 2	xuchap	chap	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	o	u	AUX	_	_	2	aux:ss	_	_
+3	o	u	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:284:38:b
@@ -10282,7 +10282,7 @@
 # text[eng] = What s/he learned was to weave belts.
 # labels = complete 285:39: check-determiner
 1	Are	are	PART	_	Focus=Yes	5	discourse	_	_
-2	le	le	DET	_	Definite=Def|PronType=Art	3	mark	_	_
+2	le	le	SCONJ	_	_	3	mark	_	_
 3	ukemik	kem	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Inf|Voice=Pass	5	ccomp	_	_
 4	pas	pas	NOUN	_	_	3	nsubj	_	_
 5	xretaʼmaj	etaʼmaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -10318,10 +10318,10 @@
 # labels = complete 293:47:
 1-2	Xatwaʼik	_	_	_	_	_	_	_	_
 1	Xatwaʼ	waʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	3	ccomp	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	xinwilo	_	_	_	_	_	_	_	SpaceAfter=No
 3	xinwil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = canpixabaj2015:294:48:
@@ -10331,7 +10331,7 @@
 # labels = complete 294:48:
 1-2	Katʼek	_	_	_	_	_	_	_	_
 1	Kat	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	3	ccomp	_	_
-2	ʼek	ik	AUX	_	_	1	aux:ss	_	_
+2	ʼek	ik	PART	_	_	1	dep:ss	_	_
 3	xinta	ta	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -10342,11 +10342,11 @@
 # labels = complete 296:50:
 1-2	Xinwilo	_	_	_	_	_	_	_	_
 1	Xinwil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	4	mark	_	_
 4-5	xatwaʼik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xatwaʼ	waʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:299:53:
@@ -10358,7 +10358,7 @@
 2	chi	chi	SCONJ	_	_	3	mark	_	_
 3-4	kinʼek	_	_	_	_	_	_	_	SpaceAfter=No
 3	kin	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-4	ʼek	ik	AUX	_	_	3	aux:ss	_	_
+4	ʼek	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:301:55:a
@@ -10381,7 +10381,7 @@
 2	we	we¹	SCONJ	_	_	3	mark	_	_
 3-4	katʼek	_	_	_	_	_	_	_	SpaceAfter=No
 3	katʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-4	k	ik	AUX	_	_	3	aux:ss	_	_
+4	k	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:307:60:a
@@ -10421,7 +10421,7 @@
 2	karaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3-4	kutijo	_	_	_	_	_	_	_	_
 3	kutij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	2	ccomp	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:309:62:b
@@ -10435,7 +10435,7 @@
 4	anan	nan¹	NOUN	_	Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
 5-6	xutijo	_	_	_	_	_	_	_	_
 5	xutij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	2	ccomp	_	_
-6	o	u	AUX	_	_	5	aux:ss	_	_
+6	o	u	PART	_	_	5	dep:ss	_	_
 7	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:310:63:b
@@ -10450,7 +10450,7 @@
 4	qe	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=1	2	obl	_	_
 5-6	xqachʼajo	_	_	_	_	_	_	_	SpaceAfter=No
 5	xqachʼaj	chʼaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	2	dep	_	_
-6	o	u	AUX	_	_	5	aux:ss	_	_
+6	o	u	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:315:68:b
@@ -10461,7 +10461,7 @@
 1	Jachin	jachin	PRON	_	PronType=Int	6	nsubj	_	_
 2-3	xawilo	_	_	_	_	_	_	_	_
 2	xawil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	o	u	AUX	_	_	2	aux:ss	_	_
+3	o	u	PART	_	_	2	dep:ss	_	_
 4	chi	chi	SCONJ	_	_	6	mark	_	_
 5	are	are	PART	_	Focus=Yes	6	discourse	_	_
 6	xtijow	tij	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	2	ccomp	_	_
@@ -10480,7 +10480,7 @@
 4	ala	ala	NOUN	_	_	2	nsubj	_	_
 5-6	xawilo	_	_	_	_	_	_	_	SpaceAfter=No
 5	xawil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	4	acl	_	_
-6	o	u	AUX	_	_	5	aux:ss	_	_
+6	o	u	PART	_	_	5	dep:ss	_	_
 7	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:316:69:b
@@ -10495,7 +10495,7 @@
 5	tzʼiʼ	tzʼiʼ	NOUN	_	_	2	nsubj	_	_
 6-7	xawilo	_	_	_	_	_	_	_	SpaceAfter=No
 6	xawil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	2	acl	_	_
-7	o	u	AUX	_	_	6	aux:ss	_	_
+7	o	u	PART	_	_	6	dep:ss	_	_
 8	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:316:69:c
@@ -10506,7 +10506,7 @@
 1	Jas	jas	PRON	_	PronType=Int	2	obj	_	_
 2-3	xkiyako	_	_	_	_	_	_	_	_
 2	xkiyak	yak	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	ccomp	_	_
-3	o	u	AUX	_	_	2	aux:ss	_	_
+3	o	u	PART	_	_	2	dep:ss	_	_
 4	xata	ta	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -10593,7 +10593,7 @@
 4	chi	chi	SCONJ	_	_	5	mark	_	_
 5-6	xojalwoʼqa	_	_	_	_	_	_	_	_
 5	xojalwoʼ	waʼ	VERB	_	Aspect=Perf|Movement=Lat|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-6	qa	oq	AUX	_	_	5	aux:ss	_	_
+6	qa	oq	PART	_	_	5	dep:ss	_	_
 7	kukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -10620,7 +10620,7 @@
 4	chi	chi	SCONJ	_	_	5	mark	_	_
 5-6	kojalwoʼqa	_	_	_	_	_	_	_	_
 5	kojalwoʼ	waʼ	VERB	_	Aspect=Imp|Movement=Lat|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-6	qa	oq	AUX	_	_	5	aux:ss	_	_
+6	qa	oq	PART	_	_	5	dep:ss	_	_
 7	kukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -10670,7 +10670,7 @@
 2	jachin	jachin	PRON	_	PronType=Int	3	nsubj	_	_
 3-4	kapetik	_	_	_	_	_	_	_	SpaceAfter=No
 3	kapet	pet	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:348:11:
@@ -10683,7 +10683,7 @@
 2	ch	chi	ADP	_	_	3	case	_	_
 3	we	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	1	obl	_	_
 4	jawi	jawi	ADV	_	PronType=Int	6	advmod	_	_
-5	at	at	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	aux	_	_
+5	at	at	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	dep:agr	_	_
 6	kʼo	kʼo	PART	_	_	1	ccomp	_	_
 7	wi	wi	PART	_	Focus=Yes	6	discourse	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
@@ -10695,7 +10695,7 @@
 # labels = complete 350:13:
 1-2	Xkilo	_	_	_	_	_	_	_	_
 1	Xkil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	4	mark	_	_
 4	kinkʼoxomaj	kʼoxomaj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -10707,11 +10707,11 @@
 # labels = complete 351:14:
 1-2	Xinnaʼo	_	_	_	_	_	_	_	_
 1	Xinnaʼ	naʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	4	mark	_	_
 4-5	katpetik	_	_	_	_	_	_	_	SpaceAfter=No
 4	katpet	pet	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:353:15:
@@ -10723,7 +10723,7 @@
 2	jachin	jachin	PRON	_	PronType=Int	3	nsubj	_	_
 3-4	xulik	_	_	_	_	_	_	_	SpaceAfter=No
 3	xul	ul	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:355:17:
@@ -10733,11 +10733,11 @@
 # labels = complete 355:17: check-complement check-morphology
 1-2	Xinnaʼo	_	_	_	_	_	_	_	_
 1	Xinnaʼ	naʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	4	mark	_	_
 4-5	xattʼuyeʼik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xattʼuyeʼ	tʼuyiʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Tran|VerbForm=Fin|Voice=Pass	1	ccomp	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:356:18:
@@ -10749,7 +10749,7 @@
 2	chi	chi	SCONJ	_	_	3	mark	_	_
 3-4	xatulik	_	_	_	_	_	_	_	SpaceAfter=No
 3	xatul	ul	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:358:20:
@@ -10761,7 +10761,7 @@
 2	chi	chi	SCONJ	_	_	3	mark	_	_
 3-4	katulik	_	_	_	_	_	_	_	SpaceAfter=No
 3	katul	ul	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:362:24:a
@@ -10773,7 +10773,7 @@
 2	qibʼ	ibʼ	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=1|Reflex=Yes	1	obl	_	_
 3-4	kaqachapo	_	_	_	_	_	_	_	SpaceAfter=No
 3	kaqachap	chap	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	ccomp	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:362:24:b
@@ -10785,7 +10785,7 @@
 2	qibʼ	ibʼ	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=1|Reflex=Yes	1	obl	_	_
 3-4	xqachapo	_	_	_	_	_	_	_	SpaceAfter=No
 3	xqachap	chap	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	ccomp	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:364:26:a
@@ -10796,7 +10796,7 @@
 1	Xwaj	aj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	xinʼek	_	_	_	_	_	_	_	SpaceAfter=No
 2	xin	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-3	ʼek	ik	AUX	_	_	2	aux:ss	_	_
+3	ʼek	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:364:26:b
@@ -10807,7 +10807,7 @@
 1	Kawaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	katʼek	_	_	_	_	_	_	_	SpaceAfter=No
 2	kat	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-3	ʼek	ik	AUX	_	_	2	aux:ss	_	_
+3	ʼek	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:366:28:a
@@ -10817,10 +10817,10 @@
 # labels = complete 366:28:a
 1-2	Kakowinik	_	_	_	_	_	_	_	_
 1	Kakowin	kowin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	kabʼinik	_	_	_	_	_	_	_	SpaceAfter=No
 3	kabʼin	bʼin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	xcomp	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:370:31:a
@@ -10831,7 +10831,7 @@
 1	Kawaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	kinʼek	_	_	_	_	_	_	_	SpaceAfter=No
 2	kin	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-3	ʼek	ik	AUX	_	_	2	aux:ss	_	_
+3	ʼek	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:373:32:a
@@ -10842,7 +10842,7 @@
 1	Kinwoyʼej	oyʼej	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	katpetik	_	_	_	_	_	_	_	SpaceAfter=No
 2	katpet	pet	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:375:34:
@@ -10854,7 +10854,7 @@
 2	chi	chi	SCONJ	_	_	3	mark	_	_
 3-4	katʼek	_	_	_	_	_	_	_	SpaceAfter=No
 3	kat	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-4	ʼek	ik	AUX	_	_	3	aux:ss	_	_
+4	ʼek	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:379:37:
@@ -10922,7 +10922,7 @@
 3	ke	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	1	obl	_	_
 4-5	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	csubj	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:396:55:a
@@ -10936,7 +10936,7 @@
 3	ke	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	1	obl	_	_
 4-5	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	csubj	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:397:56:
@@ -10974,7 +10974,7 @@
 3	ke	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	1	obl	_	_
 4-5	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	csubj	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:400:59:b
@@ -11000,7 +11000,7 @@
 3	ke	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	1	obl	_	_
 4-5	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:401:60:b
@@ -11023,7 +11023,7 @@
 1	Xojutaqchiʼij	taqchiʼij	VERB	_	Aspect=Perf|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	xojwaʼik	_	_	_	_	_	_	_	SpaceAfter=No
 2	xojwaʼ	waʼ	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:405:63:a
@@ -11037,7 +11037,7 @@
 3	we	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	1	obl	_	_
 4-5	xinatinik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xinatin	atin	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	csubj	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:416:72:a
@@ -11052,7 +11052,7 @@
 4	chi	chi	SCONJ	_	_	5	mark	_	_
 5-6	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 5	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	csubj	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:416:72:b
@@ -11067,7 +11067,7 @@
 4	jachin	jachin	PRON	_	PronType=Int	5	nsubj	_	_
 5-6	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 5	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	dep	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:417:73:a
@@ -11082,7 +11082,7 @@
 4	chi	chi	SCONJ	_	_	5	mark	_	_
 5-6	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 5	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	dep	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:418:74:a
@@ -11097,7 +11097,7 @@
 4	chi	chi	SCONJ	_	_	5	mark	_	_
 5-6	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 5	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	dep	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:419:75:a
@@ -11112,7 +11112,7 @@
 4	chi	chi	SCONJ	_	_	5	mark	_	_
 5-6	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 5	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	dep	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:419:75:b
@@ -11129,7 +11129,7 @@
 6	chi	chi	SCONJ	_	_	7	mark	_	_
 7-8	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 7	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	csubj	_	_
-8	ik	ik	AUX	_	_	7	aux:ss	_	_
+8	ik	ik	PART	_	_	7	dep:ss	_	_
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:420:76:a
@@ -11143,7 +11143,7 @@
 3	ke	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	1	obl	_	_
 4-5	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	dep	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:420:76:b
@@ -11157,7 +11157,7 @@
 3	ke	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	1	obl	_	_
 4-5	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	dep	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:421:77:a
@@ -11173,7 +11173,7 @@
 5	ke	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	2	obl	_	_
 6-7	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 6	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	dep	_	_
-7	ik	ik	AUX	_	_	6	aux:ss	_	_
+7	ik	ik	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:421:77:b
@@ -11189,7 +11189,7 @@
 5	ke	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	2	obl	_	_
 6-7	xeatinik	_	_	_	_	_	_	_	SpaceAfter=No
 6	xeatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	dep	_	_
-7	ik	ik	AUX	_	_	6	aux:ss	_	_
+7	ik	ik	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:423:2:
@@ -11213,11 +11213,11 @@
 # labels = complete 426:5:
 1-2	Xojʼek	_	_	_	_	_	_	_	_
 1	Xojʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	k	ik	AUX	_	_	1	aux:ss	_	_
+2	k	ik	PART	_	_	1	dep:ss	_	_
 3-5	xeʼqilala	_	_	_	_	_	_	_	_
 3	x	il	VERB	_	Aspect=Perf|Movement=Abl|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	parataxis	_	_
-4	eʼ	uʼ	PART	_	_	3	aux:ss	_	_
-5	q	la	PART	_	_	3	aux	_	_
+4	eʼ	uʼ	PART	_	_	3	dep:ss	_	_
+5	q	la	PART	_	_	3	dep:agr	_	_
 6-7	rqasok	_	_	_	_	_	_	_	SpaceAfter=No
 6	r	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	qasok	sok	NOUN	_	Number[psor]=Plur|Person[psor]=1	3	obj	_	_
@@ -11230,11 +11230,11 @@
 # labels = complete 427:6: check-mark
 1-2	Kinchakunik	_	_	_	_	_	_	_	_
 1	Kinchakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	rech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
 4-5	kinwaʼik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kinwaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	3	acl	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:428:7:
@@ -11249,7 +11249,7 @@
 5	rech	rech	SCONJ	_	_	6	mark	_	_
 6-7	kaqatijo	_	_	_	_	_	_	_	SpaceAfter=No
 6	kaqatij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
-7	o	u	AUX	_	_	6	aux:ss	_	_
+7	o	u	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:433:12:
@@ -11263,7 +11263,7 @@
 4	rech	rech	SCONJ	_	_	5	mark	_	_
 5-6	kaqatijo	_	_	_	_	_	_	_	SpaceAfter=No
 5	kaqatij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
-6	o	u	AUX	_	_	5	aux:ss	_	_
+6	o	u	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:433:13:
@@ -11292,7 +11292,7 @@
 6	rech	rech	SCONJ	_	_	7	mark	_	_
 7-8	katzako	_	_	_	_	_	_	_	SpaceAfter=No
 7	katzak	tzak	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
-8	o	u	AUX	_	_	7	aux:ss	_	_
+8	o	u	PART	_	_	7	dep:ss	_	_
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:439:18:
@@ -11302,7 +11302,7 @@
 # labels = complete 439:18: check-compl
 1-2	Xkilo	_	_	_	_	_	_	_	_
 1	Xkil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	4	mark	_	_
 4	kinkʼoxomaj	kʼoxomaj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -11314,11 +11314,11 @@
 # labels = complete 440:19:
 1-2	Xukʼutu	_	_	_	_	_	_	_	_
 1	Xukʼut	kʼut	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	u	u	AUX	_	_	1	aux:ss	_	_
+2	u	u	PART	_	_	1	dep:ss	_	_
 3	rech	rech	SCONJ	_	_	4	mark	_	_
 4-5	kaqilo	_	_	_	_	_	_	_	SpaceAfter=No
 4	kaqil	il	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	ccomp	_	_
-5	o	u	AUX	_	_	4	aux:ss	_	_
+5	o	u	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:441:20:
@@ -11328,7 +11328,7 @@
 # labels = complete 441:20: check-compl
 1-2	Xkilo	_	_	_	_	_	_	_	_
 1	Xkil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	5	mark	_	_
 4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	kinkʼoxomaj	kʼoxomaj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	ccomp	_	_
@@ -11342,7 +11342,7 @@
 # labels = complete 442:21:
 1-2	Kinwaʼik	_	_	_	_	_	_	_	_
 1	Kinwaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	rech	rech	SCONJ	_	_	5	mark	_	_
 4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	kinyowaj	yowaj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
@@ -11356,11 +11356,11 @@
 # labels = complete 443:22:
 1-2	Kinchakunik	_	_	_	_	_	_	_	_
 1	Kinchakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	rech	rech	SCONJ	_	_	4	mark	_	_
 4-5	kinwaʼik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kinwaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:445:24:
@@ -11380,11 +11380,11 @@
 # labels = complete 446:25:a
 1-2	Kinchakunik	_	_	_	_	_	_	_	_
 1	Kinchakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	rech	rech	SCONJ	_	_	4	mark	_	_
 4-5	katwaʼik	_	_	_	_	_	_	_	SpaceAfter=No
 4	katwaʼ	waʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:446:25:b
@@ -11408,7 +11408,7 @@
 # labels = complete 447:26:
 1-2	Xinbʼisonik	_	_	_	_	_	_	_	_
 1	Xinbʼison	bʼison	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	taq	taq	SCONJ	_	_	5	mark	_	_
 4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	xatpet	pet	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
@@ -11422,7 +11422,7 @@
 # labels = complete 450:29:a
 1-2	Katchakunik	_	_	_	_	_	_	_	_
 1	Katchakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	rech	rech	SCONJ	_	_	4	mark	_	_
 4	keatzuq	tzuq	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
 5	le	le	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -11571,7 +11571,7 @@
 3	rech	rech	SCONJ	_	_	4	mark	_	_
 4-5	kojrilo	_	_	_	_	_	_	_	SpaceAfter=No
 4	kojril	il	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
-5	o	u	AUX	_	_	4	aux:ss	_	_
+5	o	u	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:484:63:a
@@ -11581,7 +11581,7 @@
 # labels = complete 484:63:a
 1-2	Xineʼwaʼoq	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xineʼwaʼ	waʼ	VERB	_	Aspect=Perf|Movement=Abl|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	oq	oq	AUX	_	_	1	aux:ss	_	_
+2	oq	oq	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:485:64:a
@@ -11591,7 +11591,7 @@
 # labels = complete 485:64:a
 1-2	Xineʼwaʼoq	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xineʼwaʼ	waʼ	VERB	_	Aspect=Perf|Movement=Abl|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	oq	oq	AUX	_	_	1	aux:ss	_	_
+2	oq	oq	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:486:65:a
@@ -11601,7 +11601,7 @@
 # labels = complete 486:65:a
 1-2	Xateʼqilaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xateʼqil	il	VERB	_	Aspect=Perf|Movement=Abl|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=2|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	aʼ	uʼ	AUX	_	_	1	aux:ss	_	_
+2	aʼ	uʼ	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:488:66:a
@@ -11611,7 +11611,7 @@
 # labels = complete 488:66:a
 1-2	Xatalqilaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xatalqil	il	VERB	_	Aspect=Perf|Movement=Lat|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=2|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	aʼ	uʼ	AUX	_	_	1	aux:ss	_	_
+2	aʼ	uʼ	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:488:66:b
@@ -11621,7 +11621,7 @@
 # labels = complete 488:66:b
 1-2	Xuʼlukʼamaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xuʼlukʼam	kʼam	VERB	_	Aspect=Perf|Movement=Lat|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	aʼ	uʼ	AUX	_	_	1	aux:ss	_	_
+2	aʼ	uʼ	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:489:67:a
@@ -11631,11 +11631,11 @@
 # labels = complete 489:67:a
 1-2	Xojʼek	_	_	_	_	_	_	_	_
 1	Xojʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	k	ik	AUX	_	_	1	aux:ss	_	_
+2	k	ik	PART	_	_	1	dep:ss	_	_
 3-5	xeʼqilala	_	_	_	_	_	_	_	_
 3	x	il	VERB	_	Aspect=Perf|Movement=Abl|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	parataxis	_	_
-4	eʼ	uʼ	PART	_	_	3	aux:ss	_	_
-5	q	la	PART	_	_	3	aux	_	_
+4	eʼ	uʼ	PART	_	_	3	dep:ss	_	_
+5	q	la	PART	_	_	3	dep:agr	_	_
 6-7	rqasok	_	_	_	_	_	_	_	SpaceAfter=No
 6	r	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	qasok	sok	NOUN	_	Number[psor]=Plur|Person[psor]=1	3	obj	_	_
@@ -11651,7 +11651,7 @@
 3	winaq	winaq	NOUN	_	_	1	nsubj	_	_
 4-5	xolkikʼama	_	_	_	_	_	_	_	_
 4	xolkikʼam	kʼam	VERB	_	Aspect=Perf|Movement=Lat|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
-5	a	uʼ	PART	_	_	4	aux:ss	_	_
+5	a	uʼ	PART	_	_	4	dep:ss	_	_
 6	le	le	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	ali	ali	NOUN	_	_	4	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
@@ -11663,7 +11663,7 @@
 # labels = complete 492:70:
 1-2	Xojtzalijik	_	_	_	_	_	_	_	_
 1	Xojtzalij	tzalij	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	xixeʼqaqʼatuj	qʼatuj	VERB	_	Aspect=Perf|Movement=Abl|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=2|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
 4	kukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	3	obl	_	_
 5	le	le	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -11678,10 +11678,10 @@
 # labels = complete 493:71:
 1-2	Xepetik	_	_	_	_	_	_	_	_
 1	Xepet	pet	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	xolkilaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 3	xolkil	il	VERB	_	Aspect=Perf|Movement=Lat|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
-4	aʼ	uʼ	AUX	_	_	3	aux:ss	_	_
+4	aʼ	uʼ	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:494:72:
@@ -11691,10 +11691,10 @@
 # labels = complete 494:72:
 1-2	Xepetik	_	_	_	_	_	_	_	_
 1	Xepet	pet	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	xkilo	_	_	_	_	_	_	_	SpaceAfter=No
 3	xkil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	parataxis	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:496:74:
@@ -11704,11 +11704,11 @@
 # labels = complete 496:74:
 1-2	Xojʼek	_	_	_	_	_	_	_	_
 1	Xojʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	k	ik	AUX	_	_	1	aux:ss	_	_
+2	k	ik	PART	_	_	1	dep:ss	_	_
 3-5	xeʼqilala	_	_	_	_	_	_	_	_
 3	x	il	VERB	_	Aspect=Perf|Movement=Abl|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	parataxis	_	_
-4	eʼ	uʼ	PART	_	_	3	aux:ss	_	_
-5	q	la	PART	_	_	3	aux	_	_
+4	eʼ	uʼ	PART	_	_	3	dep:ss	_	_
+5	q	la	PART	_	_	3	dep:agr	_	_
 6-7	rqasok	_	_	_	_	_	_	_	SpaceAfter=No
 6	r	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	qasok	sok	NOUN	_	Number[psor]=Plur|Person[psor]=1	3	obj	_	_
@@ -11724,7 +11724,7 @@
 3	winaq	winaq	NOUN	_	_	1	nsubj	_	_
 4-5	xolkikʼamaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 4	xolkikʼam	kʼam	VERB	_	Aspect=Perf|Movement=Lat|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	parataxis	_	_
-5	aʼ	uʼ	AUX	_	_	4	aux:ss	_	_
+5	aʼ	uʼ	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:498:77:a
@@ -11734,10 +11734,10 @@
 # labels = complete 498:77:a
 1-2	Xepetik	_	_	_	_	_	_	_	_
 1	Xepet	pet	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	xolkikʼamaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 3	xolkikʼam	kʼam	VERB	_	Aspect=Perf|Movement=Lat|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	parataxis	_	_
-4	aʼ	uʼ	AUX	_	_	3	aux:ss	_	_
+4	aʼ	uʼ	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:500:79:
@@ -11763,7 +11763,7 @@
 3	taj	taj	AUX	_	Polarity=Neg	2	aux	_	_
 4-5	xinchʼawik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xinchʼaw	chʼaw	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	2	xcomp	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:503:82:
@@ -11775,7 +11775,7 @@
 2	jachin	jachin	PRON	_	PronType=Int	3	nsubj	_	_
 3-4	xʼek	_	_	_	_	_	_	_	SpaceAfter=No
 3	xʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	k	ik	AUX	_	_	3	aux:ss	_	_
+4	k	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = canpixabaj2015:504:83:a
@@ -11789,7 +11789,7 @@
 4	la	la	PART	_	PronType=Int	5	discourse	_	_
 5-6	xeʼkijaqa	_	_	_	_	_	_	_	_
 5	xeʼkijaq	jaq	VERB	_	Aspect=Perf|Movement=Abl|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	2	advcl	_	_
-6	a	uʼ	PART	_	_	5	aux:ss	_	_
+6	a	uʼ	PART	_	_	5	dep:ss	_	_
 7	kʼu	kʼut	PART	_	_	5	discourse	_	_
 8	le	le	DET	_	Definite=Def|PronType=Art	9	det	_	_
 9	uchi	chiʼ	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	obj	_	_
@@ -11806,7 +11806,7 @@
 3	kʼut	kʼut	PART	_	_	2	discourse	_	_
 4-5	katʼek	_	_	_	_	_	_	_	SpaceAfter=No
 4	katʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	2	xcomp	_	_
-5	k	ik	AUX	_	_	4	aux:ss	_	_
+5	k	ik	PART	_	_	4	dep:ss	_	_
 6	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = canpixabaj2015:508:86:
@@ -11816,10 +11816,10 @@
 # labels = complete 508:86: check-subord
 1-2	Xatulik	_	_	_	_	_	_	_	_
 1	Xatul	ul	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	xatalkiʼkota	_	_	_	_	_	_	_	_
 3	xatalkiʼkot	kikot	VERB	_	Aspect=Perf|Movement=Lat|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
-4	a	a	PART	_	_	3	aux:ss	_	_
+4	a	a	PART	_	_	3	dep:ss	_	_
 5	kukʼ	ukʼ	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	3	obl	_	_
 6	le	le	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	awalkʼwal	awalkʼwal	NOUN	_	_	5	nmod	_	SpaceAfter=No
@@ -11845,10 +11845,10 @@
 # labels = complete 514:92:a check-advcl
 1-2	Xojpetik	_	_	_	_	_	_	_	_
 1	Xojpet	pet	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	xolqakʼamaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 3	xolqakʼam	kʼam	VERB	_	Aspect=Perf|Movement=Lat|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
-4	aʼ	uʼ	AUX	_	_	3	aux:ss	_	_
+4	aʼ	uʼ	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:515:93:a
@@ -11871,7 +11871,7 @@
 # labels = complete 516:94:
 1-2	Xinpetik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xinpet	pet	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	xinwil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	conj	_	_
@@ -11885,10 +11885,10 @@
 # labels = complete 517:95:a check-advcl
 1-2	Xojpetik	_	_	_	_	_	_	_	_
 1	Xojpet	pet	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	xolqakʼamaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 3	xolqakʼam	kʼam	VERB	_	Aspect=Perf|Movement=Lat|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
-4	aʼ	uʼ	AUX	_	_	3	aux:ss	_	_
+4	aʼ	uʼ	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:517:95:b
@@ -11898,10 +11898,10 @@
 # labels = complete 517:95:b
 1-2	Kojpetik	_	_	_	_	_	_	_	_
 1	Kojpet	pet	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	kolqakʼamaʼ	_	_	_	_	_	_	_	SpaceAfter=No
 3	kolqakʼam	kʼam	VERB	_	Aspect=Imp|Movement=Lat|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	advcl	_	_
-4	aʼ	uʼ	AUX	_	_	3	aux:ss	_	_
+4	aʼ	uʼ	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = canpixabaj2015:521:99:
@@ -11938,7 +11938,7 @@
 3	tzam	tzam	NOUN	_	_	2	obj	_	_
 4	man	man	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	katuchajij	chajij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	ta	taj	AUX	_	Polarity=Neg	5	advmod:neg	_	_
+6	ta	taj	AUX	_	Polarity=Neg	5	aux	_	_
 7-8	che	_	_	_	_	_	_	_	_
 7	ch	chi	ADP	_	_	8	case	_	_
 8	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	10	nmod	_	_
@@ -11982,7 +11982,7 @@
 5	jaʼ	jaʼ	NOUN	_	_	2	obl	_	_
 6	man	man	PART	_	Polarity=Neg	7	advmod:neg	_	_
 7	kuqʼatej	qʼatej	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-8	ta	taj	AUX	_	Polarity=Neg	7	advmod:neg	_	_
+8	ta	taj	AUX	_	Polarity=Neg	7	aux	_	_
 9	le	le	DET	_	Definite=Def|PronType=Art	11	det	_	_
 10	kʼakʼ	kʼakʼ	ADJ	_	_	11	amod	_	_
 11	yabʼil	yabʼil	NOUN	_	_	7	obj	_	_
@@ -11998,7 +11998,7 @@
 3	anxux	axux	NOUN	_	_	2	obj	_	_
 4	man	man	PART	_	Polarity=Neg	5	advmod:neg	_	_
 5	katutoʼ	toʼ	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	ta	taj	AUX	_	Polarity=Neg	5	advmod:neg	_	_
+6	ta	taj	AUX	_	Polarity=Neg	5	aux	_	_
 7	chi	chi	SCONJ	_	_	8	mark	_	_
 8	uqʼatixik	qʼatij	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Inf|Voice=Pass	5	ccomp	_	_
 9	le	le	DET	_	Definite=Def|PronType=Art	11	det	_	_
@@ -12039,7 +12039,7 @@
 # text[spa'] = El conejo tiene cuatro hijos, uno blanco, uno amarillo, uno negro, uno prieto, mucho juegan, los conejos pequeños saltan.
 # labels = complete
 1-2	Ekʼo	_	_	_	_	_	_	_	_
-1	E	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	2	aux	_	_
+1	E	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	2	dep:agr	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	kajibʼ	kajibʼ	NUM	_	_	4	nummod	_	_
 4	ral	al	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
@@ -12061,11 +12061,11 @@
 20	sibʼalaj	sibʼalaj	ADV	_	_	21	advmod	_	_
 21-22	ketzʼanik	_	_	_	_	_	_	_	SpaceAfter=No
 21	ketzʼan	etzʼan	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	parataxis	_	_
-22	ik	ik	AUX	_	_	21	aux:ss	_	_
+22	ik	ik	PART	_	_	21	dep:ss	_	_
 23	,	,	PUNCT	_	_	24	punct	_	_
 24-25	kechʼopinik	_	_	_	_	_	_	_	_
 24	kechʼopin	chʼopin	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	parataxis	_	_
-25	ik	ik	AUX	_	_	24	aux:ss	_	_
+25	ik	ik	PART	_	_	24	dep:ss	_	_
 26	ri	ri	DET	_	Definite=Def|PronType=Art	29	det	_	_
 27	alaj	alaj	ADJ	_	_	29	amod	_	_
 28	taq	taq	DET	_	Number=Plur	29	det	_	_
@@ -12082,10 +12082,10 @@
 4	qʼeq	qʼeq	ADJ	_	_	3	amod	_	_
 5	rij	ij	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
-7	are	areʼ	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	aux	_	_
+7	are	areʼ	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	dep:agr	_	_
 8-9	kachʼopinik	_	_	_	_	_	_	_	SpaceAfter=No
 8	kachʼopin	chʼopin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-9	ik	ik	AUX	_	_	8	aux:ss	_	_
+9	ik	ik	PART	_	_	8	dep:ss	_	_
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	ma	ma	PART	_	Polarity=Neg	12	advmod:neg	_	_
 12	kuxeʼj	xeʼj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
@@ -12095,10 +12095,10 @@
 16	kʼate	kʼateʼ	SCONJ	_	_	17	mark	_	_
 17-18	xrilo	_	_	_	_	_	_	_	_
 17	xril	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	advcl	_	_
-18	o	u	AUX	_	_	17	aux:ss	_	_
+18	o	u	PART	_	_	17	dep:ss	_	_
 19	ma	ma	PART	_	Polarity=Neg	17	advmod:neg	_	_
 20-21	ekʼo	_	_	_	_	_	_	_	_
-20	e	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	21	aux	_	_
+20	e	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	21	dep:agr	_	_
 21	kʼo	kʼo	PART	_	_	17	ccomp	_	_
 22	ta	taj	AUX	_	Polarity=Neg	21	aux	_	_
 23	chik	chik	ADV	_	_	21	advmod	_	_
@@ -12115,7 +12115,7 @@
 3	qʼayes	qʼayes	NOUN	_	_	1	obl	_	_
 4-5	xoqʼik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xoqʼ	oqʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	parataxis	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = cuentos:Alaj_imul.wiki:6
@@ -12125,7 +12125,7 @@
 1	Kʼate	kʼateʼ	ADV	_	_	2	advmod	_	_
 2-3	xrilo	_	_	_	_	_	_	_	SpaceAfter=No
 2	xr	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	ilo	u	AUX	_	_	2	aux:ss	_	_
+3	ilo	u	PART	_	_	2	dep:ss	_	_
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	xpe	pe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	parataxis	_	_
 6	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
@@ -12137,7 +12137,7 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12-13	xkikotik	_	_	_	_	_	_	_	SpaceAfter=No
 12	xkikot	kikot	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	5	parataxis	_	_
-13	ik	ik	AUX	_	_	12	aux:ss	_	_
+13	ik	ik	PART	_	_	12	dep:ss	_	_
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	xusalabʼisaj	salabʼisäj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis	_	_
 16	ri	ri	DET	_	Definite=Def|PronType=Art	18	det	_	_
@@ -12171,8 +12171,8 @@
 5	-	-	PUNCT	_	_	6	punct	_	_
 6-7	sachaʼ	_	_	_	_	_	_	_	_
 6	sach	sach	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	1	parataxis	_	_
-7	aʼ	uʼ	AUX	_	_	6	aux:ss	_	_
-8	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	6	aux	_	_
+7	aʼ	uʼ	PART	_	_	6	dep:ss	_	_
+8	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	6	dep:agr	_	_
 9	numak	mak	NOUN	_	Number[psor]=Sing|Person[psor]=1	6	obj	_	_
 10	nan	nan²	NOUN	_	_	6	vocative	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
@@ -12183,7 +12183,7 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	kinimaj	nimaj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	6	parataxis	_	_
 18	tzij	tzij	NOUN	_	_	17	obj	_	_
-19	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	17	aux	_	SpaceAfter=No
+19	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	17	dep:agr	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = cuentos:Alaj_imul.wiki:9
@@ -12210,15 +12210,15 @@
 3	Tintin	Tintin	PROPN	_	Gender=Masc	4	nsubj	_	_
 4-5	xbʼisonik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xbʼison	bʼison	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	te	teʼ	ADV	_	_	8	advmod	_	_
 8-9	xrilo	_	_	_	_	_	_	_	_
 8	xril	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	parataxis	_	_
-9	o	u	AUX	_	_	8	aux:ss	_	_
+9	o	u	PART	_	_	8	dep:ss	_	_
 10-11	kropopik	_	_	_	_	_	_	_	_
 10	kropop	rapap	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	12	advcl	_	_
-11	ik	ik	AUX	_	_	10	aux:ss	_	_
+11	ik	ik	PART	_	_	10	dep:ss	_	_
 12	xpeʼ	pe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	8	ccomp	_	_
 13	jun	jun	DET	_	Definite=Ind|PronType=Art	14	det	_	_
 14	palomax	palomäx	NOUN	_	_	12	nsubj	_	SpaceAfter=No
@@ -12237,7 +12237,7 @@
 6	jas	jas	PRON	_	PronType=Int	7	obj	_	_
 7-8	xabʼano	_	_	_	_	_	_	_	_
 7	xabʼan	bʼan	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	1	parataxis	_	_
-8	o	u	AUX	_	_	7	aux:ss	_	_
+8	o	u	PART	_	_	7	dep:ss	_	_
 9	Tintin	Tintin	PROPN	_	Gender=Masc	7	vocative	_	SpaceAfter=No
 10	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -12281,7 +12281,7 @@
 16	wachiʼl	achiʼl	NOUN	_	Number[psor]=Sing|Person[psor]=1	14	obj	_	_
 17-18	kerapapik	_	_	_	_	_	_	_	SpaceAfter=No
 17	kerapap	rapap	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	16	acl	_	_
-18	ik	ik	AUX	_	_	17	aux:ss	_	_
+18	ik	ik	PART	_	_	17	dep:ss	_	_
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cuentos:Alaj_kuk.wiki:8
@@ -12331,7 +12331,7 @@
 4	taq	taq	SCONJ	_	_	3	fixed	_	_
 5-6	kchaqʼajik	_	_	_	_	_	_	_	_
 5	kchaqʼaj	chäqʼaj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	7	advcl	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	taqal	taqal	ADJ	_	_	1	parataxis	_	_
 8	chik	chik	ADV	_	_	7	advmod	_	_
 9-10	che	_	_	_	_	_	_	_	_
@@ -12409,7 +12409,7 @@
 12	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	13	obl	_	_
 13-14	kixoqʼik	_	_	_	_	_	_	_	SpaceAfter=No
 13	kixoqʼ	oqʼ	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=2|Subcat=Intr|VerbForm=Fin	5	parataxis	_	_
-14	ik	ik	AUX	_	_	13	aux:ss	_	_
+14	ik	ik	PART	_	_	13	dep:ss	_	_
 15	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = cuentos:Jun_ajyuqʼ.wiki:8
@@ -12437,7 +12437,7 @@
 4	alabʼom	alabʼom	NOUN	_	_	11	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6-7	ekʼo	_	_	_	_	_	_	_	_
-6	e	e	DET	_	Animacy=Anim|Number=Plur	7	aux	_	_
+6	e	e	PRON	_	Animacy=Anim|Number=Plur	7	dep:agr	_	_
 7	kʼo	kʼo	PART	_	_	4	acl	_	_
 8	jobʼ	jobʼ	NUM	_	_	9	nummod	_	_
 9	kichij	chij	NOUN	_	Number[psor]=Plur|Person[psor]=3	7	nsubj	_	SpaceAfter=No
@@ -12461,7 +12461,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8-9	xkilo	_	_	_	_	_	_	_	_
 8	xki	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	conj	_	_
-9	lo	u	AUX	_	_	8	aux:ss	_	_
+9	lo	u	PART	_	_	8	dep:ss	_	_
 10	chi	chi	SCONJ	_	_	12	mark	_	_
 11	man	man	PART	_	Polarity=Neg	12	advmod:neg	_	_
 12	qas	qas	ADJ	_	_	8	ccomp	_	_
@@ -12478,9 +12478,9 @@
 2	te	teʼ	ADV	_	_	1	fixed	_	_
 3-4	xkilo	_	_	_	_	_	_	_	_
 3	xkil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5-6	ekʼo	_	_	_	_	_	_	_	_
-5	e	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	6	aux	_	_
+5	e	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	6	dep:agr	_	_
 6	kʼo	kʼo	PART	_	_	3	ccomp	_	_
 7	jujun	jujun	ADJ	_	_	10	amod	_	_
 8	chomaʼq	chom	ADJ	_	Number=Plur	10	amod	_	_
@@ -12511,7 +12511,7 @@
 2	jeʼl	jeʼl	ADJ	_	_	3	advmod	_	_
 3-4	xkilo	_	_	_	_	_	_	_	_
 3	xki	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-4	lo	u	AUX	_	_	3	aux:ss	_	_
+4	lo	u	PART	_	_	3	dep:ss	_	_
 5	xekitzoqopij	tzoqopij	VERB	_	Aspect=Perf|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	3	ccomp	_	_
 6	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	kichij	chij	NOUN	_	Number[psor]=Plur|Person[psor]=3	5	obj	_	_
@@ -12528,7 +12528,7 @@
 4	sibʼalaj	sibʼalaj	ADV	_	_	5	advmod	_	_
 5-6	xewaʼik	_	_	_	_	_	_	_	_
 5	xewaʼ	waʼ	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7-8	cho	_	_	_	_	_	_	_	_
 7	ch	chi	ADP	_	_	8	case	_	_
 8	o	wach	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
@@ -12537,7 +12537,7 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12-13	xbʼantajik	_	_	_	_	_	_	_	_
 12	xbʼantaj	bʼan	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	5	parataxis	_	_
-13	ik	ik	AUX	_	_	12	aux:ss	_	_
+13	ik	ik	PART	_	_	12	dep:ss	_	_
 14	chi	chi	SCONJ	_	_	15	mark	_	_
 15	xkikʼyaq	kʼyaq	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	csubj	_	_
 16	kan	kan	ADV	_	AdvType=Dir	15	advmod	_	_
@@ -12570,7 +12570,7 @@
 11	chi	chi	SCONJ	_	_	12	mark	_	_
 12-13	kakayik	_	_	_	_	_	_	_	SpaceAfter=No
 12	kakay	kaʼy	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	9	csubj	_	_
-13	ik	ik	AUX	_	_	12	aux:ss	_	_
+13	ik	ik	PART	_	_	12	dep:ss	_	_
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:9
@@ -12579,13 +12579,13 @@
 # labels = complete check-translation
 1-2	Xesikʼixik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xesikʼix	sikʼij	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	kʼate	kʼateʼ	ADP	_	_	6	cc	_	_
 5	kʼuriʼ	kʼuriʼ	CCONJ	_	_	4	fixed	_	_
 6-7	xeyajik	_	_	_	_	_	_	_	SpaceAfter=No
 6	xeyaj	yaj	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	conj	_	_
-7	ik	ik	AUX	_	_	6	aux:ss	_	_
+7	ik	ik	PART	_	_	6	dep:ss	_	_
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	xuqujeʼ	xuqujeʼ	CCONJ	_	_	10	cc	_	_
 10	xetaq	taq	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	1	conj	_	_
@@ -12605,7 +12605,7 @@
 1	Kikikʼam	kʼam	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	bʼik	_	_	_	_	_	_	_	_
 2	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
-3	k	ik	AUX	_	_	1	aux:ss	_	_
+3	k	ik	PART	_	_	1	dep:ss	_	_
 4	nimaʼq	nim	ADJ	_	Number=Plur	6	amod	_	_
 5	taq	taq	DET	_	Number=Plur	6	det	_	_
 6	keqaʼn	eqaʼn	NOUN	_	Number[psor]=Plur|Person[psor]=3	1	nsubj	_	_
@@ -12613,7 +12613,7 @@
 8	chiʼ	chiʼ	ADV	_	_	9	advmod	_	_
 9-10	keʼbʼek	_	_	_	_	_	_	_	SpaceAfter=No
 9	kebʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	conj	_	_
-10	k	ik	AUX	_	_	9	aux:ss	_	_
+10	k	ik	PART	_	_	9	dep:ss	_	_
 11	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = cuentos:Komon_Xalqʼaʼt.wiki:5
@@ -12622,7 +12622,7 @@
 # labels = complete check-translation
 1-2	Kuyaʼo	_	_	_	_	_	_	_	_
 1	Kuyaʼ	yaʼ	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	xuqujeʼ	xuqujeʼ	CCONJ	_	_	7	cc	_	_
 4	are	are	PART	_	Focus=Yes	7	discourse	_	_
 5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -12673,7 +12673,7 @@
 13	we	we¹	SCONJ	_	_	14	mark	_	_
 14-15	kabʼanik	_	_	_	_	_	_	_	SpaceAfter=No
 14	kabʼan	bʼan	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	17	advcl	_	_
-15	ik	ik	AUX	_	_	14	aux:ss	_	_
+15	ik	ik	PART	_	_	14	dep:ss	_	_
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	kasikʼix	sikʼij	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	9	parataxis	_	_
 18	saqʼij	saqʼij	NOUN	_	_	17	nsubj	_	_
@@ -12691,7 +12691,7 @@
 5	xkibʼij	bʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	2	parataxis	_	_
 6	kʼut	kʼut	PART	_	_	5	discourse	_	SpaceAfter=No
 7	:	:	PUNCT	_	_	9	punct	_	_
-8	areʼ	areʼ	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	9	aux	_	_
+8	areʼ	areʼ	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	9	dep:agr	_	_
 9	utz	utz	ADJ	_	_	5	parataxis	_	_
 10	ketik	tik	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	9	csubj	_	_
 11	cheʼ	cheʼ	NOUN	_	_	10	nsubj	_	SpaceAfter=No
@@ -12759,15 +12759,15 @@
 3	jaʼ	jaʼ	NOUN	_	_	4	nsubj	_	_
 4-5	kchojojik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kchojoj	chojoj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	,	,	PUNCT	_	_	7	punct	_	_
 7-8	kchojojik	_	_	_	_	_	_	_	SpaceAfter=No
 7	kchojoj	chojoj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	4	conj	_	_
-8	ik	ik	AUX	_	_	7	aux:ss	_	_
+8	ik	ik	PART	_	_	7	dep:ss	_	_
 9	,	,	PUNCT	_	_	10	punct	_	_
 10-11	katatajik	_	_	_	_	_	_	_	_
 10	katataj	ta	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	4	parataxis	_	_
-11	ik	ik	AUX	_	_	10	aux:ss	_	_
+11	ik	ik	PART	_	_	10	dep:ss	_	_
 12	pa	pa	ADP	_	_	14	case	_	_
 13	ri	ri	DET	_	Definite=Def|PronType=Art	14	det	_	_
 14	juyubʼ	juyubʼ	NOUN	_	_	10	obl	_	SpaceAfter=No
@@ -12786,7 +12786,7 @@
 7	kachʼaj	chʼaj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	6	acl	_	_
 8-9	bʼik	_	_	_	_	_	_	_	SpaceAfter=No
 8	bʼi	bʼi	ADV	_	AdvType=Dir	7	advmod	_	_
-9	k	ik	AUX	_	_	8	aux:ss	_	_
+9	k	ik	PART	_	_	8	dep:ss	_	_
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil.wiki:5
@@ -12798,7 +12798,7 @@
 3	kekʼam	kʼam	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 4-5	bʼik	_	_	_	_	_	_	_	_
 4	bʼi	bʼi	ADV	_	AdvType=Dir	3	advmod	_	_
-5	k	ik	AUX	_	_	4	aux:ss	_	_
+5	k	ik	PART	_	_	4	dep:ss	_	_
 6	pa	pa	ADP	_	_	7	case	_	_
 7	tuj	tuj	NOUN	_	_	3	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
@@ -12868,7 +12868,7 @@
 2	joj	joj	NOUN	_	_	3	nsubj	_	_
 3-4	kabʼisonik	_	_	_	_	_	_	_	_
 3	kabʼison	bʼison	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	rumal	rumal	SCONJ	_	_	10	mark	_	_
 6-7	che	_	_	_	_	_	_	_	_
 6	ch	chi	ADP	_	_	5	fixed	_	_
@@ -12877,7 +12877,7 @@
 9	chik	chik	ADV	_	_	10	advmod	_	_
 10-11	kutijo	_	_	_	_	_	_	_	SpaceAfter=No
 10	kutij	tij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	3	advcl	_	_
-11	o	u	AUX	_	_	10	aux:ss	_	_
+11	o	u	PART	_	_	10	dep:ss	_	_
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cuentos:Le_joj_rukʼ_ri_par.wiki:8
@@ -12909,7 +12909,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7-8	kariqatajik	_	_	_	_	_	_	_	_
 7	kariqataj	riq	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	1	parataxis	_	_
-8	ik	ik	AUX	_	_	7	aux:ss	_	_
+8	ik	ik	PART	_	_	7	dep:ss	_	_
 9	pa	pa	ADP	_	_	10	case	_	_
 10	tinamit	tinamit	NOUN	_	_	7	obl	_	_
 11	Kʼicheʼ	kʼicheʼ	ADJ	_	_	10	amod	_	SpaceAfter=No
@@ -12941,7 +12941,7 @@
 # labels = complete
 1	Su	su	PRON	_	PronType=Int	2	obj	_	_
 2	kabʼij	bʼij	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	aux	_	SpaceAfter=No
+3	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	dep:agr	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	xubʼij	bʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	2	parataxis	_	_
 6	le	le	DET	_	Definite=Def|PronType=Art	7	det	_	_
@@ -12993,7 +12993,7 @@
 1	Xkʼam	kʼam	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 2-3	bʼik	_	_	_	_	_	_	_	_
 2	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
-3	k	ik	AUX	_	_	2	aux:ss	_	_
+3	k	ik	PART	_	_	2	dep:ss	_	_
 4	pa	pa	ADP	_	_	8	case	_	_
 5	jun	jun	DET	_	Definite=Ind|PronType=Art	8	det	_	_
 6	utz	utz	ADJ	_	_	8	amod	_	_
@@ -13093,7 +13093,7 @@
 6	we	we¹	SCONJ	_	_	7	mark	_	_
 7-8	katkamik	_	_	_	_	_	_	_	_
 7	katkam	käm	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	11	advcl	_	_
-8	ik	ik	AUX	_	_	7	aux:ss	_	_
+8	ik	ik	PART	_	_	7	dep:ss	_	_
 9	pa	pa	ADP	_	_	10	case	_	_
 10	jabʼ	jäbʼ	NOUN	_	_	7	obl	_	_
 11	katmuq	muq	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Tran|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
@@ -13108,7 +13108,7 @@
 2	qʼij	qʼij	NOUN	_	_	0	root	_	_
 3-4	kanoq	_	_	_	_	_	_	_	_
 3	kan	kan	ADV	_	AdvType=Dir	2	advmod	_	_
-4	oq	oq	AUX	_	_	3	aux:ss	_	_
+4	oq	oq	PART	_	_	3	dep:ss	_	_
 5	pa	pa	ADP	_	_	6	case	_	_
 6	komon	komon	NOUN	_	_	2	nmod	_	_
 7	Xechpup	Xechpup	PROPN	_	_	6	appos	_	_
@@ -13136,7 +13136,7 @@
 12	sibʼalaj	sibʼalaj	ADV	_	_	13	advmod	_	_
 13-14	kekiʼkotik	_	_	_	_	_	_	_	SpaceAfter=No
 13	kekiʼkot	kikot	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	5	parataxis	_	_
-14	ik	ik	AUX	_	_	13	aux:ss	_	_
+14	ik	ik	PART	_	_	13	dep:ss	_	_
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:3
@@ -13156,7 +13156,7 @@
 11	xkikʼam	kʼam	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	parataxis	_	_
 12-13	bʼik	_	_	_	_	_	_	_	SpaceAfter=No
 12	bʼi	bʼi	ADV	_	AdvType=Dir	11	advmod	_	_
-13	k	ik	AUX	_	_	12	aux:ss	_	_
+13	k	ik	PART	_	_	12	dep:ss	_	_
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:4
@@ -13286,12 +13286,12 @@
 3	Naʼ	Naʼ	PROPN	_	Gender=Fem	4	nsubj	_	_
 4-5	kakiʼkotik	_	_	_	_	_	_	_	_
 4	kakiʼkot	kikot	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	are	are	PART	_	Focus=Yes	8	mark	_	_
 7	taq	taq	SCONJ	_	_	6	fixed	_	_
 8-9	xrilo	_	_	_	_	_	_	_	_
 8	xril	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	advcl	_	_
-9	o	u	AUX	_	_	8	aux:ss	_	_
+9	o	u	PART	_	_	8	dep:ss	_	_
 10	chi	chi	ADP	_	_	13	case	_	_
 11	le	le	DET	_	Definite=Def|PronType=Art	13	det	_	_
 12	laj	laj	ADJ	_	_	13	amod	_	_
@@ -13340,7 +13340,7 @@
 13	utz	utz	ADV	_	_	14	advmod	_	_
 14-15	kurilo	_	_	_	_	_	_	_	_
 14	kuril	il	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	5	parataxis	_	_
-15	o	u	AUX	_	_	14	aux:ss	_	_
+15	o	u	PART	_	_	14	dep:ss	_	_
 16	ke	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	14	obl	_	_
 17	pa	pa	ADP	_	_	18	case	_	_
 18	tijobʼal	tijobʼal	NOUN	_	_	14	obl	_	_
@@ -13404,7 +13404,7 @@
 14	,	,	PUNCT	_	_	11	punct	_	_
 15-16	chakuyuʼ	_	_	_	_	_	_	_	_
 15	chakuy	kuy	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	6	parataxis	_	_
-16	uʼ	uʼ	AUX	_	_	15	aux:ss	_	_
+16	uʼ	uʼ	PART	_	_	15	dep:ss	_	_
 17	kinkaʼy	kaʼy	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	15	ccomp	_	_
 18	apan	apan	ADV	_	AdvType=Dir	17	advmod	_	_
 19	jutzʼit	jutzʼit	ADV	_	_	17	advmod	_	_
@@ -13458,7 +13458,7 @@
 12	nojim	nojim	ADV	_	_	13	advmod	_	_
 13-14	katbʼinik	_	_	_	_	_	_	_	SpaceAfter=No
 13	katbʼin	bʼin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	7	parataxis	_	_
-14	ik	ik	AUX	_	_	13	aux:ss	_	_
+14	ik	ik	PART	_	_	13	dep:ss	_	_
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:4
@@ -13474,7 +13474,7 @@
 7	nojim	nojim	ADV	_	_	8	advmod	_	_
 8-9	kinbʼinik	_	_	_	_	_	_	_	SpaceAfter=No
 8	kinbʼin	bʼin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	2	parataxis	_	_
-9	ik	ik	AUX	_	_	8	aux:ss	_	_
+9	ik	ik	PART	_	_	8	dep:ss	_	_
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:5
@@ -13534,7 +13534,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8-9	chimaja	_	_	_	_	_	_	_	_
 8	chi	maj	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|Subcat=Tran	4	ccomp	_	_
-9	maja	uʼ	PART	_	_	8	aux:ss	_	_
+9	maja	uʼ	PART	_	_	8	dep:ss	_	_
 10	ri	ri	DET	_	Definite=Def|PronType=Art	11	det	_	_
 11	anim	anim	NOUN	_	_	8	obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
@@ -13564,11 +13564,11 @@
 3	nojim	nojim	ADV	_	_	4	advmod	_	_
 4-5	xbʼek	_	_	_	_	_	_	_	SpaceAfter=No
 4	xbʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	k	ik	AUX	_	_	4	aux:ss	_	_
+5	k	ik	PART	_	_	4	dep:ss	_	_
 6	,	,	PUNCT	_	_	7	punct	_	_
 7-8	xuchʼijo	_	_	_	_	_	_	_	_
 7	xuchʼij	chʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	parataxis	_	_
-8	o	u	AUX	_	_	7	aux:ss	_	_
+8	o	u	PART	_	_	7	dep:ss	_	_
 9	xopan	opan	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	7	xcomp	_	_
 10	pa	pa	ADP	_	_	11	case	_	_
 11	ukʼisbʼalil	kʼisbʼalil	NOUN	_	Number[psor]=Sing|Person[psor]=3	9	obl	_	_
@@ -13793,7 +13793,7 @@
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	xuquje	xuquje	ADV	_	_	14	advmod	_	_
 13-14	ekʼo	_	_	_	_	_	_	_	_
-13	e	e	DET	_	Animacy=Anim|Number=Plur	14	aux	_	_
+13	e	e	PRON	_	Animacy=Anim|Number=Plur	14	dep:agr	_	_
 14	kʼo	kʼo	PART	_	_	7	conj	_	_
 15	le	le	DET	_	Definite=Def|PronType=Art	16	det	_	_
 16	mosibʼ	mos	NOUN	_	Number=Plur	14	nsubj	_	_
@@ -13886,7 +13886,7 @@
 2	kʼu	kʼut	PART	_	_	3	discourse	_	_
 3-4	kunaʼo	_	_	_	_	_	_	_	_
 3	kunaʼ	naʼ	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	le	le	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	tataʼ	tataʼ	NOUN	_	_	3	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
@@ -13918,7 +13918,7 @@
 11	qatat	tat	NOUN	_	Number[psor]=Plur|Person[psor]=1	10	conj	_	_
 12-13	kakitiko	_	_	_	_	_	_	_	_
 12	kaki	tik	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-13	tiko	u	AUX	_	_	12	aux:ss	_	_
+13	tiko	u	PART	_	_	12	dep:ss	_	_
 14	jeʼlalaj	jeʼl	ADJ	_	Degree=Ints	17	amod	_	_
 15	taq	taq	DET	_	Number=Plur	17	det	_	_
 16	uwach	wach	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	17	nmod	_	_
@@ -14026,7 +14026,7 @@
 8	xuriq	riq	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	parataxis	_	_
 9-10	apanoq	_	_	_	_	_	_	_	_
 9	apan	apan	ADV	_	AdvType=Dir	8	advmod	_	_
-10	oq	oq	AUX	_	_	9	aux:ss	_	_
+10	oq	oq	PART	_	_	9	dep:ss	_	_
 11	jupuq	jupuq	NOUN	_	_	8	obj	_	_
 12	tzʼiʼ	tzʼiʼ	NOUN	_	_	11	nmod	_	_
 13	pa	pa	ADP	_	_	15	case	_	_
@@ -14044,7 +14044,7 @@
 4	aninaq	aninäq	ADV	_	_	5	advmod	_	_
 5-6	xukʼexo	_	_	_	_	_	_	_	_
 5	xukʼex	kʼex	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	o	u	AUX	_	_	5	aux:ss	_	_
+6	o	u	PART	_	_	5	dep:ss	_	_
 7	ratzʼyaq	atzʼyaq	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 8	ri	ri	DET	_	Definite=Def|PronType=Art	9	det	_	_
 9	ral	al	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	nmod	_	SpaceAfter=No
@@ -14064,7 +14064,7 @@
 1	Jewa	jewa	ADV	_	_	2	advmod	_	_
 2-3	xkibʼano	_	_	_	_	_	_	_	_
 2	xkibʼan	bʼan	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	o	u	AUX	_	_	2	aux:ss	_	_
+3	o	u	PART	_	_	2	dep:ss	_	_
 4	xetzalij	tzalij	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	xcomp	_	_
 5-6	cho	_	_	_	_	_	_	_	_
 5	ch	chi	ADP	_	_	6	case	_	_
@@ -14204,7 +14204,7 @@
 3-4	chawe	_	_	_	_	_	_	_	_
 3	ch	chi	ADP	_	_	4	case	_	_
 4	awe	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=2	2	obl	_	_
-5	le	le	PRON	_	PronType=Rel	6	mark	_	_
+5	le	le	SCONJ	_	_	6	mark	_	_
 6	utijik	tij	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Inf	2	csubj	_	_
 7	le	le	DET	_	Definite=Def|PronType=Art	8	det	_	_
 8	lej	lej	NOUN	_	_	6	obj	_	SpaceAfter=No
@@ -14255,7 +14255,7 @@
 # label = complete
 1-2	Xinchapo	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xinchap	chap	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:2
@@ -14266,7 +14266,7 @@
 # label = complete
 1-2	Xinwarik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xinwar	war	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:3
@@ -14277,7 +14277,7 @@
 # label = complete
 1-2	Xchapik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xchap	chap	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:4a
@@ -14288,7 +14288,7 @@
 # label = complete
 1-2	Xutijo	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xutij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:4b
@@ -14310,7 +14310,7 @@
 # label = complete
 1-2	Xinkosik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xinkos	kos	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:5b
@@ -14384,7 +14384,7 @@
 4	ta	taj	AUX	_	Polarity=Neg	3	aux	_	_
 5-6	xutijo	_	_	_	_	_	_	_	SpaceAfter=No
 5	xutij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	o	u	AUX	_	_	5	aux:ss	_	_
+6	o	u	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = henderson:9
@@ -14414,7 +14414,7 @@
 6	Xwan	Xwan	PROPN	_	Gender=Masc	7	nsubj	_	_
 7-8	xelik	_	_	_	_	_	_	_	SpaceAfter=No
 7	xel	el	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-8	ik	ik	AUX	_	_	7	aux:ss	_	_
+8	ik	ik	PART	_	_	7	dep:ss	_	_
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = henderson:11
@@ -14428,7 +14428,7 @@
 3	ta	taj	AUX	_	Polarity=Neg	4	aux	_	_
 4-5	kinchakunik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kinchakun	chakun	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = henderson:12a
@@ -14439,11 +14439,11 @@
 # label = complete
 1-2	Xinwilo	_	_	_	_	_	_	_	_
 1	Xinwil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	4	mark	_	_
 4-5	xwaʼik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xwaʼ	waʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:12c
@@ -14454,11 +14454,11 @@
 # label = complete check-attachment
 1-2	Xinchapo	_	_	_	_	_	_	_	_
 1	Xinchap	chap	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	su	su	PRON	_	PronType=Int	1	obj	_	_
 4-5	xuloqʼo	_	_	_	_	_	_	_	SpaceAfter=No
 4	xuloqʼ	loqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	3	acl	_	_
-5	o	u	AUX	_	_	4	aux:ss	_	_
+5	o	u	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:12d
@@ -14469,11 +14469,11 @@
 # label = complete
 1-2	Xinkosik	_	_	_	_	_	_	_	_
 1	Xinkos	kos	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	rumal	umal	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
 4-5	xinchakunik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xinchakun	chakun	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	3	acl	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:14
@@ -14498,7 +14498,7 @@
 # label = complete
 1-2	Xeʼulik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xeʼul	ul	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:18a
@@ -14510,10 +14510,10 @@
 1	We	we¹	SCONJ	_	_	2	mark	_	_
 2-3	kinkosik	_	_	_	_	_	_	_	_
 2	kinkos	kos	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	4	advcl	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4-5	kinwarik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kinwar	war	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = henderson:18b
@@ -14526,10 +14526,10 @@
 2	taq	taq	SCONJ	_	_	1	fixed	_	_
 3-4	kinkosik	_	_	_	_	_	_	_	_
 3	kinkos	kos	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	5	advcl	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5-6	kinwarik	_	_	_	_	_	_	_	SpaceAfter=No
 5	kinwar	war	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = henderson:20a
@@ -14581,7 +14581,7 @@
 # label = complete
 1-2	Xinwilo	_	_	_	_	_	_	_	_
 1	Xinwil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	4	mark	_	_
 4	xwaʼ	waʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
 5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -14693,7 +14693,7 @@
 2	ala	ala	NOUN	_	_	3	nsubj	_	_
 3-4	xokik	_	_	_	_	_	_	_	SpaceAfter=No
 3	xok	ok	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = henderson:51a
@@ -14707,7 +14707,7 @@
 3	bʼa	bʼa	NOUN	_	_	4	nsubj	_	_
 4-5	xokik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xok	ok	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = henderson:52
@@ -14757,7 +14757,7 @@
 # label = complete
 1-2	Xinpetik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xinpet	pet	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	tat	tat	NOUN	_	_	1	vocative	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -14770,11 +14770,11 @@
 # label = complete
 1-2	Xinwilo	_	_	_	_	_	_	_	_
 1	Xinwil	il	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	4	mark	_	_
 4-5	xeʼelik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xeʼel	el	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	ccomp	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:63a
@@ -14785,11 +14785,11 @@
 # label = complete check-relative
 1-2	Xkitijo	_	_	_	_	_	_	_	_
 1	Xkitij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	jas	jas	PRON	_	PronType=Int	1	obj	_	_
 4-5	xuyloqʼo	_	_	_	_	_	_	_	_
 4	xuloqʼ	loqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	3	acl	_	_
-5	o	u	AUX	_	_	4	aux:ss	_	_
+5	o	u	PART	_	_	4	dep:ss	_	_
 6	le	le	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	ixoqibʼ	ixoq	NOUN	_	Number=Plur	1	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
@@ -14808,7 +14808,7 @@
 5	ala	ala	NOUN	_	_	6	nsubj	_	_
 6-7	xkosik	_	_	_	_	_	_	_	SpaceAfter=No
 6	xkos	kos	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-7	ik	ik	AUX	_	_	6	aux:ss	_	_
+7	ik	ik	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = henderson:74a
@@ -14833,7 +14833,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5-6	kinwarik	_	_	_	_	_	_	_	SpaceAfter=No
 5	kinwar	war	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = henderson:78a
@@ -14857,7 +14857,7 @@
 2	tzʼiʼ	tzʼiʼ	NOUN	_	_	3	nsubj	_	_
 3-4	xekosik	_	_	_	_	_	_	_	SpaceAfter=No
 3	xekos	kos	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = henderson:80a
@@ -14944,7 +14944,7 @@
 # label = complete
 1-2	Xinkosik	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xinkos	kos	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:116a
@@ -14955,7 +14955,7 @@
 # label = complete
 1-2	Xintijo	_	_	_	_	_	_	_	SpaceAfter=No
 1	Xintij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	o	u	AUX	_	_	1	aux:ss	_	_
+2	o	u	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:116b
@@ -14980,7 +14980,7 @@
 3	bʼa	bʼa	NOUN	_	_	4	nsubj	_	_
 4-5	xulik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xul	ul	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = henderson:126
@@ -15066,7 +15066,7 @@
 13	ta	taj	AUX	_	Polarity=Neg	12	aux	_	_
 14-15	kanoq	_	_	_	_	_	_	_	_
 14	kan	kan	ADV	_	AdvType=Dir	12	advmod	_	_
-15	oq	oq	AUX	_	_	14	aux:ss	_	_
+15	oq	oq	PART	_	_	14	dep:ss	_	_
 16	xuqujeʼ	xuqujeʼ	CCONJ	_	_	18	cc	_	_
 17	man	man	PART	_	Polarity=Neg	18	advmod:neg	_	_
 18	ktas	tas	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	12	conj	_	_
@@ -15207,7 +15207,7 @@
 # labels = tijonik-2 complete
 1-2	Xinsachik	_	_	_	_	_	_	_	SpaceAfter=No
 1	xinsach	sach	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:8
@@ -15216,7 +15216,7 @@
 # labels = tijonik-2 complete
 1-2	Xinsachik	_	_	_	_	_	_	_	SpaceAfter=No
 1	xinsach	sach	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:9
@@ -15458,7 +15458,7 @@
 # text = At kʼo pa siwan!
 # text[spa] = Estás en el barranco!
 # labels = tijonik-5 complete
-1	At	at	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	aux	_	_
+1	At	at	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	dep:agr	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	pa	pa	ADP	_	_	4	case	_	_
 4	siwan	siwan	NOUN	_	_	2	obl	_	SpaceAfter=No
@@ -15468,7 +15468,7 @@
 # text = Oj kʼo pa le roʼch le a Wel.
 # text[spa] = Estamos en la casa de Manuel.
 # labels = tijonik-5 complete
-1	Oj	oj	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	aux	_	_
+1	Oj	oj	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	dep:agr	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	pa	pa	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -15556,7 +15556,7 @@
 # text = In kʼo pa le ukʼisbʼal cholaj.
 # text[spa] = (Yo) estoy en la última fila
 # labels = tijonik-6 complete
-1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	aux	_	_
+1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	dep:agr	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	pa	pa	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -15568,7 +15568,7 @@
 # text = E kʼo kebʼ ukʼajol le tat Xwan.
 # text[spa] = Don Juan tiene dos hijos.
 # labels = tijonik-6 complete
-1	E	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	2	aux	_	_
+1	E	e	PRON	_	Animacy=Anim|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	2	dep:agr	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	kebʼ	kebʼ	NUM	_	_	4	nummod	_	_
 4	ukʼajol	kʼojolaxel	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
@@ -15582,7 +15582,7 @@
 # text[spa] = Yo estoy en la clase.
 # labels = tijonik-6 complete
 1	In	in	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	in	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	aux	_	_
+2	in	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	dep:agr	_	_
 3	kʼo	kʼo	PART	_	_	0	root	_	_
 4	pa	pa	ADP	_	_	5	case	_	_
 5	tijobʼal	tijobʼal	NOUN	_	_	3	obl	_	SpaceAfter=No
@@ -15593,7 +15593,7 @@
 # text[spa] = ¡Tú, tu eres el mensajero del juez!
 # labels = tijonik-6 complete
 1	At	at	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
-2	at	at	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	aux	_	_
+2	at	at	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	dep:agr	_	_
 3	utaqoʼn	taqoʼn	NOUN	_	Number[psor]=Sing|Person[psor]=3	0	root	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	qʼatal	qʼatal	NOUN	_	_	3	nmod	_	_
@@ -15616,7 +15616,7 @@
 # text[spa] = Nosotros somos albañiles.
 # labels = tijonik-6 complete
 1	Oj	oj	PRON	_	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
-2	oj	oj	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	aux	_	_
+2	oj	oj	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	dep:agr	_	_
 3	wokol	wokol	NOUN	_	_	0	root	_	_
 4	ja	ja	NOUN	_	_	3	compound	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -15626,7 +15626,7 @@
 # text[spa] = ¡Ustedes son ladrones!
 # labels = tijonik-6 complete
 1	Ix	ix	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
-2	ix	ix	PRON	_	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	aux	_	_
+2	ix	ix	PRON	_	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	dep:agr	_	_
 3	eʼlaqʼomabʼ	elaqʼom	NOUN	_	Number=Plur	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	_	_	3	punct	_	_
 
@@ -15724,7 +15724,7 @@
 # text = E kʼo oxibʼ akʼ.
 # text[spa] = Hay tres gallinas.
 # labels = tijonik-7 complete check-plural
-1	E	e	DET	_	Animacy=Anim|Number=Plur	2	aux	_	_
+1	E	e	PRON	_	Animacy=Anim|Number=Plur	2	dep:agr	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	oxibʼ	oxibʼ	NUM	_	_	4	nummod	_	_
 4	akʼ	äkʼ	NOUN	_	_	2	nsubj	_	SpaceAfter=No
@@ -15743,7 +15743,7 @@
 # text = E kʼo ixoqibʼ pa le kʼaybʼal.
 # text[spa] = Hay mujeres en la tienda.
 # labels = tijonik-7 complete check-plural
-1	E	e	DET	_	Animacy=Anim|Number=Plur	2	aux	_	_
+1	E	e	PRON	_	Animacy=Anim|Number=Plur	2	dep:agr	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	ixoqibʼ	ixoq	NOUN	_	Number=Plur	2	nsubj	_	_
 4	pa	pa	ADP	_	_	6	case	_	_
@@ -15766,7 +15766,7 @@
 # text = E kʼo kajibʼ akʼalabʼ pa le bʼe.
 # text[spa] = Hay cuatro niños en la calle.
 # labels = tijonik-7 complete check-plural
-1	E	e	DET	_	Animacy=Anim|Number=Plur	2	aux	_	_
+1	E	e	PRON	_	Animacy=Anim|Number=Plur	2	dep:agr	_	_
 2	kʼo	kʼo	PART	_	_	0	root	_	_
 3	kajibʼ	kajibʼ	NUM	_	_	4	nummod	_	_
 4	akʼalabʼ	akʼal	NOUN	_	Number=Plur	2	nsubj	_	_
@@ -15868,7 +15868,7 @@
 # text[spa] = Ellos(as) son estudiantes.
 # labels = tijonik-9 complete check-plural
 1	Aʼre	aʼre	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-2	e	e	DET	_	Animacy=Anim|Number=Plur	3	aux	_	_
+2	e	e	PRON	_	Animacy=Anim|Number=Plur	3	dep:agr	_	_
 3	tijoxelabʼ	tijoxel	NOUN	_	Number=Plur	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -15894,7 +15894,7 @@
 # text = E nimaʼq le altomabʼ.
 # text[spa] = Las muchachas son grandes.
 # labels = tijonik-9 complete check-plural
-1	E	e	DET	_	Animacy=Anim|Number=Plur	2	aux	_	_
+1	E	e	PRON	_	Animacy=Anim|Number=Plur	2	dep:agr	_	_
 2	nimaʼq	nim	ADJ	_	Number=Plur	0	root	_	_
 3	le	le	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	altomabʼ	altom	NOUN	_	Number=Plur	2	nsubj	_	SpaceAfter=No
@@ -15929,7 +15929,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3-4	kimbʼek	_	_	_	_	_	_	_	SpaceAfter=No
 3	kimbʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	parataxis	_	_
-4	k	ik	AUX	_	_	3	aux:ss	_	_
+4	k	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:80
@@ -15939,7 +15939,7 @@
 1	La	la	PART	_	PronType=Int	2	discourse	_	_
 2-3	kixwarik	_	_	_	_	_	_	_	SpaceAfter=No
 2	kixwar	war	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = utexas:81
@@ -15968,7 +15968,7 @@
 1	Na	na	PART	_	Polarity=Neg	2	advmod:neg	_	_
 2	kawar	war	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	ta	taj	AUX	_	Polarity=Neg	2	aux	_	_
-4	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	aux	_	SpaceAfter=No
+4	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	dep:agr	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = utexas:84
@@ -16027,7 +16027,7 @@
 # labels = tijonik-13 complete
 1	La	la	PART	_	PronType=Int	2	discourse	_	_
 2	xtzalij	tzalij	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	aux	_	_
+3	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	dep:agr	_	_
 4	iwir	iwir	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -16039,7 +16039,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3-4	xintzalijik	_	_	_	_	_	_	_	SpaceAfter=No
 3	xintzalij	tzalij	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	parataxis	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:90.1
@@ -16193,7 +16193,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3-4	xinloqʼo	_	_	_	_	_	_	_	SpaceAfter=No
 3	xinloqʼ	loqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	parataxis	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:95
@@ -16213,7 +16213,7 @@
 1	Jeʼ	jeʼ	INTJ	_	_	0	root	_	_
 2-3	xqabʼano	_	_	_	_	_	_	_	SpaceAfter=No
 2	xqabʼan	bʼan	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	parataxis	_	_
-3	o	u	AUX	_	_	2	aux:ss	_	_
+3	o	u	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:97
@@ -16293,7 +16293,7 @@
 # text[spa] = Usted me llamó (formal).
 # labels = tijonik-15 complete
 1	Xinsikʼij	sikʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	aux	_	SpaceAfter=No
+2	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	dep:agr	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:105
@@ -16301,7 +16301,7 @@
 # text[spa] = Ustedes me llamaron (formal).
 # labels = tijonik-15 complete
 1	Xinsikʼij	sikʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	aux	_	SpaceAfter=No
+2	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	dep:agr	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:106
@@ -16309,7 +16309,7 @@
 # text[spa] = Usted (formal) los llamó.
 # labels = tijonik-15 complete
 1	Xesikʼij	sikʼij	VERB	_	Aspect=Perf|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	aux	_	SpaceAfter=No
+2	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	dep:agr	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:107
@@ -16318,10 +16318,10 @@
 # labels = tijonik-16 complete
 1-2	Kinkowinik	_	_	_	_	_	_	_	_
 1	kinkowin	kowin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	kimbʼek	_	_	_	_	_	_	_	SpaceAfter=No
 3	kimbʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	xcomp	_	_
-4	k	ik	AUX	_	_	3	aux:ss	_	_
+4	k	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:108
@@ -16330,10 +16330,10 @@
 # labels = tijonik-16 complete check-compl
 1-2	Xatkowinik	_	_	_	_	_	_	_	_
 1	xatkowin	kowin	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3-4	xabʼano	_	_	_	_	_	_	_	SpaceAfter=No
 3	xabʼan	bʼan	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	1	xcomp	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:109
@@ -16342,7 +16342,7 @@
 # labels = tijonik-16 complete
 1-2	Kinkowinik	_	_	_	_	_	_	_	_
 1	kinkowin	kowin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	kinkʼam	kʼam	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	1	xcomp	_	_
 4	bʼi	bʼi	ADV	_	AdvType=Dir	3	advmod	_	_
 5	le	le	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -16355,9 +16355,9 @@
 # labels = tijonik-16 complete check-verb
 1	La	la	PART	_	PronType=Int	2	discourse	_	_
 2	kakowin	kowin	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-3	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	aux	_	_
+3	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	dep:agr	_	_
 4	kintoʼ	toʼ	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	2	xcomp	_	_
-5	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	4	aux	_	SpaceAfter=No
+5	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	4	dep:agr	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = utexas:111
@@ -16377,7 +16377,7 @@
 1	Xawaj	aj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2-3	xabʼano	_	_	_	_	_	_	_	SpaceAfter=No
 2	xabʼan	bʼan	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	1	ccomp	_	_
-3	o	u	AUX	_	_	2	aux:ss	_	_
+3	o	u	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:113
@@ -16386,9 +16386,9 @@
 # labels = tijonik-16 complete
 1	La	la	PART	_	PronType=Int	2	discourse	_	_
 2	kaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	aux	_	_
+3	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	dep:agr	_	_
 4	kujtzalij	tzalij	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	2	ccomp	_	_
-5	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	4	aux	_	_
+5	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	4	dep:agr	_	_
 6	aninaq	aninäq	ADV	_	_	4	advmod	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -16398,7 +16398,7 @@
 # labels = tijonik-16 complete
 1	La	la	PART	_	PronType=Int	2	discourse	_	_
 2	kaj	aj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	aux	_	_
+3	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	dep:agr	_	_
 4	kojbʼeʼ	bʼe	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	2	ccomp	_	_
 5	pa	pa	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|PronType=Art	7	det	_	_
@@ -16486,7 +16486,7 @@
 # text = E kʼi taq le cheʼ tikil chi le bʼe.
 # text[spa] = Hay muchos árboles plantados al borde del camino.
 # labels = tijonik-17 check-adj-verb check-plural
-1	E	e	DET	_	Animacy=Anim|Number=Plur	6	aux	_	_
+1	E	e	PRON	_	Animacy=Anim|Number=Plur	6	dep:agr	_	_
 2	kʼi	kʼi	ADJ	_	_	5	amod	_	_
 3	taq	taq	DET	_	Number=Plur	5	det	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -16698,7 +16698,7 @@
 7	rumal	rumal	SCONJ	_	_	8	mark	_	_
 8-9	xinkosik	_	_	_	_	_	_	_	SpaceAfter=No
 8	xinkos	kos	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	2	advcl	_	_
-9	ik	ik	AUX	_	_	8	aux:ss	_	_
+9	ik	ik	PART	_	_	8	dep:ss	_	_
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = utexas:139
@@ -16865,7 +16865,7 @@
 # text = E nitzʼaʼq le taq imul.
 # text[spa] = Los conejos son pequeños.
 # labels = tijonik-28 complete check-plur
-1	E	e	DET	_	Animacy=Anim|Number=Plur	2	aux	_	_
+1	E	e	PRON	_	Animacy=Anim|Number=Plur	2	dep:agr	_	_
 2	nitzʼaʼq	nitzʼ	ADJ	_	Number=Plur	0	root	_	_
 3	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
 4	taq	taq	DET	_	Number=Plur	5	det	_	_
@@ -17056,7 +17056,7 @@
 2	ali	ali	NOUN	_	_	3	nsubj	_	_
 3-4	xkunatajik	_	_	_	_	_	_	_	SpaceAfter=No
 3	xkunataj	kunaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = utexas:176
@@ -17115,7 +17115,7 @@
 # labels = tijonik-32 complete
 1-2	Ketikonik	_	_	_	_	_	_	_	SpaceAfter=No
 1	ketikon	tikoj	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:179.4
@@ -17176,7 +17176,7 @@
 # labels = tijonik-32 complete
 1-2	Kinqʼojomanik	_	_	_	_	_	_	_	SpaceAfter=No
 1	kinqʼojoman	qʼojomaj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:179.10
@@ -17194,7 +17194,7 @@
 # labels = tijonik-32 complete
 1-2	Katʼisoʼmanik	_	_	_	_	_	_	_	SpaceAfter=No
 1	katʼisoʼman	tʼis	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:179.12
@@ -17202,7 +17202,7 @@
 # text[spa] = Lo busco (a usted) (formal)
 # labels = tijonik-32 complete
 1	Kintzukuj	tzukuj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	aux	_	SpaceAfter=No
+2	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	dep:agr	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:179.13
@@ -17221,7 +17221,7 @@
 # text[spa] = Usted me busca (antipasivo).
 # labels = tijonik-32 complete
 1	Katzukun	tzukuj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
-2	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	aux	_	_
+2	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	dep:agr	_	_
 3-4	chwe	_	_	_	_	_	_	_	SpaceAfter=No
 3	ch	chi	ADP	_	_	4	case	_	_
 4	we	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	1	obl	_	_
@@ -17235,7 +17235,7 @@
 2-3	chech	_	_	_	_	_	_	_	_
 2	ch	chi	ADP	_	_	3	case	_	_
 3	ech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
-4	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	aux	_	SpaceAfter=No
+4	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	dep:agr	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:179.16
@@ -17243,7 +17243,7 @@
 # text[spa] = Los curé (a ustedes) o Ustedes me curaron (activo).
 # labels = tijonik-32 complete
 1	Xinkunaj	kunaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	aux	_	SpaceAfter=No
+2	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	dep:agr	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:179.17
@@ -17254,7 +17254,7 @@
 2-3	chech	_	_	_	_	_	_	_	_
 2	ch	chi	ADP	_	_	3	case	_	_
 3	ech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
-4	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	aux	_	SpaceAfter=No
+4	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	dep:agr	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:179.19
@@ -17262,7 +17262,7 @@
 # text[spa] = Ustedes me curaron (antipasivo).
 # labels = tijonik-32 complete
 1	Xkunan	kunaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
-2	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	aux	_	_
+2	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	dep:agr	_	_
 3-4	chwe	_	_	_	_	_	_	_	SpaceAfter=No
 3	ch	chi	ADP	_	_	4	case	_	_
 4	we	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	1	obl	_	_
@@ -17275,7 +17275,7 @@
 1	In	in	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2-3	xatinchʼayo	_	_	_	_	_	_	_	SpaceAfter=No
 2	xatinchʼay	chʼay	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-3	o	o	AUX	_	_	2	aux:ss	_	_
+3	o	u	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = utexas:181
@@ -17297,7 +17297,7 @@
 3	achi	achi	NOUN	_	_	4	nsubj	_	_
 4-5	xinchʼayowik	_	_	_	_	_	_	_	SpaceAfter=No
 4	xinchʼayow	chʼay	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = utexas:183
@@ -17330,7 +17330,7 @@
 3	nutat	tat	NOUN	_	Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 4-5	kinloqʼonik	_	_	_	_	_	_	_	SpaceAfter=No
 4	kinloqʼon	loqʼoj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = utexas:186
@@ -17357,7 +17357,7 @@
 # text[spa] = Yo lo ayudé (a usted) (activo).
 # labels = tijonik-33 complete
 1	Xintoʼ	toʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	aux	_	SpaceAfter=No
+2	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	1	dep:agr	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:189
@@ -17367,7 +17367,7 @@
 1	Lal	lal	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
 2-3	xintoʼwik	_	_	_	_	_	_	_	SpaceAfter=No
 2	xintoʼw	toʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	0	root	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = utexas:190
@@ -17376,7 +17376,7 @@
 # labels = tijonik-33 complete
 1	In	in	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	xintoʼw	toʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	0	root	_	_
-3	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	aux	_	SpaceAfter=No
+3	la	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	dep:agr	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = utexas:191.1
@@ -17385,7 +17385,7 @@
 # labels = tijonik-33 complete
 1	Aʼre	aʼre	PRON	_	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	xetoʼw	toʼ	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	0	root	_	_
-3	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	aux	_	SpaceAfter=No
+3	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	dep:agr	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = utexas:191.2
@@ -17394,7 +17394,7 @@
 # labels = tijonik-33 complete
 1	Aʼre	aʼre	PRON	_	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	xetoʼw	toʼ	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	0	root	_	_
-3	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	aux	_	SpaceAfter=No
+3	alaq	alaq	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	dep:agr	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = utexas:192
@@ -17444,7 +17444,7 @@
 4	we	we²	SCONJ	_	_	5	mark	_	_
 5-6	xinkunanik	_	_	_	_	_	_	_	SpaceAfter=No
 5	xinkunan	kunaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	3	acl	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:196
@@ -17501,7 +17501,7 @@
 8	we	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	4	obl	_	_
 9-10	xkamik	_	_	_	_	_	_	_	SpaceAfter=No
 9	xkam	käm	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-10	ik	ik	AUX	_	_	9	aux:ss	_	_
+10	ik	ik	PART	_	_	9	dep:ss	_	_
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = utexas:200
@@ -17519,14 +17519,14 @@
 8	utz	utz	ADJ	_	_	9	xcomp	_	_
 9-10	kinwilo	_	_	_	_	_	_	_	SpaceAfter=No
 9	kinwil	il	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-10	o	u	AUX	_	_	9	aux:ss	_	_
+10	o	u	PART	_	_	9	dep:ss	_	_
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = utexas:201
 # text = Le nimatijobʼal ri kakʼut wi ri qachʼabʼal, sibʼalaj naj kʼo wi.
 # text[spa] = La escuela donde se enseña nuestro idioma (kʼicheʼ) está lejos.
 # labels = tijonik-34 complete check-dislocated check-relative
-1	Le	le	DET	_	Definite=Def|PronType=Art	2	case	_	_
+1	Le	le	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	nimatijobʼal	nimatijobʼal	NOUN	_	_	11	nsubj	_	_
 3	ri	ri	PRON	_	PronType=Rel	4	dep	_	_
 4	kakʼut	kʼut	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	2	acl	_	_
@@ -17638,7 +17638,7 @@
 # text[spa] = Es bueno lo que trabajo.
 # labels = tijonik-35 complete
 1	Utz	utz	ADJ	_	_	0	root	_	_
-2	we	we²	SCONJ	_	_	1	mark	_	_
+2	we	we	PRON	_	PronType=Dem	1	nsubj	_	_
 3	kinchakuj	chakuj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	2	acl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -17688,7 +17688,7 @@
 2	ri	ri	PRON	_	PronType=Rel	1	nsubj	_	_
 3-4	kachʼawik	_	_	_	_	_	_	_	SpaceAfter=No
 3	kachʼaw	chʼaw	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	acl	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:217
@@ -17711,7 +17711,7 @@
 2	waʼ	waʼ	PRON	_	PronType=Dem	1	fixed	_	_
 3-4	katpetik	_	_	_	_	_	_	_	SpaceAfter=No
 3	katpet	pet	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	ik	ik	AUX	_	_	3	aux:ss	_	_
+4	ik	ik	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = utexas:220
@@ -17763,7 +17763,7 @@
 3	arajil	rajil	NOUN	_	Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
 4-5	chakʼama	_	_	_	_	_	_	_	_
 4	chakʼam	kʼam	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	0	root	_	_
-5	a	uʼ	PART	_	_	4	aux:ss	_	_
+5	a	uʼ	PART	_	_	4	dep:ss	_	_
 6	loq	uloq	ADV	_	AdvType=Dir	4	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -17796,7 +17796,7 @@
 1	La	la	PART	_	PronType=Int	2	discourse	_	_
 2	katzalij	tzalij	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3-4	luʼla	_	_	_	_	_	_	_	_
-3	luʼ	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	aux	_	_
+3	luʼ	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	2	dep:agr	_	_
 4	la	la	ADV	_	AdvType=Dir	2	advmod	_	_
 5	aninaq	aninäq	ADV	_	_	2	advmod	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	2	punct	_	_
@@ -17836,7 +17836,7 @@
 3	xel	el	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 4-5	bʼik	_	_	_	_	_	_	_	SpaceAfter=No
 4	bʼi	bʼi	ADV	_	AdvType=Dir	3	advmod	_	_
-5	k	ik	AUX	_	_	3	aux:ss	_	_
+5	k	ik	PART	_	_	3	dep:ss	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = utexas:234
@@ -17847,7 +17847,7 @@
 2	achijabʼ	achij	NOUN	_	Number=Plur	3	nsubj	_	_
 3-4	xeʼqʼabʼaroq	_	_	_	_	_	_	_	SpaceAfter=No
 3	xeʼqʼabʼar	qʼabʼar	VERB	_	Aspect=Perf|Movement=Abl|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
-4	oq	oq	AUX	_	_	3	aux:ss	_	_
+4	oq	oq	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = utexas:235
@@ -17857,7 +17857,7 @@
 1	Xujchʼay	chʼay	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 2-3	bʼik	_	_	_	_	_	_	_	SpaceAfter=No
 2	bʼi	bʼi	ADV	_	AdvType=Dir	1	advmod	_	_
-3	k	ik	AUX	_	_	1	aux:ss	_	_
+3	k	ik	PART	_	_	1	dep:ss	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:236
@@ -17879,9 +17879,9 @@
 2	kamik	kamik	ADV	_	_	3	advmod	_	_
 3	kakʼam	kʼam	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 4-6	luʼbʼik	_	_	_	_	_	_	_	SpaceAfter=No
-4	luʼ	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	3	aux	_	_
+4	luʼ	la	PRON	_	Clitic=Yes|Polite=Form|PronType=Prs	3	dep:agr	_	_
 5	bʼi	bʼi	ADV	_	AdvType=Dir	3	advmod	_	_
-6	k	ik	AUX	_	_	3	aux:ss	_	_
+6	k	ik	PART	_	_	3	dep:ss	_	_
 7	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = utexas:238
@@ -17898,7 +17898,7 @@
 8-10	wuʼbʼik	_	_	_	_	_	_	_	SpaceAfter=No
 8	wuʼ	wi	PART	_	Focus=Yes	7	advmod	_	_
 9	bʼi	bʼi	ADV	_	AdvType=Dir	7	advmod	_	_
-10	k	ik	AUX	_	_	7	aux:ss	_	_
+10	k	ik	PART	_	_	7	dep:ss	_	_
 11	?	?	PUNCT	_	_	7	punct	_	_
 
 # sent_id = utexas:239
@@ -17977,7 +17977,7 @@
 1	Xinxuliʼ	xuliʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 2-3	qajoq	_	_	_	_	_	_	_	SpaceAfter=No
 2	qaj	qaj	ADV	_	AdvType=Dir	1	advmod	_	_
-3	oq	oq	AUX	_	_	1	aux:ss	_	_
+3	oq	oq	PART	_	_	1	dep:ss	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = utexas:246
@@ -17998,7 +17998,7 @@
 # labels = tijonik-37 complete
 1-2	Xeʼnwila	_	_	_	_	_	_	_	_
 1	xeʼnwil	il	VERB	_	Aspect=Perf|Movement=Abl|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-2	a	uʼ	PART	_	_	1	aux:ss	_	_
+2	a	uʼ	PART	_	_	1	dep:ss	_	_
 3	le	le	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	etzʼanem	etzʼanem	NOUN	_	_	1	obj	_	_
 5	oxjir	oxjir	ADV	_	_	1	advmod	_	SpaceAfter=No
@@ -18027,7 +18027,7 @@
 3-4	chawe	_	_	_	_	_	_	_	_
 3	ch	chi	ADP	_	_	4	case	_	_
 4	awe	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=2	2	obl	_	_
-5	le	le	PRON	_	PronType=Rel	6	mark	_	_
+5	le	le	SCONJ	_	_	6	mark	_	_
 6	utijik	tij	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Inf	2	csubj	_	_
 7	le	le	DET	_	Definite=Def|PronType=Art	8	det	_	_
 8	lej	lej	NOUN	_	_	6	obj	_	SpaceAfter=No
@@ -18055,7 +18055,7 @@
 # text = In loqʼomanel re ixim.
 # text[spa] = Soy el que compra el maiz.
 # labels = tijonik-41 complete check-pronoun
-1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	aux	_	_
+1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	dep:agr	_	_
 2	loqʼomanel	loqʼomanel	NOUN	_	_	0	root	_	_
 3	re	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	nmod	_	_
 4	ixim	ixim	NOUN	_	_	3	nmod	_	SpaceAfter=No
@@ -18065,7 +18065,7 @@
 # text = In chajinel kech le akʼalabʼ.
 # text[spa] = Yo soy el que cuida a los niños
 # labels = tijonik-41 complete check-pronoun
-1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	aux	_	_
+1	In	in	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	dep:agr	_	_
 2	chajinel	chajinel	NOUN	_	_	0	root	_	_
 3	kech	ech	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	2	nmod	_	_
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -18119,7 +18119,7 @@
 1	We	we¹	SCONJ	_	_	2	mark	_	_
 2-3	chatchakunik	_	_	_	_	_	_	_	SpaceAfter=No
 2	chatchakun	chakun	VERB	_	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr	5	advcl	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	kʼo	kʼo	PART	_	_	0	root	_	_
 6	awa	wa	NOUN	_	Number[psor]=Sing|Person[psor]=2	5	nsubj	_	SpaceAfter=No
@@ -18132,7 +18132,7 @@
 1	We	we¹	SCONJ	_	_	2	mark	_	_
 2-3	chatchakunik	_	_	_	_	_	_	_	SpaceAfter=No
 2	chatchakun	chakun	VERB	_	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Subcat=Intr	5	advcl	_	_
-3	ik	ik	AUX	_	_	2	aux:ss	_	_
+3	ik	ik	PART	_	_	2	dep:ss	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	kʼo	kʼo	PART	_	_	0	root	_	_
 6	awa	wa	NOUN	_	Number[psor]=Sing|Person[psor]=2	5	nsubj	_	SpaceAfter=No
@@ -18257,7 +18257,7 @@
 3	xiwaj	aj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4-5	xixbʼixanik	_	_	_	_	_	_	_	_
 4	xixbʼixan	bʼixaj	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=2|Subcat=Tran|VerbForm=Fin|Voice=Antip	3	xcomp	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	par	par	CCONJ	_	_	8	cc	_	_
 7	na	na	PART	_	Polarity=Neg	8	advmod:neg	_	_
 8	utz	utz	ADJ	_	_	3	conj	_	_
@@ -18411,7 +18411,7 @@
 4	in	in	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5-6	xinbʼanowik	_	_	_	_	_	_	_	SpaceAfter=No
 5	xinbʼanow	bʼan	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	12	advcl	_	_
-6	ik	ik	AUX	_	_	5	aux:ss	_	_
+6	ik	ik	PART	_	_	5	dep:ss	_	_
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	are	are	PART	_	Focus=Yes	12	discourse	_	_
 9	le	le	DET	_	Definite=Def|PronType=Art	11	det	_	_
@@ -18419,7 +18419,7 @@
 11	Teʼk	Teʼk	PROPN	_	Gender=Masc	12	nsubj	_	_
 12-13	xbʼanowik	_	_	_	_	_	_	_	SpaceAfter=No
 12	xbʼanow	bʼan	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	0	root	_	_
-13	ik	ik	AUX	_	_	12	aux:ss	_	_
+13	ik	ik	PART	_	_	12	dep:ss	_	_
 14	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = utexas:284.1
@@ -18441,7 +18441,7 @@
 2	xew	xew	ADV	_	_	3	advmod	_	_
 3-4	xayojo	_	_	_	_	_	_	_	SpaceAfter=No
 3	xayoj	yoj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
-4	o	u	AUX	_	_	3	aux:ss	_	_
+4	o	u	PART	_	_	3	dep:ss	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = utexas:285.1
@@ -18475,12 +18475,12 @@
 # labels = tijonik-42 complete check-antipassive
 1	Are	are	PART	_	Focus=Yes	6	discourse	_	_
 2	ta	taj	AUX	_	Polarity=Neg	6	aux	_	_
-3	bʼa	bʼaʼ	PART	_	_	6	aux	_	_
+3	bʼa	bʼaʼ	PART	_	_	6	discourse	_	_
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	qaqajaw	qajaw	NOUN	_	Number[psor]=Plur|Person[psor]=1	6	nsubj	_	_
 6-7	kixtewechiʼnik	_	_	_	_	_	_	_	SpaceAfter=No
 6	kixtewechiʼn	tewechiʼj	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=2|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
-7	ik	ik	AUX	_	_	6	aux:ss	_	_
+7	ik	ik	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = utexas:290
@@ -18515,7 +18515,7 @@
 3	bʼa	bʼaʼ	PART	_	_	4	discourse	_	_
 4-5	chojchʼakanik	_	_	_	_	_	_	_	SpaceAfter=No
 4	chojchʼakan	chʼak	VERB	_	Mood=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Tran|Voice=Antip	0	root	_	_
-5	ik	ik	AUX	_	_	4	aux:ss	_	_
+5	ik	ik	PART	_	_	4	dep:ss	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = utexas:292
@@ -18542,7 +18542,7 @@
 5	qaqajaw	qajaw	NOUN	_	Number[psor]=Plur|Person[psor]=1	6	nsubj	_	_
 6-7	chattoʼwik	_	_	_	_	_	_	_	SpaceAfter=No
 6	chattoʼw	toʼ	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=3|Subcat=Tran|Voice=Antip	0	root	_	_
-7	ik	ik	AUX	_	_	6	aux:ss	_	_
+7	ik	ik	PART	_	_	6	dep:ss	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = utexas:295
@@ -18840,7 +18840,7 @@
 # labels = incomplete
 1-2	Kabʼixik	_	_	_	_	_	_	_	_
 1	Kabʼix	bʼij	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	ik	ik	AUX	_	_	1	aux:ss	_	_
+2	ik	ik	PART	_	_	1	dep:ss	_	_
 3	chi	chi	SCONJ	_	_	7	mark	_	_
 4	30.000	30.000	NUM	_	_	6	nummod	_	_
 5	e	e	DET	_	Animacy=Anim|Number=Plur	6	det	_	_
