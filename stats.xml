@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>1435</sentences><tokens>9396</tokens><words>10013</words><fused>611</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>1435</sentences><tokens>9396</tokens><words>10013</words><fused>611</fused></test>
+  </size>
+  <lemmas unique="1309" /><!-- ., ri, le, chi, ik, ech, pa, ,, taj, bʼe, kʼo, jun, u, na, il -->
+  <forms unique="2161" /><!-- ., ri, le, pa, ik, ,, ch, chi, kʼo, we, e, jun, na, o, ta -->
+  <fusions unique="292" /><!-- che, chech, chwe, bʼik, chke, kanoq, xeatinik, chawe, chike, xkilo, ekʼo, katʼek, xinwilo, xulik, Xepetik -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">331</tag><!-- nim, utz, kʼax, kʼakʼ, jeʼl, sibʼ, alaj, saq, kʼi, mayabʼ -->
+    <tag name="ADP">486</tag><!-- chi, pa, kʼa, kʼateʼ, pachaʼ -->
+    <tag name="ADV">394</tag><!-- sibʼalaj, bʼi, uloq, kan, kamik, chik, iwir, na, utz, chweʼq -->
+    <tag name="AUX">227</tag><!-- taj, tajin -->
+    <tag name="CCONJ">40</tag><!-- xuqujeʼ, chiʼl, e, on, i, kʼuriʼ, par, pero, kʼut, tekʼuriʼ -->
+    <tag name="DET">1397</tag><!-- ri, le, jun, taq, we, e, waʼ -->
+    <tag name="INTJ">11</tag><!-- jeʼ, ay, e, maltyox, paʼ, saqarik -->
+    <tag name="NOUN">2439</tag><!-- ech, ukʼ, umal, wach, akʼal, ala, ja, ali, winaq, tinamit -->
+    <tag name="NUM">65</tag><!-- kebʼ, jun, oxibʼ, jobʼ, nabʼe, kajibʼ, ukabʼ, lajuj, uwuq, 2012 -->
+    <tag name="PART">830</tag><!-- ik, kʼo, u, na, man, are, wi, la, oq, uʼ -->
+    <tag name="PRON">219</tag><!-- in, jas, la, e, areʼ, riʼ, jachin, laʼ, waʼ, le -->
+    <tag name="PROPN">173</tag><!-- Teʼk, Xwan, Luʼ, Poʼx, Luʼs, Nawaljaʼ, Wel, COVID-19, Jun, Kel -->
+    <tag name="PUNCT">1686</tag><!-- ., ,, ?, :, ¿, !, -, (, ), ... -->
+    <tag name="SCONJ">150</tag><!-- chi, we¹, rech, taq, we², chiʼ, pine, le, rumal, are -->
+    <tag name="VERB">1565</tag><!-- bʼe, il, bʼan, tij, bʼij, aj, kʼam, waʼ, loqʼ, pe -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="59">
+    <feat name="Abbr" value="Yes" upos="NOUN">5</feat><!-- T.b.g, T.b.r. -->
+    <feat name="AdvType" value="Dir" upos="ADV">107</feat><!-- bʼi, kan, loq, uloq, ulo, apan, la, ubʼi, aqʼan, b'i -->
+    <feat name="Animacy" value="Anim" upos="DET,PRON">29</feat><!-- e -->
+    <feat name="Aspect" value="Imp" upos="VERB">715</feat><!-- kawaj, kubʼan, kel, kutij, kimbʼe, kinbʼij, kabʼan, kinbʼe, kinwil, kuyaʼ -->
+    <feat name="Aspect" value="Perf" upos="VERB">720</feat><!-- xubʼij, xeatin, xinloqʼ, xinwil, xsachon, xutij, xbʼe, xkam, xnaʼtaj, xretaʼmaj -->
+    <feat name="Aspect" value="Prog" upos="AUX">61</feat><!-- tajin -->
+    <feat name="Clitic" value="Yes" upos="PRON">57</feat><!-- la, in, alaq, e, at, oj, areʼ, luʼ, Uj, are -->
+    <feat name="Definite" value="Def" upos="DET">1246</feat><!-- ri, le, we, r, l -->
+    <feat name="Definite" value="Ind" upos="DET">86</feat><!-- jun, ju -->
+    <feat name="Degree" value="Ints" upos="ADJ">23</feat><!-- sibʼalaj, nimalaj, utzalaj, loqʼalaj, jeʼlalaj -->
+    <feat name="Focus" value="Yes" upos="PART">103</feat><!-- are, wi, wuʼ, areʼ, w -->
+    <feat name="Foreign" value="Yes" upos="NOUN">4</feat><!-- coronavirus, nodo -->
+    <feat name="Gender" value="Fem" upos="NOUN,PROPN">63</feat><!-- nan, al, Luʼs, Naʼ, ali, Ixchel, Leʼn, Niʼl, Siʼl, Talin -->
+    <feat name="Gender" value="Masc" upos="NOUN,PROPN">106</feat><!-- a, Teʼk, Xwan, Luʼ, Poʼx, tat, Wel, Jun, Kel, Max -->
+    <feat name="Mood" value="Imp" upos="VERB">38</feat><!-- Chitatabʼej, Chatbʼin, Matbʼin, chatchakun, chpe, Chatan, Chatmochʼochʼ, Chawil, Chinakuy, Chinatisaj -->
+    <feat name="Mood" value="Irr" upos="AUX">10</feat><!-- ta, taj -->
+    <feat name="Movement" value="Abl" upos="VERB">24</feat><!-- x, Xineʼwaʼ, xeʼkiqʼatuj, Kateʼbʼin, Xateʼqil, Xeʼok, Xeʼul, Xinesach, Xineʼbʼin, Xiʼnwil -->
+    <feat name="Movement" value="Lat" upos="VERB">14</feat><!-- xolkikʼam, xolqakʼam, Kojulkitzukuj, Xatalqil, Xuʼlukʼam, kojalwoʼ, kolqakʼam, xatalkiʼkot, xojalwoʼ, xolkil -->
+    <feat name="NounType" value="Clf" upos="NOUN">49</feat><!-- a, nan, al, tat, ali, tataʼ -->
+    <feat name="NounType" value="Relat" upos="NOUN">496</feat><!-- e, rukʼ, rumal, rech, ke, uwach, we, ech, ronojel, awe -->
+    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON">164</feat><!-- taq, e, akʼalabʼ, oj, achijabʼ, awajibʼ, ixoqibʼ, ix, Aʼre, ajchakibʼ -->
+    <feat name="Number" value="Sing" upos="PRON">55</feat><!-- in, areʼ, at, are, Lal -->
+    <feat name="Number[obj]" value="Plur" upos="VERB">43</feat><!-- Xekiqʼil, Xojutaqchiʼij, kujutoʼ, xojukʼam, Kenchʼabʼej, Keqeqaj, Kojulkitzukuj, Xekikoj, Xenutaqchʼij, Xeqil -->
+    <feat name="Number[obj]" value="Sing" upos="VERB">716</feat><!-- kawaj, xubʼij, kubʼan, kutij, xinloqʼ, xinwil, kinbʼij, xutij, xretaʼmaj, xril -->
+    <feat name="Number[psor]" value="Plur" upos="NOUN">166</feat><!-- ke, kech, kukʼ, qibʼ, kiwach, konojel, kibʼ, qachak, qasok, iwach -->
+    <feat name="Number[psor]" value="Sing" upos="NOUN">830</feat><!-- e, rukʼ, rumal, uwach, rech, we, ech, ronojel, awe, upam -->
+    <feat name="Number[subj]" value="Plur" upos="VERB">331</feat><!-- xeatin, kewaʼ, xkil, xojʼe, xkibʼij, Chitatabʼej, Xepet, kaqatij, kujbʼe, xkibʼan -->
+    <feat name="Number[subj]" value="Sing" upos="VERB">1212</feat><!-- kawaj, xubʼij, kubʼan, ukemik, kel, kutij, xinloqʼ, xinwil, xsachon, kimbʼe -->
+    <feat name="NumType" value="Ord" upos="NUM">11</feat><!-- nabʼe, ukabʼ, uwuq, Ukʼabʼ, Uwaq, urox -->
+    <feat name="Person" value="1" upos="PRON">41</feat><!-- in, oj, uj -->
+    <feat name="Person" value="2" upos="PRON">15</feat><!-- at, ix, Lal -->
+    <feat name="Person" value="3" upos="PRON">27</feat><!-- areʼ, are, e, Aʼre, eʼareʼ -->
+    <feat name="Person[obj]" value="1" upos="VERB">28</feat><!-- Kinuloqʼoj, Xojutaqchiʼij, kinraj, kujutoʼ, xojukʼam, Chinakuy, Kinusikʼij, Kojulkitzukuj, Xinaxibʼij, Xinukatz -->
+    <feat name="Person[obj]" value="2" upos="VERB">26</feat><!-- xatkisikʼij, xatutzukuj, Xatalqil, Xateʼqil, Xatinwil, Xatriyeʼj, Xixqachʼabʼej, Xixusikʼij, chattoʼw, katinchʼabʼej -->
+    <feat name="Person[obj]" value="3" upos="VERB">705</feat><!-- kawaj, xubʼij, kubʼan, kutij, xinloqʼ, xinwil, kinbʼij, xutij, xretaʼmaj, xril -->
+    <feat name="Person[psor]" value="1" upos="NOUN">256</feat><!-- we, nutat, qibʼ, wibʼ, wech, nutzʼiʼ, nunan, nuqʼabʼ, nuchak, wachalal -->
+    <feat name="Person[psor]" value="2" upos="NOUN">96</feat><!-- awe, awumal, awukʼ, anan, atat, awa, ajiʼ, akʼajol, akʼojol, arajil -->
+    <feat name="Person[psor]" value="3" upos="NOUN">644</feat><!-- e, rukʼ, rumal, uwach, rech, ke, ech, ronojel, upam, ubʼiʼ -->
+    <feat name="Person[subj]" value="1" upos="VERB">434</feat><!-- xinloqʼ, xinwil, kawaj, kimbʼe, kinbʼij, kinbʼe, kinwil, xinkos, xinta, xojʼe -->
+    <feat name="Person[subj]" value="2" upos="VERB">192</feat><!-- kawaj, katʼe, xawil, Chitatabʼej, kabʼan, kabʼij, katbʼe, katpe, katpet, xaloqʼ -->
+    <feat name="Person[subj]" value="3" upos="VERB">917</feat><!-- xubʼij, kubʼan, ukemik, xeatin, kel, kutij, xsachon, xutij, xbʼe, xkam -->
+    <feat name="Polarity" value="Neg" upos="AUX,PART,VERB">312</feat><!-- ta, na, taj, man, ma, maj, mna, Matbʼin, Makʼam, Mawil -->
+    <feat name="Polite" value="Form" upos="PRON">31</feat><!-- la, alaq, Lal, luʼ -->
+    <feat name="PronType" value="Art" upos="DET">1335</feat><!-- ri, le, jun, we, r, waʼ, ju, l -->
+    <feat name="PronType" value="Dem" upos="PRON">40</feat><!-- riʼ, laʼ, waʼ, weriʼ, we -->
+    <feat name="PronType" value="Int" upos="ADV,PART,PRON">98</feat><!-- la, jas, jachin, jawi, jampaʼ, jawijeʼ, su, Jachike, Jampa, Jawchiʼ -->
+    <feat name="PronType" value="Prs" upos="PRON">112</feat><!-- in, la, alaq, areʼ, at, are, e, oj, ix, Aʼre -->
+    <feat name="PronType" value="Rel" upos="PRON">17</feat><!-- le, ri -->
+    <feat name="Reflex" value="Yes" upos="NOUN">29</feat><!-- qibʼ, wibʼ, ribʼ, kibʼ, awibʼ, ibʼ, kʼibʼ -->
+    <feat name="Subcat" value="Intr" upos="VERB">555</feat><!-- xeatin, kel, xsachon, kimbʼe, xbʼe, xkam, kinbʼe, xok, katʼe, kewaʼ -->
+    <feat name="Subcat" value="Tran" upos="VERB">1010</feat><!-- kawaj, xubʼij, kubʼan, ukemik, kutij, xinloqʼ, xinwil, kinbʼij, xutij, xnaʼtaj -->
+    <feat name="Tense" value="Fut" upos="ADV">11</feat><!-- na, nuʼ -->
+    <feat name="Tense" value="Past" upos="VERB">13</feat><!-- sachinaq, Petinaq, Sipojinaq, atijom, bʼenaq, chʼajom, kiriqom, kʼamom, petnaq, pisom -->
+    <feat name="VerbForm" value="Fin" upos="VERB">1435</feat><!-- kawaj, xubʼij, kubʼan, xeatin, kel, kutij, xinloqʼ, xinwil, xsachon, kimbʼe -->
+    <feat name="VerbForm" value="Inf" upos="VERB">79</feat><!-- ukemik, utijik, utzakik, waʼim, rilik, uloqʼik, kikunaxik, qilik, ubʼanik, ubʼixik -->
+    <feat name="VerbForm" value="Part" upos="VERB">13</feat><!-- sachinaq, Petinaq, Sipojinaq, atijom, bʼenaq, chʼajom, kiriqom, kʼamom, petnaq, pisom -->
+    <feat name="Voice" value="AgFoc" upos="VERB">22</feat><!-- xetoʼw, xinchʼayow, xinkunan, xintoʼw, kabʼanow, kinloqʼon, kixtzuquw, kpaqʼow, ktijow, xbʼanow -->
+    <feat name="Voice" value="Antip" upos="VERB">33</feat><!-- Xsachan, kaloqʼon, ketikon, Katzukun, Kinbʼison, Kintobʼan, Kintzukun, Kkunan, Xinkunan, Xkunan -->
+    <feat name="Voice" value="Pass" upos="VERB">187</feat><!-- ukemik, xnaʼtaj, utijik, utzakik, kabʼan, kbʼan, Xkʼam, Xkʼis, kkoj, kyaʼ -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="34">
+    <dep name="acl">85</dep>
+    <dep name="advcl">110</dep>
+    <dep name="advmod">417</dep>
+    <dep name="advmod:neg">146</dep>
+    <dep name="amod">127</dep>
+    <dep name="appos">38</dep>
+    <dep name="aux">220</dep>
+    <dep name="case">466</dep>
+    <dep name="cc">41</dep>
+    <dep name="ccomp">128</dep>
+    <dep name="clf">49</dep>
+    <dep name="compound">59</dep>
+    <dep name="conj">74</dep>
+    <dep name="csubj">63</dep>
+    <dep name="dep">23</dep>
+    <dep name="dep:agr">68</dep>
+    <dep name="dep:ss">375</dep>
+    <dep name="det">1412</dep>
+    <dep name="discourse">150</dep>
+    <dep name="dislocated">28</dep>
+    <dep name="fixed">20</dep>
+    <dep name="flat">17</dep>
+    <dep name="goeswith">1</dep>
+    <dep name="mark">169</dep>
+    <dep name="nmod">501</dep>
+    <dep name="nsubj">885</dep>
+    <dep name="nummod">40</dep>
+    <dep name="obj">415</dep>
+    <dep name="obl">600</dep>
+    <dep name="parataxis">97</dep>
+    <dep name="punct">1686</dep>
+    <dep name="root">1435</dep>
+    <dep name="vocative">13</dep>
+    <dep name="xcomp">55</dep>
+  </deps>
+</treebank>
