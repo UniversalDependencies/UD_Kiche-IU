@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Kiche-IU:
-commit 60a5bff252fb1f897624e8341d934364df9ea76e
+commit 939c050ac925aa1075deac43f80a494077da5e7a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 14:50:01 2022 +0200
+Date:   Mon Nov 14 11:42:27 2022 +0100
 Size: counted 10013 of 10013 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.60776849745133.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,11 +24,11 @@ Udapi:
 Udapi: found 1603 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 10013 words.
 Genres: found 6 out of 17 known.
-validate.py --lang quc --max-err=10 UD_Kiche-IU/quc_iu-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang quc --max-err=10 UD_Kiche-IU/quc_iu-ud-test.conllu
 [Line 4417 Sent almg-examples:1430 Node 2]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 [Line 4418 Sent almg-examples:1430 Node 3]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
 [Line 4418 Sent almg-examples:1430 Node 3]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
-[Line 12924 Sent cuentos:Le_umaybʼal_le_juyubʼ.wiki:2 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 12924 Sent cuentos:Le_umaybʼal_le_juyubʼ.wiki:2 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [2, 7] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
 Morpho errors: 3
 Syntax errors: 1
 *** FAILED *** with 4 errors
