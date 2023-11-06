@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Kiche-IU:
-commit 939c050ac925aa1075deac43f80a494077da5e7a
+commit 455436b9d5855f0dd4d859828da7b25f3b36d928
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 11:42:27 2022 +0100
+Date:   Tue May 9 11:18:07 2023 +0200
 Size: counted 10013 of 10013 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.60776849745133.
 Size: maximum value 13.815511 is for 1000000 words or more.
