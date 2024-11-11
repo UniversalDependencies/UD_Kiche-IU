@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Kiche-IU:
-commit dd7bdaeb90f1bc6cc2d40bdc571a162f24233f5c
+commit ad2fddfd7baa0e236999ac0a764c7e86bd82c97a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:32:05 2023 +0100
+Date:   Sun May 5 12:57:11 2024 +0200
 Size: counted 10013 of 10013 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.60776849745133.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -28,9 +28,11 @@ Genres: found 6 out of 17 known.
 [Line 4417 Sent almg-examples:1430 Node 2]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 [Line 4418 Sent almg-examples:1430 Node 3]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
 [Line 4418 Sent almg-examples:1430 Node 3]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 8209 Sent biblia:4 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:riʼ:det --> 4:tzij:nmod)
 [Line 12924 Sent cuentos:Le_umaybʼal_le_juyubʼ.wiki:2 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [2, 7] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
 Morpho errors: 3
 Syntax errors: 1
+Warnings: 1
 *** FAILED *** with 4 errors
 Exit code: 1
 Validity: 0.01
