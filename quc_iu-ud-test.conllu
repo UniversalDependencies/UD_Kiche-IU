@@ -8207,7 +8207,7 @@
 2	taq	taq	DET	_	Number=Plur	5	det	_	_
 3	we	we	DET	_	Definite=Def|PronType=Art	5	det	_	_
 4	tzij	tzij	NOUN	_	_	5	nmod	_	_
-5	riʼ	riʼ	PRON	_	PronType=Dem	1	det	_	SpaceAfter=No
+5	riʼ	riʼ	PRON	_	PronType=Dem	1	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	xkikʼam	kʼam	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	ri	ri	DET	_	Definite=Def|PronType=Art	9	det	_	_
@@ -12925,7 +12925,7 @@
 4	chi	chi	SCONJ	_	_	5	mark	_	_
 5	kʼo	kʼo	PART	_	_	3	ccomp	_	_
 6	jun	jun	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-7	bʼe	bʼe	NOUN	_	_	3	nsubj	_	SpaceAfter=No
+7	bʼe	bʼe	NOUN	_	_	5	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	areʼ	areʼ	PRON	_	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	bʼe	bʼe	NOUN	_	_	3	parataxis	_	_
