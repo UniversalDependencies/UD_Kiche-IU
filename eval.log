@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Kiche-IU:
-commit ad2fddfd7baa0e236999ac0a764c7e86bd82c97a
+commit 218386df09c008c332fc1eeae40f01b617925f7e
+Merge: d73b131 3d4558e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 12:57:11 2024 +0200
 Size: counted 10013 of 10013 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.60776849745133.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -13,37 +13,40 @@ Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
-Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 5108 out of 10013 total words have one or more features.
+Features: 5109 out of 10013 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1603
-Udapi: found 1603 bugs.
+               TOTAL       1601
+Udapi: found 1601 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 10013 words.
-Genres: found 6 out of 17 known.
+Genres: found 7 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang quc --max-err=10 UD_Kiche-IU/quc_iu-ud-test.conllu
-[Line 4417 Sent almg-examples:1430 Node 2]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
-[Line 4418 Sent almg-examples:1430 Node 3]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
-[Line 4418 Sent almg-examples:1430 Node 3]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
-[Line 8209 Sent biblia:4 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:riʼ:det --> 4:tzij:nmod)
-[Line 12924 Sent cuentos:Le_umaybʼal_le_juyubʼ.wiki:2 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [2, 7] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-Morpho errors: 3
-Syntax errors: 1
-Warnings: 1
-*** FAILED *** with 4 errors
-Exit code: 1
-Validity: 0.01
+[Line 1893 Sent almg-examples:734 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Are chiʼ' does not have the 'ExtPos' feature
+[Line 2002 Sent almg-examples:811 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'are taq' does not have the 'ExtPos' feature
+[Line 2038 Sent almg-examples:824 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Are taq' does not have the 'ExtPos' feature
+[Line 7003 Sent almg-examples:2073 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'are chi' does not have the 'ExtPos' feature
+[Line 7129 Sent almg-examples:2102 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Are taq' does not have the 'ExtPos' feature
+[Line 7412 Sent almg-examples:2146 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Are chi' does not have the 'ExtPos' feature
+[Line 7750 Sent almg-examples:2583 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'are taq' does not have the 'ExtPos' feature
+[Line 12330 Sent cuentos:Jas_uchakuxik_kaxlanwa.wiki:9 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'are taq' does not have the 'ExtPos' feature
+[Line 12477 Sent cuentos:Kebʼ_ajyuqʼabʼ.wiki:4 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Kʼa te' does not have the 'ExtPos' feature
+[Line 12584 Sent cuentos:Kebʼ_ajyuqʼabʼ.wiki:9 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'kʼate kʼuriʼ' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 19
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.352941176470588) = 0.0271493212669683
+(weight=0.0769230769230769) * (score{genres}=0.388888888888889) = 0.0299145299145299
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.333521405388459) = 0.0855183090739637
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
+(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.419348972316392) * (availability=1) * (validity=0.01) = 0.00419348972316392
-STARS = 0
-UD_Kiche-IU	0.00419348972316392	0
+(TOTAL score=0.426639067841781) * (availability=1) * (validity=1) = 0.426639067841781
+STARS = 2
+UD_Kiche-IU	0.426639067841781	2
