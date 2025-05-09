@@ -10,11 +10,11 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1435</sentences><tokens>9396</tokens><words>10013</words><fused>611</fused></test>
   </size>
-  <lemmas unique="1309" /><!-- ., ri, le, chi, ik, ech, pa, ,, taj, bʼe, kʼo, jun, u, na, il -->
+  <lemmas unique="1308" /><!-- ., ri, le, chi, ik, ech, pa, ,, taj, bʼe, kʼo, jun, u, na, il -->
   <forms unique="2161" /><!-- ., ri, le, pa, ik, ,, ch, chi, kʼo, we, e, jun, na, o, ta -->
   <fusions unique="292" /><!-- che, chech, chwe, bʼik, chke, kanoq, xeatinik, chawe, chike, xkilo, ekʼo, katʼek, xinwilo, xulik, Xepetik -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="15">
+  <tags unique="16">
     <tag name="ADJ">331</tag><!-- nim, utz, kʼax, kʼakʼ, jeʼl, sibʼ, alaj, saq, kʼi, mayabʼ -->
     <tag name="ADP">486</tag><!-- chi, pa, kʼa, kʼateʼ, pachaʼ -->
     <tag name="ADV">394</tag><!-- sibʼalaj, bʼi, uloq, kan, kamik, chik, iwir, na, utz, chweʼq -->
@@ -22,7 +22,7 @@
     <tag name="CCONJ">40</tag><!-- xuqujeʼ, chiʼl, e, on, i, kʼuriʼ, par, pero, kʼut, tekʼuriʼ -->
     <tag name="DET">1397</tag><!-- ri, le, jun, taq, we, e, waʼ -->
     <tag name="INTJ">11</tag><!-- jeʼ, ay, e, maltyox, paʼ, saqarik -->
-    <tag name="NOUN">2439</tag><!-- ech, ukʼ, umal, wach, akʼal, ala, ja, ali, winaq, tinamit -->
+    <tag name="NOUN">2438</tag><!-- ech, ukʼ, umal, wach, akʼal, ala, ja, ali, winaq, tinamit -->
     <tag name="NUM">65</tag><!-- kebʼ, jun, oxibʼ, jobʼ, nabʼe, kajibʼ, ukabʼ, lajuj, uwuq, 2012 -->
     <tag name="PART">830</tag><!-- ik, kʼo, u, na, man, are, wi, la, oq, uʼ -->
     <tag name="PRON">219</tag><!-- in, jas, la, e, areʼ, riʼ, jachin, laʼ, waʼ, le -->
@@ -30,9 +30,10 @@
     <tag name="PUNCT">1686</tag><!-- ., ,, ?, :, ¿, !, -, (, ), ... -->
     <tag name="SCONJ">150</tag><!-- chi, we¹, rech, taq, we², chiʼ, pine, le, rumal, are -->
     <tag name="VERB">1565</tag><!-- bʼe, il, bʼan, tij, bʼij, aj, kʼam, waʼ, loqʼ, pe -->
+    <tag name="X">1</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="59">
+  <feats unique="60">
     <feat name="Abbr" value="Yes" upos="NOUN">5</feat><!-- T.b.g, T.b.r. -->
     <feat name="AdvType" value="Dir" upos="ADV">107</feat><!-- bʼi, kan, loq, uloq, ulo, apan, la, ubʼi, aqʼan, b'i -->
     <feat name="Animacy" value="Anim" upos="DET,PRON">29</feat><!-- e -->
@@ -86,6 +87,7 @@
     <feat name="Subcat" value="Tran" upos="VERB">1010</feat><!-- kawaj, xubʼij, kubʼan, ukemik, kutij, xinloqʼ, xinwil, kinbʼij, xutij, xnaʼtaj -->
     <feat name="Tense" value="Fut" upos="ADV">11</feat><!-- na, nuʼ -->
     <feat name="Tense" value="Past" upos="VERB">13</feat><!-- sachinaq, Petinaq, Sipojinaq, atijom, bʼenaq, chʼajom, kiriqom, kʼamom, petnaq, pisom -->
+    <feat name="Typo" value="Yes" upos="NOUN">1</feat><!-- Nawal -->
     <feat name="VerbForm" value="Fin" upos="VERB">1435</feat><!-- kawaj, xubʼij, kubʼan, xeatin, kel, kutij, xinloqʼ, xinwil, xsachon, kimbʼe -->
     <feat name="VerbForm" value="Inf" upos="VERB">79</feat><!-- ukemik, utijik, utzakik, waʼim, rilik, uloqʼik, kikunaxik, qilik, ubʼanik, ubʼixik -->
     <feat name="VerbForm" value="Part" upos="VERB">13</feat><!-- sachinaq, Petinaq, Sipojinaq, atijom, bʼenaq, chʼajom, kiriqom, kʼamom, petnaq, pisom -->
@@ -112,14 +114,14 @@
     <dep name="dep">23</dep>
     <dep name="dep:agr">68</dep>
     <dep name="dep:ss">375</dep>
-    <dep name="det">1412</dep>
+    <dep name="det">1411</dep>
     <dep name="discourse">150</dep>
     <dep name="dislocated">28</dep>
     <dep name="fixed">20</dep>
     <dep name="flat">17</dep>
     <dep name="goeswith">1</dep>
     <dep name="mark">169</dep>
-    <dep name="nmod">501</dep>
+    <dep name="nmod">502</dep>
     <dep name="nsubj">885</dep>
     <dep name="nummod">40</dep>
     <dep name="obj">415</dep>
