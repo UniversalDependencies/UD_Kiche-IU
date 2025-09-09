@@ -43,6 +43,7 @@ We would like to thank the following for giving permission to use their sentence
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples wiki bible fiction government legal medical
 Lemmas: manual native
 UPOS: manual native
