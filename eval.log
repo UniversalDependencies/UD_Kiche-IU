@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Kiche-IU:
-commit 218386df09c008c332fc1eeae40f01b617925f7e
-Merge: d73b131 3d4558e
+commit ca18967e5096d2abd57e6c1804d673c6300427e8
+Merge: 6feb0dd bf84cf9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'quc_iu'
+Language code (from CoNLL-U file name) = 'quc'
+Found the following data files: quc_iu-ud-test.conllu
 Size: counted 10013 of 10013 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.60776849745133.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,34 +23,32 @@ Features: 5109 out of 10013 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL       1601
-Udapi: found 1601 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 10013 words.
 Genres: found 7 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang quc --max-err=10 UD_Kiche-IU/quc_iu-ud-test.conllu
-[Line 1893 Sent almg-examples:734 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Are chiʼ' does not have the 'ExtPos' feature
-[Line 2002 Sent almg-examples:811 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'are taq' does not have the 'ExtPos' feature
-[Line 2038 Sent almg-examples:824 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Are taq' does not have the 'ExtPos' feature
-[Line 7003 Sent almg-examples:2073 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'are chi' does not have the 'ExtPos' feature
-[Line 7129 Sent almg-examples:2102 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Are taq' does not have the 'ExtPos' feature
-[Line 7412 Sent almg-examples:2146 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Are chi' does not have the 'ExtPos' feature
-[Line 7750 Sent almg-examples:2583 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'are taq' does not have the 'ExtPos' feature
-[Line 12330 Sent cuentos:Jas_uchakuxik_kaxlanwa.wiki:9 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'are taq' does not have the 'ExtPos' feature
-[Line 12477 Sent cuentos:Kebʼ_ajyuqʼabʼ.wiki:4 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Kʼa te' does not have the 'ExtPos' feature
-[Line 12584 Sent cuentos:Kebʼ_ajyuqʼabʼ.wiki:9 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'kʼate kʼuriʼ' does not have the 'ExtPos' feature
+[Line 40 Sent almg-examples:44]: [L3 Warning verbform-fin-without-mood] Finite verb 'kchukun' lacks the 'Mood' feature
+[Line 53 Sent almg-examples:45]: [L3 Warning verbform-fin-without-mood] Finite verb 'Kinwil' lacks the 'Mood' feature
+[Line 66 Sent almg-examples:46]: [L3 Warning verbform-fin-without-mood] Finite verb 'Kutzʼubʼ' lacks the 'Mood' feature
+[Line 78 Sent almg-examples:49]: [L3 Warning verbform-fin-without-mood] Finite verb 'katkowin' lacks the 'Mood' feature
+[Line 81 Sent almg-examples:49]: [L3 Warning verbform-fin-without-mood] Finite verb 'katchakun' lacks the 'Mood' feature
+[Line 98 Sent almg-examples:53]: [L3 Warning verbform-fin-without-mood] Finite verb 'kinajilan' lacks the 'Mood' feature
+[Line 101 Sent almg-examples:53]: [L3 Warning verbform-fin-without-mood] Finite verb 'xul' lacks the 'Mood' feature
+[Line 111 Sent almg-examples:72]: [L3 Warning verbform-fin-without-mood] Finite verb 'kqakoj' lacks the 'Mood' feature
+[Line 122 Sent almg-examples:73]: [L3 Warning verbform-fin-without-mood] Finite verb 'Retaʼm' lacks the 'Mood' feature
+[Line 146 Sent almg-examples:78]: [L3 Warning verbform-fin-without-mood] Finite verb 'Kunaʼ' lacks the 'Mood' feature
 ...suppressing further errors regarding Warning
-Warnings: 19
-*** PASSED ***
-Validity: 1
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.388888888888889) = 0.0299145299145299
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.333521405388459) = 0.0855183090739637
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.426639067841781) * (availability=1) * (validity=1) = 0.426639067841781
-STARS = 2
-UD_Kiche-IU	0.426639067841781	2
+[Line 17004 Sent utexas:171]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('yawabʼ', 'aj') under the predicate 'Xukunaj'.
+Syntax errors: 1
+Warnings: 1529
+*** FAILED *** with 1 errors
+Exit code: 1
+Validity: 0.01
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.388888888888889) = 0.0432098765432099
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.333521405388459) = 0.12352644644017
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
+(weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
+(TOTAL score=0.611811986882573) * (availability=1) * (validity=0.01) = 0.00611811986882573
+STARS = 0
+UD_Kiche-IU	0.00611811986882573	0
