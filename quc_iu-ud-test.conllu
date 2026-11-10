@@ -2543,7 +2543,7 @@
 3	kbʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 4	k	ik	PART	_	_	3	dep:ss	_	_
 5	pa	pa	ADP	_	_	7	case	_	_
-6	utuj	tuj	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	obl	_	_
+6	utuj	tuj	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	nmod	_	_
 7	juyubʼ	juyubʼ	NOUN	_	_	3	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -3793,7 +3793,7 @@
 1	Kʼo	kʼo	PART	_	_	0	root	_	_
 2	loqʼojbʼal	loqʼojbʼal	NOUN	_	_	1	nsubj	_	_
 3	chi	chi	ADP	_	_	4	case	_	_
-4	wech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	2	obl	_	SpaceAfter=No
+4	wech	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	2	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = almg-examples:1269
@@ -18856,7 +18856,7 @@
 15	yabʼil	yabʼil	NOUN	_	_	11	nmod	_	_
 16	pa	pa	ADP	_	_	18	case	_	_
 17	ri	ri	DET	_	Definite=Def|PronType=Art	18	det	_	_
-18	junabʼ	junabʼ	NOUN	_	_	15	obl	_	_
+18	junabʼ	junabʼ	NOUN	_	_	15	nmod	_	_
 19	2012	2012	NUM	_	_	18	appos	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	1	punct	_	_
 

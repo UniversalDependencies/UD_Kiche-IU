@@ -121,11 +121,11 @@
     <dep name="flat">17</dep>
     <dep name="goeswith">1</dep>
     <dep name="mark">169</dep>
-    <dep name="nmod">502</dep>
+    <dep name="nmod">505</dep>
     <dep name="nsubj">885</dep>
     <dep name="nummod">40</dep>
     <dep name="obj">415</dep>
-    <dep name="obl">600</dep>
+    <dep name="obl">597</dep>
     <dep name="parataxis">97</dep>
     <dep name="punct">1686</dep>
     <dep name="root">1435</dep>
