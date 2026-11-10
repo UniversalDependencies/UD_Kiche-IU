@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Kiche-IU:
-commit a03c9e6a6f05c2b066f7a07f27e792a1edc7e3a1
+commit 654aaa5d1c18f1f1fb8c32fc57f3b3ed029a5b47
+Merge: 7773d85 b8bbfd9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:08:44 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'quc_iu'
 Language code (from CoNLL-U file name) = 'quc'
@@ -39,8 +39,6 @@ Genres: found 7 out of 18 known.
 [Line 1893 Sent almg-examples:734]: [L3 WARNING fixed-without-extpos] Fixed expression 'Are chiʼ' does not have the 'ExtPos' feature
 [Line 2002 Sent almg-examples:811]: [L3 WARNING fixed-without-extpos] Fixed expression 'are taq' does not have the 'ExtPos' feature
 [Line 2038 Sent almg-examples:824]: [L3 WARNING fixed-without-extpos] Fixed expression 'Are taq' does not have the 'ExtPos' feature
-[Line 2546 Sent almg-examples:953]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'juyubʼ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 3796 Sent almg-examples:1268]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'loqʼojbʼal') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 7003 Sent almg-examples:2073]: [L3 WARNING fixed-without-extpos] Fixed expression 'are chi' does not have the 'ExtPos' feature
 [Line 7129 Sent almg-examples:2102]: [L3 WARNING fixed-without-extpos] Fixed expression 'Are taq' does not have the 'ExtPos' feature
 [Line 7412 Sent almg-examples:2146]: [L3 WARNING fixed-without-extpos] Fixed expression 'Are chi' does not have the 'ExtPos' feature
@@ -50,10 +48,9 @@ Genres: found 7 out of 18 known.
 [Line 12584 Sent cuentos:Kebʼ_ajyuqʼabʼ.wiki:9]: [L3 WARNING fixed-without-extpos] Fixed expression 'kʼate kʼuriʼ' does not have the 'ExtPos' feature
 ...suppressing further messages regarding WARNING/SYNTAX
 [Line 17004 Sent utexas:171]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 5] ('yawabʼ', 'aj') under the predicate 'Xukunaj'.
-[Line 18859 Sent wikipedia:Tripanosomiasis_africana:18]: [L3 SYNTAX obl-should-be-nmod] The parent (node [15] 'yabʼil') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 Warnings: 1526
-SYNTAX errors: 4
-*** FAILED *** with 4 errors
+SYNTAX errors: 1
+*** FAILED *** with 1 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
